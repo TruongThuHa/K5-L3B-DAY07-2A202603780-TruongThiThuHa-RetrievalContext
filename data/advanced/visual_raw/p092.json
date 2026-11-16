@@ -1,0 +1,22 @@
+{
+  "page": 92,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 21",
+      "title": "Table 21: PPPs in Higher Education",
+      "content": "| Phase in Life of University | Type of Partnership | Country Examples |\n| --- | --- | --- |\n| Creation of new university | Public investment/private operation | Bangladesh, Malaysia, Morocco, Nigeria |\n| Creation of new university | Private investment/public operation | China |\n| Creation of new university | Split investment/public operation | Zambia |\n| Development of existing public university | Private investment/public operation | United States |\n| Development of existing public university | Private investment/private operation | France, United States |\n| Regular operation of existing university | Shared facilities and services | Colombia |\n| Regular operation of existing university | Private operation/public supervision | Bangladesh, India, Nepal, Sri Lanka |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        105,
+        106,
+        356,
+        886
+      ]
+    }
+  ],
+  "seconds": 24.4,
+  "attempts": 3,
+  "tokens_in": 2131,
+  "tokens_out": 250
+}

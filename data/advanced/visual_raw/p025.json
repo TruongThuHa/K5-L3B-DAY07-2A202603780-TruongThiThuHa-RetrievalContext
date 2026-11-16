@@ -1,0 +1,22 @@
+{
+  "page": 25,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        108,
+        116,
+        908,
+        893
+      ],
+      "content": "| Short-term Policy Action (2021–2023) | Medium/Long-term Policy Action (2021–2030) |\n| :--- | :--- |\n| **Enhanced Capability of Academic Staff (research and teaching)** | |\n| 15. Introduce policies and incentives to bring top-quality faculty from the Vietnamese diaspora and foreign universities and establish a tenure track for promising young academic staff. | 17. Design and implement a comprehensive program on recruitment and retention of high-quality academic staff at applied universities (all other universities that are not classified as research-intensive universities). |\n| 16. Revamp graduate schools to attract high-quality domestic and international PhD students and postdocs, through quality regulations and comprehensive financing schemes (scholarship/stipend/graduate assistantship). | 18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. |\n| | 19. Design and implement performance-based human resource/staffing management. |\n| **C. Enhanced Research Quality and STI** | |\n| 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). | 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. |\n| 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support joint/collaborative research and innovation projects between universities and enterprises (by MOST in coordination with MOF, MPI, MOET, and other line ministries). | |\n| 22. Adopt incentives to increase female researchers and their research outputs. | |\n| **D. Improved Systemwide Governance** | |\n| 24. Improved stewardship and coordination at the national level including the creation of a single Ministry for Higher Education, Science and Technology, and TVET. | 30. Establish a digital national HEMIS, a digital national LMIS, and a national graduate tracking system, managed and coordinated by MOET. |\n| 25. Approve the Higher Education Strategy (2021–2030) and a Higher Education Master Plan with well-formulated logical framework and adequately funded implementation plans. | 31. Establish a systemwide capacity-building mechanism on quality assurance across all levels of the higher education system. |\n| 26. Establish a holistic National Quality Assurance Framework (NQAF). | 32. Restructure national and regional universities for harmonized governance arrangements and alignment with regional development priorities. |\n| 27. Update policies to delegate autonomy to HEIs while continuing with state funding. | |\n| 28. Update policies to empower university councils with main responsibility for appointing university leaders, endorsing institutional strategic plans, and approving the budget. | |\n| 29. Update policies to include comprehensive accountability mechanisms. | |"
+    }
+  ],
+  "seconds": 12.9,
+  "attempts": 1,
+  "tokens_in": 2226,
+  "tokens_out": 716
+}

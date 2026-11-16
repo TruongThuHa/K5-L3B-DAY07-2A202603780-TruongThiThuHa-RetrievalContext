@@ -1,0 +1,22 @@
+{
+  "page": 37,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 3",
+      "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+      "content": "Chart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+      "box_2d": [
+        468,
+        114,
+        847,
+        895
+      ]
+    }
+  ],
+  "seconds": 24.5,
+  "attempts": 1,
+  "tokens_in": 1964,
+  "tokens_out": 1705
+}

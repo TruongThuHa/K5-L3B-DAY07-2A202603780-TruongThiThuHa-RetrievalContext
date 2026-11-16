@@ -1,0 +1,22 @@
+{
+  "page": 38,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 1",
+      "title": "Table 1: Enrolment in Tertiary Education, by Institution: 2005, 2010, and 2016",
+      "content": "| Type of Institution | Number of Institutions 2005 | Number of Institutions 2010 | Number of Institutions 2016 | Enrolment (thousands) 2005 | Enrolment (thousands) 2010 | Enrolment (thousands) 2016 | Enrolment Share (%) 2005 | Enrolment Share (%) 2010 | Enrolment Share (%) 2016 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Public universities | 111 | 137 | 170 | 934 | 1,248 | 1,498 | 67 | 53 | 65 |\n| Open universities (Public) | 2 | 2 | 2 | 16 | n.a. | 26 | 1 | | 1 |\n| Private universities | 27 | 50 | 65 | 138 | 190 | 244 | 10 | 8 | 11 |\n| Public colleges | 130 | 197 | 189 | 277 | 582 | 311 | 20 | 25 | 13 |\n| Private colleges | 7 | 30 | 28 | 22 | 144 | 46 | 2 | 6 | 2 |\n| VET colleges | 0 | 120 | 190 | 0 | 193 | 183 | 0 | 8 | 8 |\n| Total | 277 | 536 | 644 | 1,387 | 2,355 | 2,308 | 100 | 100 | 100 |\n\nSource: MOET, MOLISA, and General Statistics Office (GSO) from various years.",
+      "box_2d": [
+        493,
+        107,
+        720,
+        885
+      ]
+    }
+  ],
+  "seconds": 10.9,
+  "attempts": 1,
+  "tokens_in": 2619,
+  "tokens_out": 578
+}

@@ -1,0 +1,22 @@
+{
+  "page": 88,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 19",
+      "title": "Table 19: Principal Instruments of Accountability",
+      "content": "| Dimensions/Instruments | Academic Integrity | Fiscal Integrity | Effective Use of Resources | Quality and Relevance | Innovation | Equity |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| **University-based instruments** | | | | | | |\n| Strategic plan | | | | X | X | X |\n| KPIs/scorecards | | | X | X | X | X |\n| Budget | | | X | | | |\n| Financial audit | | X | X | | | |\n| Student satisfaction surveys | X | | | X | X | |\n| Graduate employment surveys | | | | X | | |\n| Employers and alumni surveys | | | | X | X | |\n| Assessment of learning outcomes/added value | | | X | X | | |\n| Annual report (to Parliament and public) | | | X | X | X | X |\n| **Government-level instruments** | | | | | | |\n| Licensing | | | | X | X | |\n| Accreditation/ academic audit/evaluation | X | | X | X | X | |\n| Funding formula | | | X | X | X | X |\n| Performance contracts | | | X | X | X | X |\n| Scholarships/student loans/ vouchers | | | X | X | | X |\n| Student engagement surveys | | | | X | X | X |\n| Labor market observatory | | | | X | | |\n| Assessment of learning outcomes | | | X | X | | |\n| Rankings/benchmarking | | | X | X | | |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        193,
+        106,
+        863,
+        885
+      ]
+    }
+  ],
+  "seconds": 10.7,
+  "attempts": 1,
+  "tokens_in": 1826,
+  "tokens_out": 459
+}

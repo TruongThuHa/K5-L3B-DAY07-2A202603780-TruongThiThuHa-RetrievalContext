@@ -1,0 +1,22 @@
+{
+  "page": 57,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 8",
+      "title": "Table 8: De Jure Institutional Autonomy",
+      "content": "| Indicator | Vietnam - Regular Public HEIs | Vietnam - Autonomous Public HEIs | Vietnam - Vietnam National Universities | Vietnam - Private Universities | UK | Japan | Estonia | Poland | Malaysia | China |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Determination of student size | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 0 | 1 | 1 |\n| Decision on opening a new program | 0 | 3 | 3 | 0 | 3 | | 1 | 3 | — | — |\n| Decision on course content | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 3 | 1 | 1 |\n| Selection of Rector/President | 0 | 2 | 0 | 0 | 3 | 3 | 2 | 3 | 0 | 0 |\n| Recruitment of staff | 1 | 1 | 1 | 2 | 3 | 3 | 3 | 3 | 3 | 1 |\n| Determination of tuition fee for domestic students | 1 | 1 | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 |\n| Decision on bank interest income/surplus | 0 | 3 | 0 | — | 3 | | 3 | 1 | — | — |\n\nSource: Authors’ estimates based on review of regulations for Vietnam and benchmarking countries.\nNote: Scores generated through review of regulations across countries and Vietnam University Autonomy Scorecard and developed based on European University Autonomy Scorecard (Estermann et al. 2011). Institutional autonomy is scored from 0 to 3 in which 0 refers to no autonomy and 3 to full autonomy. Benchmarking countries include those which have advanced higher education systems, some from former Soviet Union and some from the region.",
+      "box_2d": [
+        394,
+        114,
+        876,
+        895
+      ]
+    }
+  ],
+  "seconds": 33.5,
+  "attempts": 1,
+  "tokens_in": 2193,
+  "tokens_out": 533
+}

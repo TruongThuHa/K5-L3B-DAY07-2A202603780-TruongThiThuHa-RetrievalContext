@@ -1,0 +1,22 @@
+{
+  "page": 67,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 13",
+      "title": "Distribution of the Vietnam Labor Force by Level of Education (projected until 2050)",
+      "box_2d": [
+        356,
+        114,
+        636,
+        874
+      ],
+      "content": "Chart type: line chart\nX-axis: Year (2010 to 2050 in 5-year intervals)\nY-axis: Percentage (0% to 60%)\nLegend: primary (grey line), secondary (orange line), tertiary (yellow line)\n\nData points:\n- primary / 2010: ≈ 36%\n- primary / 2015: ≈ 34%\n- primary / 2020: ≈ 32%\n- primary / 2025: ≈ 30%\n- primary / 2030: ≈ 28%\n- primary / 2035: ≈ 27%\n- primary / 2040: ≈ 26%\n- primary / 2045: ≈ 25%\n- primary / 2050: ≈ 24%\n- secondary / 2010: ≈ 53%\n- secondary / 2015: ≈ 52%\n- secondary / 2020: ≈ 53%\n- secondary / 2025: ≈ 53.5%\n- secondary / 2030: ≈ 54%\n- secondary / 2035: ≈ 54.5%\n- secondary / 2040: ≈ 55%\n- secondary / 2045: ≈ 55.5%\n- secondary / 2050: ≈ 56%\n- tertiary / 2010: ≈ 8%\n- tertiary / 2015: ≈ 11%\n- tertiary / 2020: ≈ 12%\n- tertiary / 2025: ≈ 12.5%\n- tertiary / 2030: ≈ 13%\n- tertiary / 2035: ≈ 13.5%\n- tertiary / 2040: ≈ 14%\n- tertiary / 2045: ≈ 14.5%\n- tertiary / 2050: ≈ 15%\n\nSource: World Bank (2018b). Vietnam Future Jobs Report (2018).\n\nKey comparisons:\n- Secondary education represents the largest share of the labor force throughout the entire projection period, consistently exceeding 50%.\n- Primary education steadily declines from approximately 36% in 2010 to 24% by 2050.\n- Tertiary education remains the smallest component across all years, increasing only marginally from around 8% in 2010 to about 15% in 2050."
+    }
+  ],
+  "seconds": 12.1,
+  "attempts": 1,
+  "tokens_in": 2128,
+  "tokens_out": 698
+}

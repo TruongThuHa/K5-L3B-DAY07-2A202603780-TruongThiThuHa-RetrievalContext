@@ -1,0 +1,22 @@
+{
+  "page": 56,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "diagram",
+      "label": "Figure 11",
+      "title": "Figure 11: Functions and Units of Measure in the Vietnamese HE QA System",
+      "content": "A 5×4 matrix diagram mapping quality assurance 'FUNCTIONS' (rows) against 'UNITS OF ASSESSMENT' (columns). Cell shading indicates status: White with purple border = Exists/Standard; Grey = Partially exist; Orange = Don't exist.\n\nColumns (Units of Assessment):\n1. Higher education institution\n2. Program\n3. Student\n4. External quality assurance agency\n\nRows (Functions) and Cell Contents:\n- Row 1: Entry point Initial assessment [spelled 'Intitial assessment']:\n  * Higher education institution (White): - Licensure/authorization; - Government authority/ministry\n  * Program (White): - Licensure/authorization; - Government authority/ministry\n  * Student (White): - Admission tests; - HEI\n  * External quality assurance agency (White): - Government decree or authorization; - private provider/NGO\n- Row 2: Monitoring enhancement:\n  * Higher education institution (Grey - Partially exist): - Intermediate audits/monitoring\n  * Program (White): - HEI\n  * Student (White): - HEI\n  * External quality assurance agency (Orange - Don't exist): - Audits/inspections\n- Row 3: Accountability Credibility:\n  * Higher education institution (White): - Buffer body, - An independent agency, - professional organizations\n  * Program (Orange - Don't exist): - Buffer body, - An independent agency, - professional organizations\n  * Student (Orange - Don't exist): - Assessment of learning outcomes\n  * External quality assurance agency (Orange - Don't exist): - National and international auditing; - QA networks - overarching QA standards/good practices\n- Row 4: Professional Certification:\n  * Higher education institution (White): - N/A\n  * Program (Grey - Partially exist): - Professional associations; - Government supported entities\n  * Student (Grey - Partially exist): - Licensure/certification; - Professional associations; - Government entities\n  * External quality assurance agency (Orange - Don't exist): - N/A\n- Row 5: Public information:\n  * Higher education institution (Grey - Partially exist): - MoE and/or agency; - HEIs\n  * Program (Grey - Partially exist): - MoE and/or agency; - HEIs\n  * Student (White): - N/A\n  * External quality assurance agency (White): - National governments; - International QA networks\n\nLegend:\n- Orange box: Don't exist\n- Grey box: Partially exist\nSource: Elaborated by authors.",
+      "box_2d": [
+        469,
+        107,
+        836,
+        876
+      ]
+    }
+  ],
+  "seconds": 12.9,
+  "attempts": 1,
+  "tokens_in": 2255,
+  "tokens_out": 667
+}

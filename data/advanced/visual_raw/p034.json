@@ -1,0 +1,22 @@
+{
+  "page": 34,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "diagram",
+      "label": "Figure 2",
+      "title": "Higher Education Analytical/Conceptual Framework",
+      "box_2d": [
+        372,
+        104,
+        843,
+        876
+      ],
+      "content": "A multi-tiered conceptual framework diagram organized into four vertical levels with upward-pointing grey arrows connecting levels from bottom to top:\n\n1. Top Level - Higher Level Goals:\n   - Label box on right: 'Higher Level Goals'\n   - Goal boxes: 'Growth' and 'Shared Prosperity'\n\n2. Second Level - HE Outcomes:\n   - Label box on right: 'HE Outcomes'\n   - Outcome boxes: 'Research and Innovation', 'Skills', and 'Coverage and Equity'\n   - Upward arrows connect 'Research and Innovation' to 'Growth', and 'Coverage and Equity' to 'Shared Prosperity'\n\n3. Third Level (inside main container box) - Policy Levers Outcomes:\n   - Label box on right: 'Policy Levers Outcomes'\n   - Box 1: 'Research and Technology Transfer'\n     - STI strategy/policies\n     - Talent management\n     - Competitive funds\n     - Centers of excellence\n     - Links with industry and global R&D frontier\n   - Box 2: 'Quality and Relevance'\n     - Curriculum & pedagogy\n     - Internationalization\n     - University-industry links\n     - Staffing policies and incentives\n     - Teaching excellence\n     - Digital and disruptive technologies (cross-cutting)\n   - Box 3: 'Access and Equity'\n     - Institutional diversity (Non-university, private sector, and online)\n     - Networking of HEIs\n     - Coordination between MOET, MOLISA, and so on\n     - Scholarships and Loans\n   - Upward arrows point from these three boxes up toward the HE Outcomes level.\n\n4. Bottom Level (inside main container box) - Enabling Pillars:\n   - Label box on right: 'Enabling Pillars'\n   - Box 1: 'Enhanced Governance'\n     - Government as steward (sets vision and goals, coordinates, supervises, monitors, and finances)\n     - Institutional autonomy\n     - Institutional accountability\n     - Quality assurance\n   - Box 2: 'Effective Financing'\n     - Resource mobilization (public funding, tuition fees, sustainable cost sharing, PPP, other income generation)\n     - Resource allocation (formula-based,\n   - Three upward arrows point from the Enabling Pillars to the Policy Levers boxes above.\n\nSource: World Bank.\nNote: HE = Higher education; MOLISA = Ministry of Labor, Invalids, and Social Affairs; PPP = Public-private partnership; STI = Science, technology, and innovation."
+    }
+  ],
+  "seconds": 11.2,
+  "attempts": 1,
+  "tokens_in": 2095,
+  "tokens_out": 622
+}

@@ -1,0 +1,22 @@
+{
+  "page": 52,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 6",
+      "title": "Table 6: Vietnam Graduate School Enrolment and Output, 2005–2016",
+      "content": "| Category | 2005 | 2010 | 2016 | Growth (%) |\n| :--- | :---: | :---: | :---: | :---: |\n| Master’s enrolment | 31,552 | 62,705 | 105,801 | 236 |\n| PhD enrolment | 3,230 | 4,683 | 13,587 | 320 |\n| Master’s graduates | 5,429 | 15,126 | 34,648 | 538 |\n| PhD graduates | 351 | 965 | 1,234 | 251 |\n\nSource: GSO (various years).",
+      "box_2d": [
+        326,
+        104,
+        496,
+        887
+      ]
+    }
+  ],
+  "seconds": 6.7,
+  "attempts": 1,
+  "tokens_in": 2305,
+  "tokens_out": 283
+}

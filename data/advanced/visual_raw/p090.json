@@ -1,0 +1,22 @@
+{
+  "page": 90,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 20",
+      "title": "Table 20: Sustainability and Equity Impact of Various Cost-sharing Schemes",
+      "content": "| Cost-sharing Modality | Financial Sustainability | Equity Impact |\n| --- | --- | --- |\n| Free higher education for all | Very costly | Richer students more likely to benefit |\n| Universal fees | Less demanding on fiscal resources | Equitable if financial aid is available |\n| Fees only for parallel students | Less demanding on fiscal resources | Richer students more likely to benefit |\n| TFT | Costly | Potentially most equitable |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        581,
+        107,
+        756,
+        884
+      ]
+    }
+  ],
+  "seconds": 6.6,
+  "attempts": 1,
+  "tokens_in": 2263,
+  "tokens_out": 194
+}

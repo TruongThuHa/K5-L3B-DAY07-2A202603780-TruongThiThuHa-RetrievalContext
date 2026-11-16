@@ -1,0 +1,22 @@
+{
+  "page": 20,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure ES.3",
+      "title": "Figure ES.3: Public Expenditure on Tertiary Education, as % of GDP (2016)",
+      "content": "Chart type: Vertical bar chart\nX-axis: Country (Vietnam, Indonesia, Thailand, China, Rep. of Korea, Singapore, Malaysia, Poland, France, UK, Australia, Netherlands, Finland)\nY-axis: Public Expenditure on Tertiary Education, as % of GDP (unit: % of GDP)\nLegend: None (Vietnam is highlighted in orange; other countries are in grey)\n\nData points:\n- Vietnam: 0.33\n- Indonesia: 0.57\n- Thailand: 0.64\n- China: 0.87\n- Rep. of Korea: 1.00\n- Singapore: 1.00\n- Malaysia: 1.13\n- Poland: 1.22\n- France: 1.25\n- UK: 1.29\n- Australia: 1.54\n- Netherlands: 1.63\n- Finland: 1.89\n\nSource: UIS for all countries except Vietnam (authors’ estimates using MOF data of 2015) and China (estimate for the most recent year from World Bank’s Innovative China Report of 2019).\nNote: Vietnam MOF data on public financing on education includes tuition collected from students/households. The analysis in this report treats tuition revenue in public universities as non-public resource, and this portion is excluded when estimating the real allocation from the public sector. When tuition fees from households are included, the expenditure on tertiary education would increase from 0.33 percent of GDP to 0.69 percent of GDP .\n\nComparisons:\n- Finland has the highest public expenditure on tertiary education at 1.89% of GDP.\n- Vietnam has the lowest public expenditure on tertiary education among all comparator countries shown at 0.33% of GDP.\n- Republic of Korea and Singapore spend the same proportion of GDP at 1.00%.\n- Among East Asian countries shown, Vietnam's spending (0.33%) is lower than Indonesia (0.57%), Thailand (0.64%), China (0.87%), and Malaysia (1.13%).",
+      "box_2d": [
+        152,
+        102,
+        551,
+        887
+      ]
+    }
+  ],
+  "seconds": 10.9,
+  "attempts": 1,
+  "tokens_in": 2173,
+  "tokens_out": 572
+}

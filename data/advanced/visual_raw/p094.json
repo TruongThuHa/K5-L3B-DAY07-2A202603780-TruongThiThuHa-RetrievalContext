@@ -1,0 +1,22 @@
+{
+  "page": 94,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 22",
+      "title": "Alignment of the Vietnamese Funding Framework with International Good Practices",
+      "content": "| Guiding Principles | Vietnam’s Funding Model | Comments |\n| :--- | :---: | :--- |\n| Alignment with national priorities | + | Weak relationship |\n| Performance orientation | + | No performance criteria considered |\n| Equity considerations | ++ | Availability of loans through VSPB |\n| Multiplicity of instruments | + | Only direct budgetary contribution |\n| Objectivity and transparency | + | Limited |\n| Stability over time | + | No guarantee of stability and no multiannual budget |\n| Block grant allocation | +++ | Not based on sound formula but on historical norms |\n| Institutional autonomy and accountability | ++ | Insufficient |\n\nSource: Elaborated by authors.\nNote: ‘+’ represents weak alignment, ‘++’ means average/reasonable alignment, and ‘+++’ is for full alignment.",
+      "box_2d": [
+        357,
+        104,
+        694,
+        888
+      ]
+    }
+  ],
+  "seconds": 7.7,
+  "attempts": 1,
+  "tokens_in": 2058,
+  "tokens_out": 257
+}

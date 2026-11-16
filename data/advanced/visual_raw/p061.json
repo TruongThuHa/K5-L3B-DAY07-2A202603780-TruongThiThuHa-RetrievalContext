@@ -1,0 +1,22 @@
+{
+  "page": 61,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 12",
+      "title": "Table 12: Benchmarking of Higher Education Public Funding and Reliance on Household Contribution",
+      "content": "| Tuition fees as share of unit cost in public institutions (%) | Higher Education Public Funding as a Share of GDP (%): <0.5 | Higher Education Public Funding as a Share of GDP (%): 0.5–1 | Higher Education Public Funding as a Share of GDP (%): >1 |\n| :--- | :--- | :--- | :--- |\n| >40 | Vietnam<br>Mongolia | Chile | United Kingdom, United States, Australia |\n| 20–40 | | Korea Rep., Thailand, Indonesia, China | Malaysia |\n| <20 | Peru | Argentina, Brazil, Colombia, Mexico | Finland, France |\n\nSource: Authors’ elaboration using data from UIS and other reports.",
+      "box_2d": [
+        106,
+        115,
+        350,
+        893
+      ]
+    }
+  ],
+  "seconds": 9.4,
+  "attempts": 1,
+  "tokens_in": 2202,
+  "tokens_out": 254
+}

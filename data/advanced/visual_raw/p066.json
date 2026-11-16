@@ -1,0 +1,9 @@
+{
+  "page": 66,
+  "model": "gemini-3.8-flash",
+  "elements": [],
+  "seconds": 7.1,
+  "attempts": 1,
+  "tokens_in": 2319,
+  "tokens_out": 10
+}

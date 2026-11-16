@@ -1,0 +1,22 @@
+{
+  "page": 29,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        116,
+        822,
+        893
+      ],
+      "content": "| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| :--- | :---: | :---: | :---: | :---: |\n| 25. Approve the Higher Education Strategy (2021–2030) and a Higher Education Master Plan with well-formulated logical framework and adequately funded implementation plans. | + | - | ++ | +++ |\n| 26. Establish a holistic NQAF | ++ | - | - | ++ |\n| 27. Update policies to delegate autonomy to HEIs while continuing with state funding. | ++ | - | + | ++ |\n| 28. Update policies to empower university councils with main responsibility for appointing university leaders, endorsing institutional strategic plans, and approving the budget. | + | - | + | ++ |\n| 29. Update policies to include comprehensive accountability mechanisms. | ++ | + | + | +++ |\n| 30. Establish a digital national HEMIS, a digital national LMIS, and a national graduate tracking system, managed and coordinated by MOET. | ++ | + | + | ++ |\n| 31. Establish a systemwide capacity-building mechanism on quality assurance across all levels of the higher education system. | ++ | + | + | + |\n| 32. Restructure national and regional universities for harmonized governance arrangements and alignment with regional development priorities. | +++ | ++ | ++ | +++ |\n| **E. Financial Sustainability** | | | | |\n| 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. | ++ | + | ++ | ++ |\n| 34. Set up and implement a comprehensive financial support system for students including a TFT scheme, need-based scholarships, and ICLs. | +++ | +++ | + | +++ |\n| 35. Encourage public universities to pursue PPPs for capital/infrastructure projects or other educational or ancillary services (once the PPP Law is passed). | ++ | - | - | + |\n| 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. | + | +++ | ++ | +++ |\n| 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. | ++ | ++ | ++ | ++ |\n| 38. Build institutional capacity to improve HEIs’ income diversification and resource mobilization through donations, continuing education, PPPs, fund raising, and removal of penalties on enterprising HEIs. | ++ | - | - | ++ |\n\nNote: (-) neutral; (+) low; (++) medium; (+++) high"
+    }
+  ],
+  "seconds": 11.7,
+  "attempts": 1,
+  "tokens_in": 2109,
+  "tokens_out": 691
+}

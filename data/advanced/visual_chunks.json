@@ -1,0 +1,992 @@
+[
+  {
+    "id": "he2020-p014-V00",
+    "text": "[Figure ES.1: Basic Education Output versus Higher Education Output for Selected Countries] (page 14, chart)\nChart type: Scatter plot with trend line\nX-axis title: Learning-Adjusted Schooling Years (years, scale 8 to 13)\nY-axis title: Gross Graduattion Ratio at Higher Education, % (%, scale 0 to 70)\nLegend: None (individual points labeled by country/economy)\n\nData points:\n- IDN: (Learning-Adjusted Schooling Years ≈ 8.0, Gross Graduation Ratio ≈ 21%)\n- PHIL: (Learning-Adjusted Schooling Years ≈ 8.4, Gross Graduation Ratio ≈ 28%)\n- THAI: (Learning-Adjusted Schooling Years ≈ 8.7, Gross Graduation Ratio ≈ 25%)\n- MEX: (Learning-Adjusted Schooling Years ≈ 8.9, Gross Graduation Ratio ≈ 31%)\n- MAL: (Learning-Adjusted Schooling Years ≈ 9.4, Gross Graduation Ratio ≈ 31%)\n- CHINA: (Learning-Adjusted Schooling Years ≈ 9.8, Gross Graduation Ratio ≈ 34%)\n- VNM: (Learning-Adjusted Schooling Years ≈ 10.4, Gross Graduation Ratio ≈ 19%)\n- SPAIN: (Learning-Adjusted Schooling Years ≈ 11.2, Gross Graduation Ratio ≈ 44%)\n- US: (Learning-Adjusted Schooling Years ≈ 11.4, Gross Graduation Ratio ≈ 54%)\n- POL: (Learning-Adjusted Schooling Years ≈ 11.6, Gross Graduation Ratio ≈ 54%)\n- FRAN: (Learning-Adjusted Schooling Years ≈ 11.7, Gross Graduation Ratio ≈ 46%)\n- UK: (Learning-Adjusted Schooling Years ≈ 11.8, Gross Graduation Ratio ≈ 54%)\n- NLD: (Learning-Adjusted Schooling Years ≈ 12.0, Gross Graduation Ratio ≈ 51%)\n- FIN: (Learning-Adjusted Schooling Years ≈ 12.4, Gross Graduation Ratio ≈ 58%)\n- KOR: (Learning-Adjusted Schooling Years ≈ 12.5, Gross Graduation Ratio ≈ 56%)\n- SGN: (Learning-Adjusted Schooling Years ≈ 13.0, Gross Graduation Ratio ≈ 58%)\n\nSource: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics.\n\nFactual comparisons:\n- Singapore (SGN) and Finland (FIN) achieve the highest Gross Graduation Ratios at higher education (≈58%), while Vietnam (VNM) has the lowest at ≈19%.\n- Singapore (SGN) achieves the highest Learning-Adjusted Schooling Years (≈13.0), whereas Indonesia (IDN) has the lowest (≈8.0).\n- Vietnam (VNM) is a noticeable outlier, showing relatively high basic education output (≈10.4 years) but falling substantially below the positive trendline with the lowest tertiary graduation ratio among all countries shown.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "chart",
+      "label": "Figure ES.1",
+      "title": "Basic Education Output versus Higher Education Output for Selected Countries",
+      "box_2d": [
+        211,
+        104,
+        460,
+        884
+      ],
+      "page_image": "data/advanced/pages/p014.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p016-V00",
+    "text": "[Figure ES.2: Inequality in Access in Vietnam, by Education Level, 2006 and 2018] (page 16, chart)\nLine chart (polynomial smoothing)\nX-axis: Expenditure Percentile (0 to 100, step 10)\nY-axis: Access rate, % (0 to 100, step 10)\nLegend: Basic education 2006 (dashed purple), Basic education 2018 (solid purple), Upper Secondary Edu 2006 (dashed orange), Upper Secondary Edu 2018 (solid orange), Tertiary education 2006 (dashed red), Tertiary education 2018 (solid red)\n\nEstimated values across expenditure percentiles (p0 to p100):\n- Basic education 2006: p0: ≈91%, p20: ≈93%, p40: ≈96%, p60: ≈97%, p80: ≈98%, p100: ≈98%\n- Basic education 2018: p0: ≈95%, p20: ≈96%, p40: ≈97%, p60: ≈98%, p80: ≈98%, p100: ≈98%\n- Upper Secondary Edu 2006: p0: ≈14%, p20: ≈33%, p40: ≈50%, p60: ≈64%, p80: ≈74%, p100: ≈81%\n- Upper Secondary Edu 2018: p0: ≈40%, p20: ≈56%, p40: ≈71%, p60: ≈81%, p80: ≈86%, p100: ≈86%\n- Tertiary education 2006: p0: ≈0%, p20: ≈1%, p40: ≈5%, p60: ≈12%, p80: ≈24%, p100: ≈42%\n- Tertiary education 2018: p0: ≈1%, p20: ≈6%, p40: ≈16%, p60: ≈32%, p80: ≈57%, p100: ≈84%\n\nComparisons:\n- Basic education has the highest access rate across all percentiles in both 2006 and 2018, remaining near or above 90% across the entire income distribution.\n- Tertiary education access rate displays the steepest socioeconomic gradient, increasing sharply from nearly 1% at the lowest percentile to 84% at the 100th percentile in 2018.\n- Access rates improved across all levels between 2006 and 2018, but the gap between the richest and poorest percentiles widened significantly for tertiary education (from a gap of ≈42 percentage points in 2006 to ≈83 percentage points in 2018).\n\nSource: Authors’ estimates using Vietnam Household Living Standard Survey (VHLSS) 2006 and 2018 data on individual member education and household consumption expenditures.\nNote: Access rate for a given education level is defined as proportion of individuals in the reference age-group who ever had access to the particular education level. Reference age-groups are ages 6-14 for basic education (grades 1-9), ages 15-17 upper secondary (grades 10-12) and ages 18-24 for tertiary education level (post-secondary). The graphs show averages using second-order polynomial smoothing.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 16,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "chart",
+      "label": "Figure ES.2",
+      "title": "Inequality in Access in Vietnam, by Education Level, 2006 and 2018",
+      "box_2d": [
+        326,
+        104,
+        755,
+        888
+      ],
+      "page_image": "data/advanced/pages/p016.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p020-V00",
+    "text": "[Figure ES.3: Figure ES.3: Public Expenditure on Tertiary Education, as % of GDP (2016)] (page 20, chart)\nChart type: Vertical bar chart\nX-axis: Country (Vietnam, Indonesia, Thailand, China, Rep. of Korea, Singapore, Malaysia, Poland, France, UK, Australia, Netherlands, Finland)\nY-axis: Public Expenditure on Tertiary Education, as % of GDP (unit: % of GDP)\nLegend: None (Vietnam is highlighted in orange; other countries are in grey)\n\nData points:\n- Vietnam: 0.33\n- Indonesia: 0.57\n- Thailand: 0.64\n- China: 0.87\n- Rep. of Korea: 1.00\n- Singapore: 1.00\n- Malaysia: 1.13\n- Poland: 1.22\n- France: 1.25\n- UK: 1.29\n- Australia: 1.54\n- Netherlands: 1.63\n- Finland: 1.89\n\nSource: UIS for all countries except Vietnam (authors’ estimates using MOF data of 2015) and China (estimate for the most recent year from World Bank’s Innovative China Report of 2019).\nNote: Vietnam MOF data on public financing on education includes tuition collected from students/households. The analysis in this report treats tuition revenue in public universities as non-public resource, and this portion is excluded when estimating the real allocation from the public sector. When tuition fees from households are included, the expenditure on tertiary education would increase from 0.33 percent of GDP to 0.69 percent of GDP .\n\nComparisons:\n- Finland has the highest public expenditure on tertiary education at 1.89% of GDP.\n- Vietnam has the lowest public expenditure on tertiary education among all comparator countries shown at 0.33% of GDP.\n- Republic of Korea and Singapore spend the same proportion of GDP at 1.00%.\n- Among East Asian countries shown, Vietnam's spending (0.33%) is lower than Indonesia (0.57%), Thailand (0.64%), China (0.87%), and Malaysia (1.13%).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 20,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "chart",
+      "label": "Figure ES.3",
+      "title": "Figure ES.3: Public Expenditure on Tertiary Education, as % of GDP (2016)",
+      "box_2d": [
+        152,
+        102,
+        551,
+        887
+      ],
+      "page_image": "data/advanced/pages/p020.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p024-V00",
+    "text": "[Table ES.1: Vietnam Tertiary Education - Sequencing of Policy Actions] (page 24, table)\n| Short-term Policy Action (2021–2023) | Medium/Long-term Policy Action (2021–2030) |\n| --- | --- |\n| **A. Improved Access and Equity** | |\n| **Improved Access** | |\n| 1. Develop and approve a tertiary education expansion strategy and implementation plan to meet the quantitative enrolment targets through a well-coordinated and well-articulated differentiated/diverse system. | 5. Improve pathways across HEIs and TVET colleges through strengthened coordination between MOET and MOLISA, through operationalization of the Vietnam Qualifications Framework (VQF) and in partnership with industry. |\n| 2. Remove legal/administrative hurdles to the expansion of private sector providers (including offering subsidized resources, subsidized student loans, to accredited private institutions, and so on). | 6. Update policies to make upper secondary education compulsory (both general and vocational tracks), and ensure smooth transition between upper secondary general school and upper secondary vocational school. |\n| 3. Develop a TVET access and quality enhancement strategy and implementation plan, aligned with the overall tertiary education goals on expansion and quality/relevance. | 7. Design and implement an investment program to improve equitable access to and quality of upper secondary education. |\n| 4. Create enabling legal conditions to foster alternative modalities, that is, recognition and quality assurance framework for e-learning degrees/courses, and charters of open universities. | 8. Develop and operationalize a coordinated e-learning platform with resources shared among universities and offering high-quality educational content to a wider audience. |\n| **Increased Equity** | |\n| 9. Develop a strategic plan with quantitative targets to improve equitable access to tertiary education for disadvantaged students (economically disadvantaged/ethnic minority/disabled students) with an adequately financed implementation plan and monitoring and evaluation (M&E). | 10. Design and implement a comprehensive support system for disadvantaged students at both the tertiary and upper secondary levels through well-targeted financial aid schemes (scholarships, student aid, and loans) and nonfinancial initiatives (outreach and information campaigns, counseling services). |\n| **B. Improved Quality and Relevance** | |\n| 11. Update policies to enhance program quality assurance to include, among others, student/teacher ratio, qualifications of faculty including PhD degree and English language, curriculum with minimum industry placement, and labor market outcomes. | 13. Design and implement a national teaching excellence scheme with sufficient financing available to HEIs and individual faculty, on a competitive basis and aimed at capacity building for faculty to implement curricular and pedagogical innovations (personalized high-tech and high-touch learning through disruptive technology). |\n| 12. Design and implement a centrally coordinated investment program for internationalization to increase international accreditation of training programs, joint programs, and students/faculty exchange programs with international universities. | 14. Build capacity for universities to enhance university-industry links through student placement services for information and job matching, support for participation of industry professionals in teaching and institutional curriculum committees, industry-funded internships, and integration of entrepreneurship training into regular training programs. |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 24,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "Table ES.1",
+      "title": "Vietnam Tertiary Education - Sequencing of Policy Actions",
+      "box_2d": [
+        105,
+        107,
+        850,
+        885
+      ],
+      "page_image": "data/advanced/pages/p024.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p025-V00",
+    "text": "[] (page 25, table)\n| Short-term Policy Action (2021–2023) | Medium/Long-term Policy Action (2021–2030) |\n| :--- | :--- |\n| **Enhanced Capability of Academic Staff (research and teaching)** | |\n| 15. Introduce policies and incentives to bring top-quality faculty from the Vietnamese diaspora and foreign universities and establish a tenure track for promising young academic staff. | 17. Design and implement a comprehensive program on recruitment and retention of high-quality academic staff at applied universities (all other universities that are not classified as research-intensive universities). |\n| 16. Revamp graduate schools to attract high-quality domestic and international PhD students and postdocs, through quality regulations and comprehensive financing schemes (scholarship/stipend/graduate assistantship). | 18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. |\n| | 19. Design and implement performance-based human resource/staffing management. |\n| **C. Enhanced Research Quality and STI** | |\n| 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). | 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. |\n| 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support joint/collaborative research and innovation projects between universities and enterprises (by MOST in coordination with MOF, MPI, MOET, and other line ministries). | |\n| 22. Adopt incentives to increase female researchers and their research outputs. | |\n| **D. Improved Systemwide Governance** | |\n| 24. Improved stewardship and coordination at the national level including the creation of a single Ministry for Higher Education, Science and Technology, and TVET. | 30. Establish a digital national HEMIS, a digital national LMIS, and a national graduate tracking system, managed and coordinated by MOET. |\n| 25. Approve the Higher Education Strategy (2021–2030) and a Higher Education Master Plan with well-formulated logical framework and adequately funded implementation plans. | 31. Establish a systemwide capacity-building mechanism on quality assurance across all levels of the higher education system. |\n| 26. Establish a holistic National Quality Assurance Framework (NQAF). | 32. Restructure national and regional universities for harmonized governance arrangements and alignment with regional development priorities. |\n| 27. Update policies to delegate autonomy to HEIs while continuing with state funding. | |\n| 28. Update policies to empower university councils with main responsibility for appointing university leaders, endorsing institutional strategic plans, and approving the budget. | |\n| 29. Update policies to include comprehensive accountability mechanisms. | |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 25,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        108,
+        116,
+        908,
+        893
+      ],
+      "page_image": "data/advanced/pages/p025.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p026-V00",
+    "text": "[] (page 26, table)\n| Short-term Policy Action (2021–2023) | Medium/Long-term Policy Action (2021–2030) |\n| :--- | :--- |\n| **E. Financial Sustainability** | |\n| 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. | 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. |\n| 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). | 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. |\n| 35. Update policies to enable public universities to pursue PPPs for capital/infrastructure projects or other educational or ancillary services (once the PPP Law is passed). | 38. Build institutional capacity to improve HEIs’ income diversification and resource mobilization through donations, continuing education, PPPs, fund raising, and removal of penalties on enterprising HEIs. |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 26,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        107,
+        372,
+        883
+      ],
+      "page_image": "data/advanced/pages/p026.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p027-V00",
+    "text": "[Table ES.2: Table ES.2: Vietnam Tertiary Education - Costs and Benefits of Policy Options] (page 27, table)\n| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| :--- | :---: | :---: | :---: | :---: |\n| **A. Improved Access and Equity** | | | | |\n| **Improved Access** | | | | |\n| 1. Develop and approve a tertiary education expansion strategy and implementation plan to meet the quantitative enrolment targets through a well-coordinated and well-articulated differentiated/diverse system. | ++ | + | - | ++ |\n| 2. Remove legal/administrative hurdles to the expansion of private sector providers (including offering subsidized resources, subsidized student loans, to accredited private institutions, and so on). | + | - | - | ++ |\n| 3. Develop a TVET access and quality enhancement strategy and implementation plan, aligned with the overall tertiary education goals on expansion and quality/relevance. | ++ | + | + | + |\n| 4. Create enabling legal conditions to foster alternative modalities, that is, recognition and quality assurance framework for e-learning degrees/courses, and charters of open universities. | ++ | + | - | + |\n| 5. Improve pathways across HEIs and TVET colleges through strengthened coordination between MOET and MOLISA, through operationalization of the VQF and in partnership with industry. | +++ | - | ++ | ++ |\n| 6. Update policies to make upper secondary education compulsory (both general and vocational tracks) and ensure smooth transition between upper secondary general school and upper secondary vocational school. | + | - | - | ++ |\n| 7. Design and implement an investment program to improve equitable access to and quality of upper secondary education. | ++ | + | - | ++ |\n| 8. Develop and operationalize a coordinated e-learning platform with resources shared among universities and offering high-quality educational content to a wider audience. | ++ | + | - | ++ |\n| **Increased Equity** | | | | |\n| 9. Develop a strategic plan with quantitative targets to improve equitable access to tertiary education for disadvantaged students (economically disadvantaged/ethnic minority/disabled students) with an adequately financed implementation plan and M&E. | ++ | - | + | ++ |\n| 10. Design and implement a comprehensive support system for disadvantaged students at both the tertiary and upper secondary levels through well-targeted financial aid schemes (scholarships, student aid, and loans) and non-financial initiatives (outreach and information campaigns, counseling services). | + | + | - | ++ |\n| **B. Improved Quality and Relevance** | | | | |\n| 11. Update policies to enhance program quality assurance to include, among others, student/teacher ratio, qualifications of faculty including PhD degree and English language, curriculum with minimum industry placement, and labor market outcomes. | ++ | + | - | + |\n| 12. Design and implement a centrally coordinated investment program for internationalization to increase international accreditation of training programs, joint programs, and students/faculty exchange programs with international universities. | ++ | ++ | - | ++ |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "Table ES.2",
+      "title": "Table ES.2: Vietnam Tertiary Education - Costs and Benefits of Policy Options",
+      "box_2d": [
+        106,
+        115,
+        930,
+        895
+      ],
+      "page_image": "data/advanced/pages/p027.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p028-V00",
+    "text": "[] (page 28, table)\n| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| --- | --- | --- | --- | --- |\n| 13. Design and implement a national teaching excellence scheme with sufficient financing available to HEIs and individual faculty, on a competitive basis and aimed at capacity building for faculty to implement curricular and pedagogical innovations (personalized high-tech and high-touch learning through disruptive technology). | ++ | + | - | ++ |\n| 14. Build capacity for universities to enhance university-industry links through student placement services for information and job matching, support for participation of industry professionals in teaching and institutional curriculum committees, industry-funded internships, and integration of entrepreneurship training into regular training programs. | + | - | - | + |\n| **Enhanced Capability of Academic Staff (research and teaching)** | | | | |\n| 15. Introduce policies and incentives to bring top-quality faculty from the Vietnamese diaspora and foreign universities and establish a tenure track for promising young academic staff. | + | + | + | + |\n| 16. Revamp graduate schools to attract high-quality domestic and international PhD students and postdocs, through quality regulations and comprehensive financing schemes (scholarship/stipend/graduate assistantship). | ++ | + | - | ++ |\n| 17. Design and implement a comprehensive program on recruitment and retention of high-quality academic staff at applied universities (all other universities that are not classified as research-intensive universities). | ++ | ++ | - | ++ |\n| 18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. | + | - | - | + |\n| 19. Design and implement performance-based human resource/staffing management. | + | + | + | + |\n| **C. Enhanced Research Quality and STI** | | | | |\n| 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). | + | + | + | + |\n| 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support joint/collaborative research and innovation projects between universities and enterprises (by MOST in coordination with MOF, MPI, MOET, and other line ministries). | + | ++ | - | ++ |\n| 22. Adopt incentives to increase female researchers and their research outputs. | + | + | - | + |\n| 23. Invest in ICT infrastructure (foundational and high-end HPC facilities and research network) to enable cutting-edge research and links to the global frontier. | + | ++ | - | + |\n| **D. Improved Systemwide Governance** | | | | |\n| 24. Improved stewardship and coordination at the national level including the creation of a single Ministry for Higher Education, Science and Technology, and TVET. | + | - | ++ | +++ |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 28,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        107,
+        896,
+        883
+      ],
+      "page_image": "data/advanced/pages/p028.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p029-V00",
+    "text": "[] (page 29, table)\n| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| :--- | :---: | :---: | :---: | :---: |\n| 25. Approve the Higher Education Strategy (2021–2030) and a Higher Education Master Plan with well-formulated logical framework and adequately funded implementation plans. | + | - | ++ | +++ |\n| 26. Establish a holistic NQAF | ++ | - | - | ++ |\n| 27. Update policies to delegate autonomy to HEIs while continuing with state funding. | ++ | - | + | ++ |\n| 28. Update policies to empower university councils with main responsibility for appointing university leaders, endorsing institutional strategic plans, and approving the budget. | + | - | + | ++ |\n| 29. Update policies to include comprehensive accountability mechanisms. | ++ | + | + | +++ |\n| 30. Establish a digital national HEMIS, a digital national LMIS, and a national graduate tracking system, managed and coordinated by MOET. | ++ | + | + | ++ |\n| 31. Establish a systemwide capacity-building mechanism on quality assurance across all levels of the higher education system. | ++ | + | + | + |\n| 32. Restructure national and regional universities for harmonized governance arrangements and alignment with regional development priorities. | +++ | ++ | ++ | +++ |\n| **E. Financial Sustainability** | | | | |\n| 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. | ++ | + | ++ | ++ |\n| 34. Set up and implement a comprehensive financial support system for students including a TFT scheme, need-based scholarships, and ICLs. | +++ | +++ | + | +++ |\n| 35. Encourage public universities to pursue PPPs for capital/infrastructure projects or other educational or ancillary services (once the PPP Law is passed). | ++ | - | - | + |\n| 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. | + | +++ | ++ | +++ |\n| 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. | ++ | ++ | ++ | ++ |\n| 38. Build institutional capacity to improve HEIs’ income diversification and resource mobilization through donations, continuing education, PPPs, fund raising, and removal of penalties on enterprising HEIs. | ++ | - | - | ++ |\n\nNote: (-) neutral; (+) low; (++) medium; (+++) high",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 29,
+    "metadata": {
+      "section": "executive_summary",
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        116,
+        822,
+        893
+      ],
+      "page_image": "data/advanced/pages/p029.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p033-V00",
+    "text": "[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 33,
+    "metadata": {
+      "section": "introduction",
+      "kind": "chart",
+      "label": "Figure 1",
+      "title": "Human Capital Index and Tertiary Education Outcomes",
+      "box_2d": [
+        414,
+        114,
+        725,
+        896
+      ],
+      "page_image": "data/advanced/pages/p033.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p034-V00",
+    "text": "[Figure 2: Higher Education Analytical/Conceptual Framework] (page 34, diagram)\nA multi-tiered conceptual framework diagram organized into four vertical levels with upward-pointing grey arrows connecting levels from bottom to top:\n\n1. Top Level - Higher Level Goals:\n   - Label box on right: 'Higher Level Goals'\n   - Goal boxes: 'Growth' and 'Shared Prosperity'\n\n2. Second Level - HE Outcomes:\n   - Label box on right: 'HE Outcomes'\n   - Outcome boxes: 'Research and Innovation', 'Skills', and 'Coverage and Equity'\n   - Upward arrows connect 'Research and Innovation' to 'Growth', and 'Coverage and Equity' to 'Shared Prosperity'\n\n3. Third Level (inside main container box) - Policy Levers Outcomes:\n   - Label box on right: 'Policy Levers Outcomes'\n   - Box 1: 'Research and Technology Transfer'\n     - STI strategy/policies\n     - Talent management\n     - Competitive funds\n     - Centers of excellence\n     - Links with industry and global R&D frontier\n   - Box 2: 'Quality and Relevance'\n     - Curriculum & pedagogy\n     - Internationalization\n     - University-industry links\n     - Staffing policies and incentives\n     - Teaching excellence\n     - Digital and disruptive technologies (cross-cutting)\n   - Box 3: 'Access and Equity'\n     - Institutional diversity (Non-university, private sector, and online)\n     - Networking of HEIs\n     - Coordination between MOET, MOLISA, and so on\n     - Scholarships and Loans\n   - Upward arrows point from these three boxes up toward the HE Outcomes level.\n\n4. Bottom Level (inside main container box) - Enabling Pillars:\n   - Label box on right: 'Enabling Pillars'\n   - Box 1: 'Enhanced Governance'\n     - Government as steward (sets vision and goals, coordinates, supervises, monitors, and finances)\n     - Institutional autonomy\n     - Institutional accountability\n     - Quality assurance\n   - Box 2: 'Effective Financing'\n     - Resource mobilization (public funding, tuition fees, sustainable cost sharing, PPP, other income generation)\n     - Resource allocation (formula-based,\n   - Three upward arrows point from the Enabling Pillars to the Policy Levers boxes above.\n\nSource: World Bank.\nNote: HE = Higher education; MOLISA = Ministry of Labor, Invalids, and Social Affairs; PPP = Public-private partnership; STI = Science, technology, and innovation.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 34,
+    "metadata": {
+      "section": "introduction",
+      "kind": "diagram",
+      "label": "Figure 2",
+      "title": "Higher Education Analytical/Conceptual Framework",
+      "box_2d": [
+        372,
+        104,
+        843,
+        876
+      ],
+      "page_image": "data/advanced/pages/p034.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p037-V00",
+    "text": "[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 37,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 3",
+      "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+      "box_2d": [
+        468,
+        114,
+        847,
+        895
+      ],
+      "page_image": "data/advanced/pages/p037.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p038-V00",
+    "text": "[Table 1: Table 1: Enrolment in Tertiary Education, by Institution: 2005, 2010, and 2016] (page 38, table)\n| Type of Institution | Number of Institutions 2005 | Number of Institutions 2010 | Number of Institutions 2016 | Enrolment (thousands) 2005 | Enrolment (thousands) 2010 | Enrolment (thousands) 2016 | Enrolment Share (%) 2005 | Enrolment Share (%) 2010 | Enrolment Share (%) 2016 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Public universities | 111 | 137 | 170 | 934 | 1,248 | 1,498 | 67 | 53 | 65 |\n| Open universities (Public) | 2 | 2 | 2 | 16 | n.a. | 26 | 1 | | 1 |\n| Private universities | 27 | 50 | 65 | 138 | 190 | 244 | 10 | 8 | 11 |\n| Public colleges | 130 | 197 | 189 | 277 | 582 | 311 | 20 | 25 | 13 |\n| Private colleges | 7 | 30 | 28 | 22 | 144 | 46 | 2 | 6 | 2 |\n| VET colleges | 0 | 120 | 190 | 0 | 193 | 183 | 0 | 8 | 8 |\n| Total | 277 | 536 | 644 | 1,387 | 2,355 | 2,308 | 100 | 100 | 100 |\n\nSource: MOET, MOLISA, and General Statistics Office (GSO) from various years.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 38,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 1",
+      "title": "Table 1: Enrolment in Tertiary Education, by Institution: 2005, 2010, and 2016",
+      "box_2d": [
+        493,
+        107,
+        720,
+        885
+      ],
+      "page_image": "data/advanced/pages/p038.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p039-V00",
+    "text": "[Figure 4: Tertiary Education Access Rates (%) by Expenditure Quintiles, 2006-2018] (page 39, chart)\nChart type: Line chart\nAxis titles: x-axis: Year (no label printed), y-axis: Access rate (%), unlabeled explicitly, scale 0 to 80\nLegend: Poorest Quintile, 2nd Poorest, Middle, 2nd Richest, Richest Quintile\n\nData points:\nPoorest Quintile:\n- 2006: ≈ 1%\n- 2010: ≈ 2%\n- 2014: ≈ 3%\n- 2018: ≈ 5%\n\n2nd Poorest:\n- 2006: ≈ 3%\n- 2010: ≈ 7%\n- 2014: ≈ 10%\n- 2018: ≈ 15%\n\nMiddle:\n- 2006: ≈ 8%\n- 2010: ≈ 18%\n- 2014: ≈ 26%\n- 2018: ≈ 31%\n\n2nd Richest:\n- 2006: ≈ 16%\n- 2010: ≈ 28%\n- 2014: ≈ 41%\n- 2018: ≈ 45%\n\nRichest Quintile:\n- 2006: ≈ 38%\n- 2010: ≈ 54%\n- 2014: ≈ 64%\n- 2018: ≈ 72%\n\nFactual comparisons:\n- The Richest Quintile consistently maintained the highest access rate across all years, rising from around 38% in 2006 to 72% in 2018.\n- The Poorest Quintile had the lowest access rate throughout the period, remaining below 5%.\n- The gap between the richest and poorest quintiles widened significantly from around 37 percentage points in 2006 to 67 percentage points in 2018.\n\nSource: Authors' estimates using VHLSS (2006-2018).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 4",
+      "title": "Tertiary Education Access Rates (%) by Expenditure Quintiles, 2006-2018",
+      "box_2d": [
+        528,
+        114,
+        800,
+        495
+      ],
+      "page_image": "data/advanced/pages/p039.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p039-V01",
+    "text": "[Figure 5: Tertiary Education Opportunities Shares (%) by Expenditure Quintiles, 2006–2018] (page 39, chart)\nChart type: 100% stacked area chart\nAxis titles: x-axis: Year (no label printed), y-axis: Share (%), unlabeled explicitly, scale 0 to 100\nLegend: Poorest Quintile, 2nd Poorest, Middle, 2nd Richest, Richest Quintile\n\nData points (estimated shares of total opportunities):\n2006:\n- Poorest Quintile: ≈ 2%\n- 2nd Poorest: ≈ 5%\n- Middle: ≈ 13%\n- 2nd Richest: ≈ 30%\n- Richest Quintile: ≈ 50%\n\n2010:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 16%\n- 2nd Richest: ≈ 28%\n- Richest Quintile: ≈ 49%\n\n2014:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 16%\n- 2nd Richest: ≈ 28%\n- Richest Quintile: ≈ 49%\n\n2018:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 17%\n- 2nd Richest: ≈ 27%\n- Richest Quintile: ≈ 49%\n\nFactual comparisons:\n- The top two expenditure quintiles accounted for the vast majority (nearly 80%) of tertiary education opportunities throughout 2006–2018.\n- The bottom two quintiles combined represented less than 10% of total tertiary education opportunities across the entire period.\n- The share held by the Richest Quintile remained dominant and stable at approximately 49–50%.\n\nSource: Authors' estimates using VHLSS (2006-2018).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 5",
+      "title": "Tertiary Education Opportunities Shares (%) by Expenditure Quintiles, 2006–2018",
+      "box_2d": [
+        528,
+        509,
+        799,
+        890
+      ],
+      "page_image": "data/advanced/pages/p039.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p040-V00",
+    "text": "[Figure 6: Figure 6: Gap in Tertiary Education Access Rate between Kinh/Hoa and Ethnic Minorities, 2006-2018] (page 40, chart)\nLine chart\nX-axis: Years (2006, 2008, 2010, 2012, 2014, 2016, 2018)\nY-axis: Access rate (%)\nLegend: Kinh & Hoa (grey dashed line), Ethnic Minority (orange dashed line)\n\nData points:\n- 2006 / Kinh & Hoa: 18\n- 2006 / Ethnic Minority: 5\n- 2008 / Kinh & Hoa: 16\n- 2008 / Ethnic Minority: 4\n- 2010 / Kinh & Hoa: 29\n- 2010 / Ethnic Minority: 6\n- 2012 / Kinh & Hoa: 33\n- 2012 / Ethnic Minority: 9\n- 2014 / Kinh & Hoa: 37\n- 2014 / Ethnic Minority: 8\n- 2016 / Kinh & Hoa: 42\n- 2016 / Ethnic Minority: 12\n- 2018 / Kinh & Hoa: 45\n- 2018 / Ethnic Minority: 11\n\nFactual comparisons:\n- Kinh & Hoa access rate consistently remained substantially higher than Ethnic Minority access rate across all years.\n- Kinh & Hoa access rate increased from 18% in 2006 to a peak of 45% in 2018.\n- Ethnic Minority access rate ranged from a low of 4% in 2008 to a high of 12% in 2016.\n- The gap widened from 13 percentage points in 2006 to 34 percentage points in 2018.\n\nSource: Authors' calculation from VHLSS (2006-2018).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 40,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 6",
+      "title": "Figure 6: Gap in Tertiary Education Access Rate between Kinh/Hoa and Ethnic Minorities, 2006-2018",
+      "box_2d": [
+        178,
+        107,
+        412,
+        882
+      ],
+      "page_image": "data/advanced/pages/p040.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p040-V01",
+    "text": "[Table 2: Table 2: Tertiary Education Access Rates by Socioeconomic Regions, 2018] (page 40, table)\n| Socioeconomic Region | Tertiary Education Access Rate (%) |\n| :--- | :--- |\n| 1. North midland and mountainous | 22 |\n| 2. Red river delta | 52 |\n| 3. Central coastal | 37 |\n| 4. Central highland | 35 |\n| 5. Southeast | 45 |\n| 6. Mekong river delta | 33 |\n\nSource: Authors' estimates from VHLSS 2018.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 40,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 2",
+      "title": "Table 2: Tertiary Education Access Rates by Socioeconomic Regions, 2018",
+      "box_2d": [
+        433,
+        107,
+        631,
+        882
+      ],
+      "page_image": "data/advanced/pages/p040.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p041-V00",
+    "text": "[Figure 7: Figure 7: Decomposition of Access Gaps in Tertiary Education, 2018] (page 41, chart)\nChart type: stacked bar chart\nY-axis: access rate gap (values from 0 to 70 with intervals of 10)\nX-axis: comparison groups (Q5-Q1, Q5-Q2, Q5-Q3, Q5-Q4, Female - Male, Parents HS nonHS, Urban - Rural, Kinh - nonKinh)\nLegend: high school completion rates (light orange), tertiary entry rates (dark orange)\nData points (estimated from gridlines):\n- Q5-Q1 / high school completion rates: ≈ 27\n- Q5-Q1 / tertiary entry rates: ≈ 40 (Total: ≈ 67)\n- Q5-Q2 / high school completion rates: ≈ 23\n- Q5-Q2 / tertiary entry rates: ≈ 30 (Total: ≈ 53)\n- Q5-Q3 / high school completion rates: ≈ 18\n- Q5-Q3 / tertiary entry rates: ≈ 23 (Total: ≈ 41)\n- Q5-Q4 / high school completion rates: ≈ 9\n- Q5-Q4 / tertiary entry rates: ≈ 17 (Total: ≈ 26)\n- Female - Male / high school completion rates: ≈ 9\n- Female - Male / tertiary entry rates: ≈ 4 (Total: ≈ 13)\n- Parents HS nonHS / high school completion rates: ≈ 19\n- Parents HS nonHS / tertiary entry rates: ≈ 19 (Total: ≈ 38)\n- Urban - Rural / high school completion rates: ≈ 14\n- Urban - Rural / tertiary entry rates: ≈ 13 (Total: ≈ 27)\n- Kinh - nonKinh / high school completion rates: ≈ 21\n- Kinh - nonKinh / tertiary entry rates: ≈ 13 (Total: ≈ 34)\n\nFactual comparisons:\n- The largest overall access gap is between the richest and poorest income quintiles (Q5-Q1) at approximately 67 points, while the smallest gap is between Female and Male at approximately 13 points.\n- For Q5-Q1 through Q5-Q4, tertiary entry rates account for a larger share of the total access gap than high school completion rates.\n- For Parents HS nonHS and Urban - Rural, the gap is split roughly equally between high school completion rates and tertiary entry rates.\n\nSource: Authors’ estimates using VHLSS 2018. Note: Each bar represents the access rate gap between two groups (first bar shows Q5 richest quintile minus Q1 poorest quintile) where blue portion shows the gap due to high school completion rates and orange shows the gap due to tertiary education admission (entry) rates.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 41,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 7",
+      "title": "Figure 7: Decomposition of Access Gaps in Tertiary Education, 2018",
+      "box_2d": [
+        213,
+        114,
+        489,
+        894
+      ],
+      "page_image": "data/advanced/pages/p041.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p043-V00",
+    "text": "[Table 3: Global University Rankings for Vietnam and Comparators] (page 43, table)\n| | No. of Universities in Top 1,000 Webometrics | No. of Universities in the Top 1,000 QS | No. of Universities in the Top 1,000 THE |\n|---|---|---|---|\n| Denmark | 6 | 5 | 7 |\n| Finland | 10 | 10 | 8 |\n| France | 40 | 35 | 32 |\n| Germany | 60 | 45 | 47 |\n| Netherlands | 13 | 13 | 13 |\n| Poland | 11 | 14 | 5 |\n| Switzerland | 11 | 9 | 10 |\n| United Kingdom | 80 | 76 | 92 |\n| Australia | 34 | 37 | 35 |\n| China | 105 | 40 | 63 |\n| Indonesia | 2 | 9 | 3 |\n| Japan | 26 | 44 | 51 |\n| Korea, Rep. | 21 | 30 | 24 |\n| Malaysia | 5 | 13 | 9 |\n| Philippines | 0 | 4 | 2 |\n| Singapore | 3 | 3 | 2 |\n| Thailand | 6 | 8 | 5 |\n| Vietnam | 0 | 2 | 1 |\n\nSource: https://www.timeshighereducation.com/world-university-rankings; https://www.topuniversities.com/university-rankings; https://webometrics.info/en\nNote: THE = Times Higher Education.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 43,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 3",
+      "title": "Global University Rankings for Vietnam and Comparators",
+      "box_2d": [
+        448,
+        114,
+        924,
+        895
+      ],
+      "page_image": "data/advanced/pages/p043.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p044-V00",
+    "text": "[Table 4: Table 4: Working Age Population (WAP), Labor Force (LF), Labor Force Participation (LFP) and Unemployment, by Education Level, 2014] (page 44, table)\n| Education Level | % of Total WAP | % of Total LF | LFP Rate | Unemployment Rate |\n| :--- | :---: | :---: | :---: | :---: |\n| No education | 3.4 | 3.7 | 62.4 | 1.4 |\n| Primary | 30.6 | 34.8 | 77.9 | 1.3 |\n| Lower and upper secondary | 55.9 | 51.1 | 77.6 | 2.2 |\n| College and vocational college | 2.6 | 2.7 | 89.4 | 6.9 |\n| University | 7.6 | 7.8 | 88.1 | 4.1 |\n| All | 100.0 | 100.0 | 77.6 | 2.2 |\n| Age group 25–35 | 27.1 | 26.4 | 93.9 | 1.9 |\n| Age group 25–35 with university degree | — | — | 97.8 | 2.9 |\n\nSource: Authors’ estimates using VLFS 2014.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 44,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 4",
+      "title": "Table 4: Working Age Population (WAP), Labor Force (LF), Labor Force Participation (LFP) and Unemployment, by Education Level, 2014",
+      "box_2d": [
+        304,
+        107,
+        566,
+        882
+      ],
+      "page_image": "data/advanced/pages/p044.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p045-V00",
+    "text": "[Figure 8: Figure 8: Average Wages by Education Level and Age Group, 2016] (page 45, chart)\nChart type: Clustered column chart\nX-axis title: Education level (Primary or below, Secondary or below, College, University or higher)\nY-axis title: Average Wage (VND mil/year), scale 0 to 100.000 with increments of 20.000\nLegend: ALL, 25-35 aged\nData points:\n- Primary or below / ALL: ≈ 33.000\n- Primary or below / 25-35 aged: ≈ 36.000\n- Secondary or below / ALL: ≈ 48.000\n- Secondary or below / 25-35 aged: ≈ 51.000\n- College / ALL: ≈ 62.000\n- College / 25-35 aged: ≈ 61.000\n- University or higher / ALL: ≈ 91.000\n- University or higher / 25-35 aged: ≈ 81.000\nSource: Authors’ estimates using VHLSS 2016.\nFactual comparisons:\n- Average wages increase steadily with each higher level of educational attainment for both age cohorts.\n- University or higher graduates earn the highest average wages across all education levels.\n- For university graduates, the average wage across all ages is significantly higher than that for the 25–35 age group, whereas at lower levels of education the differences between age groups are much smaller.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 45,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 8",
+      "title": "Figure 8: Average Wages by Education Level and Age Group, 2016",
+      "box_2d": [
+        105,
+        114,
+        365,
+        860
+      ],
+      "page_image": "data/advanced/pages/p045.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p045-V01",
+    "text": "[Figure 9: Figure 9: Proportion of Firms Reporting Difficulties Finding Employees with Required Skills] (page 45, chart)\nChart type: Clustered column chart\nX-axis categories: Managerial and leadership skills; Interpersonal and communication skills; Work ethic and commitment; Writing skills; Foreign language skills; Computer or general IT skills; Technical skills (other than IT), vocational, or job-specific skills\nY-axis title: Proportion, scale 0 to 0.8 with increments of 0.1\nLegend: Difficult or very difficult, Easy or very easy, Does not apply\nData points:\n- Managerial and leadership skills / Difficult or very difficult: ≈ 0.73\n- Managerial and leadership skills / Easy or very easy: ≈ 0.10\n- Managerial and leadership skills / Does not apply: ≈ 0.17\n- Interpersonal and communication skills / Difficult or very difficult: ≈ 0.54\n- Interpersonal and communication skills / Easy or very easy: ≈ 0.34\n- Interpersonal and communication skills / Does not apply: ≈ 0.12\n- Work ethic and commitment / Difficult or very difficult: ≈ 0.53\n- Work ethic and commitment / Easy or very easy: ≈ 0.45\n- Work ethic and commitment / Does not apply: ≈ 0.02\n- Writing skills / Difficult or very difficult: ≈ 0.28\n- Writing skills / Easy or very easy: ≈ 0.54\n- Writing skills / Does not apply: ≈ 0.18\n- Foreign language skills / Difficult or very difficult: ≈ 0.58\n- Foreign language skills / Easy or very easy: ≈ 0.17\n- Foreign language skills / Does not apply: ≈ 0.25\n- Computer or general IT skills / Difficult or very difficult: ≈ 0.28\n- Computer or general IT skills / Easy or very easy: ≈ 0.62\n- Computer or general IT skills / Does not apply: ≈ 0.10\n- Technical skills (other than IT), vocational, or job-specific skills / Difficult or very difficult: ≈ 0.68\n- Technical skills (other than IT), vocational, or job-specific skills / Easy or very easy: ≈ 0.28\n- Technical skills (other than IT), vocational, or job-specific skills / Does not apply: ≈ 0.04\nSource: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).\nFactual comparisons:\n- Managerial and leadership skills was identified as the most difficult skill area to recruit (≈ 73% of firms reported difficult or very difficult).\n- Computer or general IT skills had the highest proportion of firms reporting it as easy or very easy to find (≈ 62%).\n- Foreign language skills had the highest proportion of firms reporting 'Does not apply' (≈ 25%).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 45,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 9",
+      "title": "Figure 9: Proportion of Firms Reporting Difficulties Finding Employees with Required Skills",
+      "box_2d": [
+        660,
+        114,
+        926,
+        868
+      ],
+      "page_image": "data/advanced/pages/p045.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p050-V00",
+    "text": "[Table 5: Research and Innovation Capacity and Output of Vietnam and Benchmarking Countries] (page 50, table)\n| Country | Citable Documents per Million Population 2010 | Citable Documents per Million Population 2017 | H-index 2017 | No. of Patents per Million Population 2017 | Global Innovation Index Rankings 2008 | Global Innovation Index Rankings 2018 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Australia | 2,741 | 3,352 | 848 | 251 | 22 | 20 |\n| China | 249 | 356 | 712 | 233 | 37 | 17 |\n| Denmark | 2,975 | 4,179 | 662 | 1,084 | 8 | 8 |\n| Finland | 2,777 | 3,225 | 571 | 1,451 | 13 | 7 |\n| France | 1,510 | 1,564 | 1,023 | 709 | 19 | 16 |\n| Germany | 1,664 | 1,853 | 1,131 | 1,206 | 2 | 9 |\n| Indonesia | 10 | 71 | 196 | 1.67 | 49 | 85 |\n| Japan | 949 | 898 | 920 | 2,282 | 9 | 13 |\n| Malaysia | 547 | 936 | 249 | 30 | 25 | 35 |\n| Netherlands | 2,644 | 2,993 | 893 | 1,233 | 10 | 2 |\n| Philippines | 13 | 28 | 205 | 1.35 | 63 | 73 |\n| Poland | 777 | 1,096 | 479 | 114 | 56 | 39 |\n| Korea, Rep. | 1,192 | 1,491 | 576 | 2,341 | 6 | 12 |\n| Singapore | 2,831 | 3,388 | 492 | 548 | 5 | 5 |\n| Switzerland | 4,092 | 4,813 | 866 | 3,065 | 7 | 1 |\n| Thailand | 140 | 212 | 289 | 3.16 | 44 | 44 |\n| United Kingdom | 2,223 | 2,468 | 1,281 | 362 | 4 | 4 |\n| Vietnam | 23 | 63 | 183 | 1.24 | 64 | 45 |\n\nSources: SCImago for research output; World Intellectual Property Indicators 2017 for patents; Global Innovation Index https://www.globalinnovationindex.org/Home for innovation rankings.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 50,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 5",
+      "title": "Research and Innovation Capacity and Output of Vietnam and Benchmarking Countries",
+      "box_2d": [
+        374,
+        107,
+        858,
+        883
+      ],
+      "page_image": "data/advanced/pages/p050.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p051-V00",
+    "text": "[Figure 10: Figure 10: GERD as a Percentage of GDP in 2015] (page 51, chart)\nColumn chart; x-axis: Country / Group; y-axis: GERD as a percentage of GDP (%) from 0.0 to 4.5 in intervals of 0.5; Legend: None;\n- Australia: 1.9\n- China: 2.1\n- Denmark: 3.0\n- Finland: 2.9\n- France: 2.3\n- Germany: 2.9\n- Indonesia: 0.1\n- Malaysia: 1.3\n- Netherlands: 2.0\n- Philippines: 0.1\n- Poland: 1.0\n- Republic of Korea: 4.2\n- Singapore: 2.0\n- Switzeland: 3.4\n- Thailand: 0.6\n- United Kingdom: 1.7\n- Viet Nam: 0.4\n- Lower middle income countries: 0.4\n- Middle income countries: 1.1\nSource: UIS.\nComparisons: Republic of Korea has the highest GERD at 4.2% of GDP, followed by Switzeland at 3.4%; Indonesia and the Philippines have the lowest at 0.1% each; Viet Nam's expenditure of 0.4% equals the Lower middle income countries average (0.4%) and is below the Middle income countries average (1.1%).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 51,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 10",
+      "title": "Figure 10: GERD as a Percentage of GDP in 2015",
+      "box_2d": [
+        666,
+        114,
+        925,
+        856
+      ],
+      "page_image": "data/advanced/pages/p051.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p052-V00",
+    "text": "[Table 6: Table 6: Vietnam Graduate School Enrolment and Output, 2005–2016] (page 52, table)\n| Category | 2005 | 2010 | 2016 | Growth (%) |\n| :--- | :---: | :---: | :---: | :---: |\n| Master’s enrolment | 31,552 | 62,705 | 105,801 | 236 |\n| PhD enrolment | 3,230 | 4,683 | 13,587 | 320 |\n| Master’s graduates | 5,429 | 15,126 | 34,648 | 538 |\n| PhD graduates | 351 | 965 | 1,234 | 251 |\n\nSource: GSO (various years).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 52,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 6",
+      "title": "Table 6: Vietnam Graduate School Enrolment and Output, 2005–2016",
+      "box_2d": [
+        326,
+        104,
+        496,
+        887
+      ],
+      "page_image": "data/advanced/pages/p052.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p054-V00",
+    "text": "[Table 7: Table 7: Higher Education Policy Targets and Achievements] (page 54, table)\n| Indicator | 2015 Target: Original in 2007a | 2015 Target: Revised in 2013b | Actual in 2015 | 2020 Target: Original in 2007a | 2020 Target: Revised in 2013b |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| No. of students per 10,000 people | 300 | n.a. | 220 | 450 | 256 |\n| No. of new enrolments per 10,000 people | 60 | n.a. | 61 | 120 | 56 |\n| Gross enrolment in HEIs (thousands) | 3,000 | n.a. | 2,200 | 4500 | 2,200 |\n| Proportion of enrolment into nonpublic HEIs | n.a. | n.a. | 13 | 30–40 | n.a. |\n| % university lecturers having a master’s degree | 70 | n.a. | 58 | 90 | 100 |\n| % university lecturers having a doctoral degree | 50 | n.a. | 20 | 75 | 21 |\n| Student/lecturer ratio | n.a. | | 23 | 20 | 17–26 |\n| Number of Vietnamese HEIs having at least one program recognized internationally | 20 | 10 | n.a. | n.a. | 20 |\n| Number of Vietnamese HEIs in top 200 globally | | | | 1 | 1 |\n| % of foreign students enrolling in Vietnamese HEIs | 1.5 | 1 | | 5 | 3 |\n| % university enrolment of total higher education enrolment | 64 | 64 | 80 | 56 | 56 |\n| % of R&D revenue in HEIs’ total revenue | n.a. | n.a. | 3 | 25 | n.a. |\n\nSource: MOET (2019) Preliminary estimates.\nNote: a. Decision No. 121/2007/QD-TTg dated July 27, 2007, of Prime Minister, approving the master plan on the university and college network during 2006–2020.\nb. Decision No. 37/2013/QD-TTg dated June 26, 2013, of Prime Minister, adjusting the master plan on the university and college network during 2006–2020.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 54,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 7",
+      "title": "Table 7: Higher Education Policy Targets and Achievements",
+      "box_2d": [
+        104,
+        106,
+        686,
+        885
+      ],
+      "page_image": "data/advanced/pages/p054.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p056-V00",
+    "text": "[Figure 11: Figure 11: Functions and Units of Measure in the Vietnamese HE QA System] (page 56, diagram)\nA 5×4 matrix diagram mapping quality assurance 'FUNCTIONS' (rows) against 'UNITS OF ASSESSMENT' (columns). Cell shading indicates status: White with purple border = Exists/Standard; Grey = Partially exist; Orange = Don't exist.\n\nColumns (Units of Assessment):\n1. Higher education institution\n2. Program\n3. Student\n4. External quality assurance agency\n\nRows (Functions) and Cell Contents:\n- Row 1: Entry point Initial assessment [spelled 'Intitial assessment']:\n  * Higher education institution (White): - Licensure/authorization; - Government authority/ministry\n  * Program (White): - Licensure/authorization; - Government authority/ministry\n  * Student (White): - Admission tests; - HEI\n  * External quality assurance agency (White): - Government decree or authorization; - private provider/NGO\n- Row 2: Monitoring enhancement:\n  * Higher education institution (Grey - Partially exist): - Intermediate audits/monitoring\n  * Program (White): - HEI\n  * Student (White): - HEI\n  * External quality assurance agency (Orange - Don't exist): - Audits/inspections\n- Row 3: Accountability Credibility:\n  * Higher education institution (White): - Buffer body, - An independent agency, - professional organizations\n  * Program (Orange - Don't exist): - Buffer body, - An independent agency, - professional organizations\n  * Student (Orange - Don't exist): - Assessment of learning outcomes\n  * External quality assurance agency (Orange - Don't exist): - National and international auditing; - QA networks - overarching QA standards/good practices\n- Row 4: Professional Certification:\n  * Higher education institution (White): - N/A\n  * Program (Grey - Partially exist): - Professional associations; - Government supported entities\n  * Student (Grey - Partially exist): - Licensure/certification; - Professional associations; - Government entities\n  * External quality assurance agency (Orange - Don't exist): - N/A\n- Row 5: Public information:\n  * Higher education institution (Grey - Partially exist): - MoE and/or agency; - HEIs\n  * Program (Grey - Partially exist): - MoE and/or agency; - HEIs\n  * Student (White): - N/A\n  * External quality assurance agency (White): - National governments; - International QA networks\n\nLegend:\n- Orange box: Don't exist\n- Grey box: Partially exist\nSource: Elaborated by authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 56,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "diagram",
+      "label": "Figure 11",
+      "title": "Figure 11: Functions and Units of Measure in the Vietnamese HE QA System",
+      "box_2d": [
+        469,
+        107,
+        836,
+        876
+      ],
+      "page_image": "data/advanced/pages/p056.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p057-V00",
+    "text": "[Table 8: Table 8: De Jure Institutional Autonomy] (page 57, table)\n| Indicator | Vietnam - Regular Public HEIs | Vietnam - Autonomous Public HEIs | Vietnam - Vietnam National Universities | Vietnam - Private Universities | UK | Japan | Estonia | Poland | Malaysia | China |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Determination of student size | 2 | 2 | 2 | 2 | 3 | 3 | 3 | 0 | 1 | 1 |\n| Decision on opening a new program | 0 | 3 | 3 | 0 | 3 | | 1 | 3 | — | — |\n| Decision on course content | 3 | 3 | 3 | 3 | 3 | 1 | 3 | 3 | 1 | 1 |\n| Selection of Rector/President | 0 | 2 | 0 | 0 | 3 | 3 | 2 | 3 | 0 | 0 |\n| Recruitment of staff | 1 | 1 | 1 | 2 | 3 | 3 | 3 | 3 | 3 | 1 |\n| Determination of tuition fee for domestic students | 1 | 1 | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 |\n| Decision on bank interest income/surplus | 0 | 3 | 0 | — | 3 | | 3 | 1 | — | — |\n\nSource: Authors’ estimates based on review of regulations for Vietnam and benchmarking countries.\nNote: Scores generated through review of regulations across countries and Vietnam University Autonomy Scorecard and developed based on European University Autonomy Scorecard (Estermann et al. 2011). Institutional autonomy is scored from 0 to 3 in which 0 refers to no autonomy and 3 to full autonomy. Benchmarking countries include those which have advanced higher education systems, some from former Soviet Union and some from the region.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 57,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 8",
+      "title": "Table 8: De Jure Institutional Autonomy",
+      "box_2d": [
+        394,
+        114,
+        876,
+        895
+      ],
+      "page_image": "data/advanced/pages/p057.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p058-V00",
+    "text": "[Table 9: Table 9: Spending on Tertiary and Higher Education as % of GDP] (page 58, table)\n| Indicator | 2004 | 2011 | 2015 |\n|---|---|---|---|\n| % TGEd/GDP | 4.90 | 4.95 | 5.48 |\n| % TGEd/TGE | 17.10 | 17.46 | 18.14 |\n| **Tertiary** | | | |\n| % Tertiary/GDP | 0.45 | 0.34 | 0.33 |\n| % Tertiary/TGE | 1.57 | 1.21 | 1.10 |\n| % Tertiary/TGEd | 9.18 | 6.91 | 6.07 |\n| **Higher education** | | | |\n| % HE/GDP | 0.33 | 0.24 | 0.24 |\n| % HE/TGE | 1.16 | 0.83 | 0.80 |\n| % HE/TGEd | 6.80 | 4.76 | 4.41 |\n\nSource: Authors’ estimates using MOF data for 2011 and 2015 and Education and Skills for Growth (2008) for 2004.\nNote: HE = Higher education expenditure; GDP = Gross Domestic Product; TGE = Total government expenditure; TGEd = Total government expenditure on education.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 58,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 9",
+      "title": "Table 9: Spending on Tertiary and Higher Education as % of GDP",
+      "box_2d": [
+        440,
+        105,
+        781,
+        882
+      ],
+      "page_image": "data/advanced/pages/p058.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p059-V00",
+    "text": "[Table 10: Table 10: Tertiary Education Financing, circa 2015] (page 59, table)\n| Country | % TE/GDP | % TE/TGEd | Per Student TE Spending (US$) | TE Spending Per Student as % of GDP Per Capita |\n| :--- | :---: | :---: | :---: | :---: |\n| Vietnam | 0.33 | 6.07 | 316 | 15.16 |\n| Australia | 1.54 | 28.86 | 12,182 | 21.54 |\n| Finland | 1.89 | 26.7 | 14,658 | 34.55 |\n| France | 1.25 | 22.79 | 12,070 | 32.97 |\n| Germany | 1.25 | 25.95 | 14,056 | 34.01 |\n| Indonesia | 0.57 | 15.8 | 682 | 19.54 |\n| Japan | 0.65 | 18.84 | 7,390 | n.a. |\n| Malaysia | 1.13 | 23.39 | 2,505 | 26.35 |\n| Netherlands | 1.63 | 30.13 | 14,927 | 33.36 |\n| Poland | 1.22 | 25.28 | 3,533 | 28.11 |\n| Singapore | 1.00 | 35.28 | 11,639 | 21.27 |\n| Switzerland | 1.34 | 26.26 | 30,928 | 37.71 |\n| Thailand | 0.64 | 15.55 | 1,121 | 18.17 |\n| United Kingdom | 1.29 | 22.82 | 16,603 | 35.49 |\n\nSource: UIS; Vietnam values were estimated using MOF and MOET data.\nNote: TE = Tertiary education expenditure; TGEd = Total government expenditure on education.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 59,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 10",
+      "title": "Table 10: Tertiary Education Financing, circa 2015",
+      "box_2d": [
+        502,
+        115,
+        900,
+        893
+      ],
+      "page_image": "data/advanced/pages/p059.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p060-V00",
+    "text": "[Table 11: Table 11: Evolution of Annual Household Contribution to Higher Education (2004–2016)] (page 60, table)\n| Costs | 2004 | 2010 | 2016 | 2018 |\n| :--- | :---: | :---: | :---: | :---: |\n| Tuition cost, US$ | 105 | 251 | 473 | 574 |\n| Total cost, US$ | 217 | 470 | 844 | 1,242 |\n| Tuition as % of total cost | 48 | 53 | 56 | 46 |\n| Total cost as % of per capita expenditure | 34 | 27 | 43 | 54 |\n| Total cost as % of total education expenditure | 62 | 66 | 77 | 88 |\n| Total cost as % of household expenditure | 9 | 8 | 12 | 13 |\n\nSource: Authors’ estimates using VHLSS 2004, 2010, 2016 and 2018.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 60,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 11",
+      "title": "Table 11: Evolution of Annual Household Contribution to Higher Education (2004–2016)",
+      "box_2d": [
+        105,
+        105,
+        308,
+        882
+      ],
+      "page_image": "data/advanced/pages/p060.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p060-V01",
+    "text": "[Figure 12: Figure 12: Evolution of Sources of Revenue of Public Universities, 2004 and 2017] (page 60, chart)\nChart type: Clustered column chart\nx-axis: Revenue sources (State Subsidy, Tuition, RDI, services, others etc.)\ny-axis: Percentage of total revenue (%), range 0 to 80\nLegend: 2004 (grey), 2017 (orange)\n\nData points:\n- State Subsidy / 2004: 68\n- State Subsidy / 2017: 22\n- Tuition / 2004: 26\n- Tuition / 2017: 55\n- RDI, services, others etc. / 2004: 6\n- RDI, services, others etc. / 2017: 23\n\nComparisons:\n- In 2004, State Subsidy was the largest revenue source at 68%, but it fell steeply to 22% in 2017.\n- Tuition more than doubled from 26% in 2004 to become the dominant source at 55% in 2017.\n- Other sources (RDI, services, others etc.) increased almost fourfold from 6% in 2004 to 23% in 2017.\n\nSource: Authors’ calculations using MOET University Surveys (2004 and 2017).",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 60,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "chart",
+      "label": "Figure 12",
+      "title": "Figure 12: Evolution of Sources of Revenue of Public Universities, 2004 and 2017",
+      "box_2d": [
+        521,
+        106,
+        804,
+        797
+      ],
+      "page_image": "data/advanced/pages/p060.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p061-V00",
+    "text": "[Table 12: Table 12: Benchmarking of Higher Education Public Funding and Reliance on Household Contribution] (page 61, table)\n| Tuition fees as share of unit cost in public institutions (%) | Higher Education Public Funding as a Share of GDP (%): <0.5 | Higher Education Public Funding as a Share of GDP (%): 0.5–1 | Higher Education Public Funding as a Share of GDP (%): >1 |\n| :--- | :--- | :--- | :--- |\n| >40 | Vietnam<br>Mongolia | Chile | United Kingdom, United States, Australia |\n| 20–40 | | Korea Rep., Thailand, Indonesia, China | Malaysia |\n| <20 | Peru | Argentina, Brazil, Colombia, Mexico | Finland, France |\n\nSource: Authors’ elaboration using data from UIS and other reports.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 61,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 12",
+      "title": "Table 12: Benchmarking of Higher Education Public Funding and Reliance on Household Contribution",
+      "box_2d": [
+        106,
+        115,
+        350,
+        893
+      ],
+      "page_image": "data/advanced/pages/p061.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p062-V00",
+    "text": "[Table 13: Table 13: Disconnect between R&D Funding and R&D Human Resource] (page 62, table)\n**R&D Financing (VND, billions)**\n\n| Sector/Sources | Total | State | Non-State | State Allocation Share (%) | State Dependency share (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| S&T organizations | 4,763 | 3,537 | 1,226 | 58 | 74 |\n| Universities | 1,063 | 805 | 258 | 13 | 76 |\n| S&T agencies and admin units | 904 | 787 | 117 | 13 | 87 |\n| Businesses | 11,766 | 980 | 10,786 | 16 | 8 |\n| Total | 18,496 | 6109 | 12,387 | 100 | 33 |\n\n**Human Resources (number)**\n\n| Sector/Type of HR | Total | Researchers | PhD and Master's | PhD and MA Allocation Share (%) | PhD and MA Share in Research (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| S&T organizations | 38,628 | 29,786 | 13,186 | 20 | 44 |\n| Universities | 77,841 | 65,628 | 45,546 | 70 | 69 |\n| S&T agencies and admin units | 25,164 | 16,169 | 5,336 | 8 | 33 |\n| Businesses | 26,113 | 19,462 | 1,436 | 2 | 7 |\n| Total | 167,746 | 131,045 | 65,504 | 100 | 50 |\n\nSource: Vietnam S&T Report 2016.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 62,
+    "metadata": {
+      "section": "diagnosis",
+      "kind": "table",
+      "label": "Table 13",
+      "title": "Table 13: Disconnect between R&D Funding and R&D Human Resource",
+      "box_2d": [
+        448,
+        105,
+        873,
+        885
+      ],
+      "page_image": "data/advanced/pages/p062.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p067-V00",
+    "text": "[Figure 13: Distribution of the Vietnam Labor Force by Level of Education (projected until 2050)] (page 67, chart)\nChart type: line chart\nX-axis: Year (2010 to 2050 in 5-year intervals)\nY-axis: Percentage (0% to 60%)\nLegend: primary (grey line), secondary (orange line), tertiary (yellow line)\n\nData points:\n- primary / 2010: ≈ 36%\n- primary / 2015: ≈ 34%\n- primary / 2020: ≈ 32%\n- primary / 2025: ≈ 30%\n- primary / 2030: ≈ 28%\n- primary / 2035: ≈ 27%\n- primary / 2040: ≈ 26%\n- primary / 2045: ≈ 25%\n- primary / 2050: ≈ 24%\n- secondary / 2010: ≈ 53%\n- secondary / 2015: ≈ 52%\n- secondary / 2020: ≈ 53%\n- secondary / 2025: ≈ 53.5%\n- secondary / 2030: ≈ 54%\n- secondary / 2035: ≈ 54.5%\n- secondary / 2040: ≈ 55%\n- secondary / 2045: ≈ 55.5%\n- secondary / 2050: ≈ 56%\n- tertiary / 2010: ≈ 8%\n- tertiary / 2015: ≈ 11%\n- tertiary / 2020: ≈ 12%\n- tertiary / 2025: ≈ 12.5%\n- tertiary / 2030: ≈ 13%\n- tertiary / 2035: ≈ 13.5%\n- tertiary / 2040: ≈ 14%\n- tertiary / 2045: ≈ 14.5%\n- tertiary / 2050: ≈ 15%\n\nSource: World Bank (2018b). Vietnam Future Jobs Report (2018).\n\nKey comparisons:\n- Secondary education represents the largest share of the labor force throughout the entire projection period, consistently exceeding 50%.\n- Primary education steadily declines from approximately 36% in 2010 to 24% by 2050.\n- Tertiary education remains the smallest component across all years, increasing only marginally from around 8% in 2010 to about 15% in 2050.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 67,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "chart",
+      "label": "Figure 13",
+      "title": "Distribution of the Vietnam Labor Force by Level of Education (projected until 2050)",
+      "box_2d": [
+        356,
+        114,
+        636,
+        874
+      ],
+      "page_image": "data/advanced/pages/p067.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p068-V00",
+    "text": "[Table 14: Table 14: Simulation on Additional Students by 2030 by Type of TEIs] (page 68, table)\n| | Total Enrolment in 2030 | ‘New Students’ in 2030 | Share of ‘New’ Students (%) | Share of Total Students, 2017 (%) | Share of Students, 2030 (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Public universities | 1,541,398 | 77,398 | 6 | 64 | 43 |\n| Private universities | 537,697 | 331,697 | 25 | 9 | 15 |\n| Public colleges (VET and professional) | 896,162 | 436,162 | 33 | 20 | 25 |\n| Private colleges | 250,925 | 135,925 | 10 | 5 | 7 |\n| Alternate mode (open university, remote learning such as MOOCs, etc.) | 358,465 | 332,465 | 25 | 1 | 10 |\n| All | 3,584,647 | 1,313,647 | 100 | 100 | 100 |\n\nSource: Authors’ estimates using administrative data from 2017 and assumptions on GER of 45 percent by 2030 and change in shares of enrolments by 2030.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 68,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 14",
+      "title": "Table 14: Simulation on Additional Students by 2030 by Type of TEIs",
+      "box_2d": [
+        213,
+        107,
+        467,
+        885
+      ],
+      "page_image": "data/advanced/pages/p068.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p074-V00",
+    "text": "[Table 15: Table 15: Employment Status of Academics] (page 74, table)\n| Type of Employment | Advantages | Drawbacks |\n| --- | --- | --- |\n| Civil servants | Guaranteed employment | No performance incentive |\n| Special category of public employees | Better remuneration | No performance incentive |\n| Employees of the university | University can offer better remuneration and performance incentives | — |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 74,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 15",
+      "title": "Table 15: Employment Status of Academics",
+      "box_2d": [
+        727,
+        104,
+        887,
+        883
+      ],
+      "page_image": "data/advanced/pages/p074.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p075-V00",
+    "text": "[Table 16: Table 16: Types of Contracts for Permanent Academic Staff] (page 75, table)\n| Type of Contract | Advantages | Drawbacks | Examples |\n| --- | --- | --- | --- |\n| Open-ended/ automatically renewable term contracts | Peace of mind and lack of pressure | No performance incentive | Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia |\n| Tenure | University keeps only senior academics with proven track record | University loses a certain percentage of recruited academics | North America, East Asia, and a few European countries |\n| Fixed term | Keeps academics on their toes (innovative mindset and behaviors) | Uncertainty about long-term employment prospects | Olin College of Engineering (United States) |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 75,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 16",
+      "title": "Table 16: Types of Contracts for Permanent Academic Staff",
+      "box_2d": [
+        176,
+        115,
+        444,
+        895
+      ],
+      "page_image": "data/advanced/pages/p075.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p079-V00",
+    "text": "[Table 17: Allocation of Research Funding in Vietnam] (page 79, table)\n| Research Funding Modality | Availability in Vietnam | Comments |\n| --- | --- | --- |\n| Combined core funding for teaching and research | No | No objective and transparent criteria |\n| Performance-based grants to top researchers | No | Not available |\n| Competitive research grants | Yes/partially | Significant room for improvement, to link grants to results and policy objectives |\n| Centers of excellence/chairs of excellence | Partially | Not available |\n| Demand-side funding | No | No dedicated funding for PhD students |\n| Excellence initiative | No | Not available |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 79,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 17",
+      "title": "Allocation of Research Funding in Vietnam",
+      "box_2d": [
+        470,
+        114,
+        748,
+        893
+      ],
+      "page_image": "data/advanced/pages/p079.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p080-V00",
+    "text": "[Figure 14: Instruments for Building Firms’ Technology Capabilities] (page 80, diagram)\nA conceptual framework diagram divided into two halves by a vertical dashed line and two levels by a horizontal dashed line:\n\n**Top Categories (orange ovals):**\n- Left: \"Buiding absorptive capacity\"\n- Right: \"Supporting tech generation, commercialization and transfer\"\n\n**Technology Stages (grey ovals, below top categories):**\n- Left: \"Technology adotion\"\n- Center: \"Technology transfer\" (straddling the vertical dashed line)\n- Right: \"Technology generation\"\n\n**Key Actors (grey rectangles along the horizontal dashed line):**\n- Left: \"Firms\"\n- Right: \"Universities / Research institutions\"\n\n**Instruments / Policy Interventions (orange rounded rectangles):**\n- Row 1:\n  - \"Business advisory services\" (arrows pointing to Technology adotion)\n  - \"Technology extension\" (arrows pointing to Technology adotion and Technology transfer)\n  - \"Technology/ R&D centers\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Science/ Technology parks\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Technology Transfer Offices\" (arrows pointing to Technology generation and Technology transfer)\n- Row 2:\n  - \"Grants for (process) innovation\" (left)\n  - \"Loans for innovation (equipment)\" (left-center)\n  - \"Open innovation\" (center-right, across from vertical dashed line)\n\nSource: World Bank (2019). A Practitioner’s Guide to Innovation Policy.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 80,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "diagram",
+      "label": "Figure 14",
+      "title": "Instruments for Building Firms’ Technology Capabilities",
+      "box_2d": [
+        174,
+        106,
+        557,
+        842
+      ],
+      "page_image": "data/advanced/pages/p080.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p084-V00",
+    "text": "[Table 18: Table 18: Examples of Comprehensive HEMIS] (page 84, table)\n| Country/Region | Name of Organization | Website Address |\n|---|---|---|\n| Australia | Australian Universities | https://www.australianuniversities.com.au/ |\n| China | Ministry of Education | http://en.cqvip.com/ceis.html |\n| Malaysia | Ministry of Education | https://www.moe.gov.my/index.php/en/korporat/jabatan-dan-bahagian/unit-pengurusan-kpi |\n| Philippines | Higher Education Commission | https://ched.gov.ph/higher-education-institutions-data/ |\n| Singapore | Ministry of Education | https://www.moe.gov.sg/about/org-structure/research-and-management-information |\n| Korea, Rep. | Ministry of Education | http://heik.academyinfo.go.kr/ |",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 84,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 18",
+      "title": "Table 18: Examples of Comprehensive HEMIS",
+      "box_2d": [
+        378,
+        107,
+        617,
+        883
+      ],
+      "page_image": "data/advanced/pages/p084.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p088-V00",
+    "text": "[Table 19: Table 19: Principal Instruments of Accountability] (page 88, table)\n| Dimensions/Instruments | Academic Integrity | Fiscal Integrity | Effective Use of Resources | Quality and Relevance | Innovation | Equity |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| **University-based instruments** | | | | | | |\n| Strategic plan | | | | X | X | X |\n| KPIs/scorecards | | | X | X | X | X |\n| Budget | | | X | | | |\n| Financial audit | | X | X | | | |\n| Student satisfaction surveys | X | | | X | X | |\n| Graduate employment surveys | | | | X | | |\n| Employers and alumni surveys | | | | X | X | |\n| Assessment of learning outcomes/added value | | | X | X | | |\n| Annual report (to Parliament and public) | | | X | X | X | X |\n| **Government-level instruments** | | | | | | |\n| Licensing | | | | X | X | |\n| Accreditation/ academic audit/evaluation | X | | X | X | X | |\n| Funding formula | | | X | X | X | X |\n| Performance contracts | | | X | X | X | X |\n| Scholarships/student loans/ vouchers | | | X | X | | X |\n| Student engagement surveys | | | | X | X | X |\n| Labor market observatory | | | | X | | |\n| Assessment of learning outcomes | | | X | X | | |\n| Rankings/benchmarking | | | X | X | | |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 88,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 19",
+      "title": "Table 19: Principal Instruments of Accountability",
+      "box_2d": [
+        193,
+        106,
+        863,
+        885
+      ],
+      "page_image": "data/advanced/pages/p088.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p090-V00",
+    "text": "[Table 20: Table 20: Sustainability and Equity Impact of Various Cost-sharing Schemes] (page 90, table)\n| Cost-sharing Modality | Financial Sustainability | Equity Impact |\n| --- | --- | --- |\n| Free higher education for all | Very costly | Richer students more likely to benefit |\n| Universal fees | Less demanding on fiscal resources | Equitable if financial aid is available |\n| Fees only for parallel students | Less demanding on fiscal resources | Richer students more likely to benefit |\n| TFT | Costly | Potentially most equitable |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 90,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 20",
+      "title": "Table 20: Sustainability and Equity Impact of Various Cost-sharing Schemes",
+      "box_2d": [
+        581,
+        107,
+        756,
+        884
+      ],
+      "page_image": "data/advanced/pages/p090.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p092-V00",
+    "text": "[Table 21: Table 21: PPPs in Higher Education] (page 92, table)\n| Phase in Life of University | Type of Partnership | Country Examples |\n| --- | --- | --- |\n| Creation of new university | Public investment/private operation | Bangladesh, Malaysia, Morocco, Nigeria |\n| Creation of new university | Private investment/public operation | China |\n| Creation of new university | Split investment/public operation | Zambia |\n| Development of existing public university | Private investment/public operation | United States |\n| Development of existing public university | Private investment/private operation | France, United States |\n| Regular operation of existing university | Shared facilities and services | Colombia |\n| Regular operation of existing university | Private operation/public supervision | Bangladesh, India, Nepal, Sri Lanka |\n\nSource: Elaborated by the authors.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 92,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 21",
+      "title": "Table 21: PPPs in Higher Education",
+      "box_2d": [
+        105,
+        106,
+        356,
+        886
+      ],
+      "page_image": "data/advanced/pages/p092.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  },
+  {
+    "id": "he2020-p094-V00",
+    "text": "[Table 22: Alignment of the Vietnamese Funding Framework with International Good Practices] (page 94, table)\n| Guiding Principles | Vietnam’s Funding Model | Comments |\n| :--- | :---: | :--- |\n| Alignment with national priorities | + | Weak relationship |\n| Performance orientation | + | No performance criteria considered |\n| Equity considerations | ++ | Availability of loans through VSPB |\n| Multiplicity of instruments | + | Only direct budgetary contribution |\n| Objectivity and transparency | + | Limited |\n| Stability over time | + | No guarantee of stability and no multiannual budget |\n| Block grant allocation | +++ | Not based on sound formula but on historical norms |\n| Institutional autonomy and accountability | ++ | Insufficient |\n\nSource: Elaborated by authors.\nNote: ‘+’ represents weak alignment, ‘++’ means average/reasonable alignment, and ‘+++’ is for full alignment.",
+    "source_id": "he2020",
+    "source": "data/he2020.pdf",
+    "page": 94,
+    "metadata": {
+      "section": "policy_options",
+      "kind": "table",
+      "label": "Table 22",
+      "title": "Alignment of the Vietnamese Funding Framework with International Good Practices",
+      "box_2d": [
+        357,
+        104,
+        694,
+        888
+      ],
+      "page_image": "data/advanced/pages/p094.png",
+      "extractor": "gemini-3.8-flash",
+      "day6_strategy": "V"
+    }
+  }
+]

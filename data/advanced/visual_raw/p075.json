@@ -1,0 +1,22 @@
+{
+  "page": 75,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 16",
+      "title": "Table 16: Types of Contracts for Permanent Academic Staff",
+      "content": "| Type of Contract | Advantages | Drawbacks | Examples |\n| --- | --- | --- | --- |\n| Open-ended/ automatically renewable term contracts | Peace of mind and lack of pressure | No performance incentive | Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia |\n| Tenure | University keeps only senior academics with proven track record | University loses a certain percentage of recruited academics | North America, East Asia, and a few European countries |\n| Fixed term | Keeps academics on their toes (innovative mindset and behaviors) | Uncertainty about long-term employment prospects | Olin College of Engineering (United States) |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        176,
+        115,
+        444,
+        895
+      ]
+    }
+  ],
+  "seconds": 10.0,
+  "attempts": 1,
+  "tokens_in": 2242,
+  "tokens_out": 226
+}

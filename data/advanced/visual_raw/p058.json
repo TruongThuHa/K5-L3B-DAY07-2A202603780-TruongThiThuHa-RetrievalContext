@@ -1,0 +1,22 @@
+{
+  "page": 58,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 9",
+      "title": "Table 9: Spending on Tertiary and Higher Education as % of GDP",
+      "content": "| Indicator | 2004 | 2011 | 2015 |\n|---|---|---|---|\n| % TGEd/GDP | 4.90 | 4.95 | 5.48 |\n| % TGEd/TGE | 17.10 | 17.46 | 18.14 |\n| **Tertiary** | | | |\n| % Tertiary/GDP | 0.45 | 0.34 | 0.33 |\n| % Tertiary/TGE | 1.57 | 1.21 | 1.10 |\n| % Tertiary/TGEd | 9.18 | 6.91 | 6.07 |\n| **Higher education** | | | |\n| % HE/GDP | 0.33 | 0.24 | 0.24 |\n| % HE/TGE | 1.16 | 0.83 | 0.80 |\n| % HE/TGEd | 6.80 | 4.76 | 4.41 |\n\nSource: Authors’ estimates using MOF data for 2011 and 2015 and Education and Skills for Growth (2008) for 2004.\nNote: HE = Higher education expenditure; GDP = Gross Domestic Product; TGE = Total government expenditure; TGEd = Total government expenditure on education.",
+      "box_2d": [
+        440,
+        105,
+        781,
+        882
+      ]
+    }
+  ],
+  "seconds": 9.1,
+  "attempts": 1,
+  "tokens_in": 2245,
+  "tokens_out": 415
+}

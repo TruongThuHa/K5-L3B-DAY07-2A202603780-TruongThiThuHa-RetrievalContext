@@ -1,0 +1,22 @@
+{
+  "page": 59,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 10",
+      "title": "Table 10: Tertiary Education Financing, circa 2015",
+      "content": "| Country | % TE/GDP | % TE/TGEd | Per Student TE Spending (US$) | TE Spending Per Student as % of GDP Per Capita |\n| :--- | :---: | :---: | :---: | :---: |\n| Vietnam | 0.33 | 6.07 | 316 | 15.16 |\n| Australia | 1.54 | 28.86 | 12,182 | 21.54 |\n| Finland | 1.89 | 26.7 | 14,658 | 34.55 |\n| France | 1.25 | 22.79 | 12,070 | 32.97 |\n| Germany | 1.25 | 25.95 | 14,056 | 34.01 |\n| Indonesia | 0.57 | 15.8 | 682 | 19.54 |\n| Japan | 0.65 | 18.84 | 7,390 | n.a. |\n| Malaysia | 1.13 | 23.39 | 2,505 | 26.35 |\n| Netherlands | 1.63 | 30.13 | 14,927 | 33.36 |\n| Poland | 1.22 | 25.28 | 3,533 | 28.11 |\n| Singapore | 1.00 | 35.28 | 11,639 | 21.27 |\n| Switzerland | 1.34 | 26.26 | 30,928 | 37.71 |\n| Thailand | 0.64 | 15.55 | 1,121 | 18.17 |\n| United Kingdom | 1.29 | 22.82 | 16,603 | 35.49 |\n\nSource: UIS; Vietnam values were estimated using MOF and MOET data.\nNote: TE = Tertiary education expenditure; TGEd = Total government expenditure on education.",
+      "box_2d": [
+        502,
+        115,
+        900,
+        893
+      ]
+    }
+  ],
+  "seconds": 11.6,
+  "attempts": 1,
+  "tokens_in": 2391,
+  "tokens_out": 622
+}

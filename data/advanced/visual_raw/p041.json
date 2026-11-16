@@ -1,0 +1,22 @@
+{
+  "page": 41,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 7",
+      "title": "Figure 7: Decomposition of Access Gaps in Tertiary Education, 2018",
+      "content": "Chart type: stacked bar chart\nY-axis: access rate gap (values from 0 to 70 with intervals of 10)\nX-axis: comparison groups (Q5-Q1, Q5-Q2, Q5-Q3, Q5-Q4, Female - Male, Parents HS nonHS, Urban - Rural, Kinh - nonKinh)\nLegend: high school completion rates (light orange), tertiary entry rates (dark orange)\nData points (estimated from gridlines):\n- Q5-Q1 / high school completion rates: ≈ 27\n- Q5-Q1 / tertiary entry rates: ≈ 40 (Total: ≈ 67)\n- Q5-Q2 / high school completion rates: ≈ 23\n- Q5-Q2 / tertiary entry rates: ≈ 30 (Total: ≈ 53)\n- Q5-Q3 / high school completion rates: ≈ 18\n- Q5-Q3 / tertiary entry rates: ≈ 23 (Total: ≈ 41)\n- Q5-Q4 / high school completion rates: ≈ 9\n- Q5-Q4 / tertiary entry rates: ≈ 17 (Total: ≈ 26)\n- Female - Male / high school completion rates: ≈ 9\n- Female - Male / tertiary entry rates: ≈ 4 (Total: ≈ 13)\n- Parents HS nonHS / high school completion rates: ≈ 19\n- Parents HS nonHS / tertiary entry rates: ≈ 19 (Total: ≈ 38)\n- Urban - Rural / high school completion rates: ≈ 14\n- Urban - Rural / tertiary entry rates: ≈ 13 (Total: ≈ 27)\n- Kinh - nonKinh / high school completion rates: ≈ 21\n- Kinh - nonKinh / tertiary entry rates: ≈ 13 (Total: ≈ 34)\n\nFactual comparisons:\n- The largest overall access gap is between the richest and poorest income quintiles (Q5-Q1) at approximately 67 points, while the smallest gap is between Female and Male at approximately 13 points.\n- For Q5-Q1 through Q5-Q4, tertiary entry rates account for a larger share of the total access gap than high school completion rates.\n- For Parents HS nonHS and Urban - Rural, the gap is split roughly equally between high school completion rates and tertiary entry rates.\n\nSource: Authors’ estimates using VHLSS 2018. Note: Each bar represents the access rate gap between two groups (first bar shows Q5 richest quintile minus Q1 poorest quintile) where blue portion shows the gap due to high school completion rates and orange shows the gap due to tertiary education admission (entry) rates.",
+      "box_2d": [
+        213,
+        114,
+        489,
+        894
+      ]
+    }
+  ],
+  "seconds": 11.2,
+  "attempts": 1,
+  "tokens_in": 2101,
+  "tokens_out": 706
+}

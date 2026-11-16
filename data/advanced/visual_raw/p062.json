@@ -1,0 +1,22 @@
+{
+  "page": 62,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 13",
+      "title": "Table 13: Disconnect between R&D Funding and R&D Human Resource",
+      "content": "**R&D Financing (VND, billions)**\n\n| Sector/Sources | Total | State | Non-State | State Allocation Share (%) | State Dependency share (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| S&T organizations | 4,763 | 3,537 | 1,226 | 58 | 74 |\n| Universities | 1,063 | 805 | 258 | 13 | 76 |\n| S&T agencies and admin units | 904 | 787 | 117 | 13 | 87 |\n| Businesses | 11,766 | 980 | 10,786 | 16 | 8 |\n| Total | 18,496 | 6109 | 12,387 | 100 | 33 |\n\n**Human Resources (number)**\n\n| Sector/Type of HR | Total | Researchers | PhD and Master's | PhD and MA Allocation Share (%) | PhD and MA Share in Research (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| S&T organizations | 38,628 | 29,786 | 13,186 | 20 | 44 |\n| Universities | 77,841 | 65,628 | 45,546 | 70 | 69 |\n| S&T agencies and admin units | 25,164 | 16,169 | 5,336 | 8 | 33 |\n| Businesses | 26,113 | 19,462 | 1,436 | 2 | 7 |\n| Total | 167,746 | 131,045 | 65,504 | 100 | 50 |\n\nSource: Vietnam S&T Report 2016.",
+      "box_2d": [
+        448,
+        105,
+        873,
+        885
+      ]
+    }
+  ],
+  "seconds": 13.8,
+  "attempts": 1,
+  "tokens_in": 2258,
+  "tokens_out": 595
+}

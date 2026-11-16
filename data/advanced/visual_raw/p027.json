@@ -1,0 +1,22 @@
+{
+  "page": 27,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table ES.2",
+      "title": "Table ES.2: Vietnam Tertiary Education - Costs and Benefits of Policy Options",
+      "content": "| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| :--- | :---: | :---: | :---: | :---: |\n| **A. Improved Access and Equity** | | | | |\n| **Improved Access** | | | | |\n| 1. Develop and approve a tertiary education expansion strategy and implementation plan to meet the quantitative enrolment targets through a well-coordinated and well-articulated differentiated/diverse system. | ++ | + | - | ++ |\n| 2. Remove legal/administrative hurdles to the expansion of private sector providers (including offering subsidized resources, subsidized student loans, to accredited private institutions, and so on). | + | - | - | ++ |\n| 3. Develop a TVET access and quality enhancement strategy and implementation plan, aligned with the overall tertiary education goals on expansion and quality/relevance. | ++ | + | + | + |\n| 4. Create enabling legal conditions to foster alternative modalities, that is, recognition and quality assurance framework for e-learning degrees/courses, and charters of open universities. | ++ | + | - | + |\n| 5. Improve pathways across HEIs and TVET colleges through strengthened coordination between MOET and MOLISA, through operationalization of the VQF and in partnership with industry. | +++ | - | ++ | ++ |\n| 6. Update policies to make upper secondary education compulsory (both general and vocational tracks) and ensure smooth transition between upper secondary general school and upper secondary vocational school. | + | - | - | ++ |\n| 7. Design and implement an investment program to improve equitable access to and quality of upper secondary education. | ++ | + | - | ++ |\n| 8. Develop and operationalize a coordinated e-learning platform with resources shared among universities and offering high-quality educational content to a wider audience. | ++ | + | - | ++ |\n| **Increased Equity** | | | | |\n| 9. Develop a strategic plan with quantitative targets to improve equitable access to tertiary education for disadvantaged students (economically disadvantaged/ethnic minority/disabled students) with an adequately financed implementation plan and M&E. | ++ | - | + | ++ |\n| 10. Design and implement a comprehensive support system for disadvantaged students at both the tertiary and upper secondary levels through well-targeted financial aid schemes (scholarships, student aid, and loans) and non-financial initiatives (outreach and information campaigns, counseling services). | + | + | - | ++ |\n| **B. Improved Quality and Relevance** | | | | |\n| 11. Update policies to enhance program quality assurance to include, among others, student/teacher ratio, qualifications of faculty including PhD degree and English language, curriculum with minimum industry placement, and labor market outcomes. | ++ | + | - | + |\n| 12. Design and implement a centrally coordinated investment program for internationalization to increase international accreditation of training programs, joint programs, and students/faculty exchange programs with international universities. | ++ | ++ | - | ++ |",
+      "box_2d": [
+        106,
+        115,
+        930,
+        895
+      ]
+    }
+  ],
+  "seconds": 12.0,
+  "attempts": 1,
+  "tokens_in": 2168,
+  "tokens_out": 739
+}

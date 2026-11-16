@@ -1,0 +1,24 @@
+{
+  "document": "he2020.pdf (World Bank 2020, 102 trang PDF)",
+  "content_pages_indexed": 82,
+  "pages_sent_to_vision": 82,
+  "pages_with_visual_elements": 41,
+  "visual_chunks": 45,
+  "by_kind": {
+    "chart": 14,
+    "table": 28,
+    "diagram": 3
+  },
+  "text_chunks": 416,
+  "total_chunks": 461,
+  "rows_in_db_strategy_V": 45,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "dimensions": 384,
+  "embed_and_store_seconds": 5.8,
+  "vision_model": [
+    "gemini-3.8-flash"
+  ],
+  "vision_tokens_in": 182802,
+  "vision_tokens_out": 24700,
+  "vision_seconds_total": 758.7
+}

@@ -1,0 +1,22 @@
+{
+  "page": 68,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 14",
+      "title": "Table 14: Simulation on Additional Students by 2030 by Type of TEIs",
+      "content": "| | Total Enrolment in 2030 | ‘New Students’ in 2030 | Share of ‘New’ Students (%) | Share of Total Students, 2017 (%) | Share of Students, 2030 (%) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Public universities | 1,541,398 | 77,398 | 6 | 64 | 43 |\n| Private universities | 537,697 | 331,697 | 25 | 9 | 15 |\n| Public colleges (VET and professional) | 896,162 | 436,162 | 33 | 20 | 25 |\n| Private colleges | 250,925 | 135,925 | 10 | 5 | 7 |\n| Alternate mode (open university, remote learning such as MOOCs, etc.) | 358,465 | 332,465 | 25 | 1 | 10 |\n| All | 3,584,647 | 1,313,647 | 100 | 100 | 100 |\n\nSource: Authors’ estimates using administrative data from 2017 and assumptions on GER of 45 percent by 2030 and change in shares of enrolments by 2030.",
+      "box_2d": [
+        213,
+        107,
+        467,
+        885
+      ]
+    }
+  ],
+  "seconds": 10.8,
+  "attempts": 1,
+  "tokens_in": 2410,
+  "tokens_out": 451
+}

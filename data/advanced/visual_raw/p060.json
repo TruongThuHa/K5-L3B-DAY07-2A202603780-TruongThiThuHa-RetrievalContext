@@ -1,0 +1,34 @@
+{
+  "page": 60,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 11",
+      "title": "Table 11: Evolution of Annual Household Contribution to Higher Education (2004–2016)",
+      "content": "| Costs | 2004 | 2010 | 2016 | 2018 |\n| :--- | :---: | :---: | :---: | :---: |\n| Tuition cost, US$ | 105 | 251 | 473 | 574 |\n| Total cost, US$ | 217 | 470 | 844 | 1,242 |\n| Tuition as % of total cost | 48 | 53 | 56 | 46 |\n| Total cost as % of per capita expenditure | 34 | 27 | 43 | 54 |\n| Total cost as % of total education expenditure | 62 | 66 | 77 | 88 |\n| Total cost as % of household expenditure | 9 | 8 | 12 | 13 |\n\nSource: Authors’ estimates using VHLSS 2004, 2010, 2016 and 2018.",
+      "box_2d": [
+        105,
+        105,
+        308,
+        882
+      ]
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 12",
+      "title": "Figure 12: Evolution of Sources of Revenue of Public Universities, 2004 and 2017",
+      "content": "Chart type: Clustered column chart\nx-axis: Revenue sources (State Subsidy, Tuition, RDI, services, others etc.)\ny-axis: Percentage of total revenue (%), range 0 to 80\nLegend: 2004 (grey), 2017 (orange)\n\nData points:\n- State Subsidy / 2004: 68\n- State Subsidy / 2017: 22\n- Tuition / 2004: 26\n- Tuition / 2017: 55\n- RDI, services, others etc. / 2004: 6\n- RDI, services, others etc. / 2017: 23\n\nComparisons:\n- In 2004, State Subsidy was the largest revenue source at 68%, but it fell steeply to 22% in 2017.\n- Tuition more than doubled from 26% in 2004 to become the dominant source at 55% in 2017.\n- Other sources (RDI, services, others etc.) increased almost fourfold from 6% in 2004 to 23% in 2017.\n\nSource: Authors’ calculations using MOET University Surveys (2004 and 2017).",
+      "box_2d": [
+        521,
+        106,
+        804,
+        797
+      ]
+    }
+  ],
+  "seconds": 11.9,
+  "attempts": 1,
+  "tokens_in": 2128,
+  "tokens_out": 753
+}

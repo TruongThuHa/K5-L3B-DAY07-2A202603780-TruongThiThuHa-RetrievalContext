@@ -1,0 +1,22 @@
+{
+  "page": 43,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 3",
+      "title": "Global University Rankings for Vietnam and Comparators",
+      "box_2d": [
+        448,
+        114,
+        924,
+        895
+      ],
+      "content": "| | No. of Universities in Top 1,000 Webometrics | No. of Universities in the Top 1,000 QS | No. of Universities in the Top 1,000 THE |\n|---|---|---|---|\n| Denmark | 6 | 5 | 7 |\n| Finland | 10 | 10 | 8 |\n| France | 40 | 35 | 32 |\n| Germany | 60 | 45 | 47 |\n| Netherlands | 13 | 13 | 13 |\n| Poland | 11 | 14 | 5 |\n| Switzerland | 11 | 9 | 10 |\n| United Kingdom | 80 | 76 | 92 |\n| Australia | 34 | 37 | 35 |\n| China | 105 | 40 | 63 |\n| Indonesia | 2 | 9 | 3 |\n| Japan | 26 | 44 | 51 |\n| Korea, Rep. | 21 | 30 | 24 |\n| Malaysia | 5 | 13 | 9 |\n| Philippines | 0 | 4 | 2 |\n| Singapore | 3 | 3 | 2 |\n| Thailand | 6 | 8 | 5 |\n| Vietnam | 0 | 2 | 1 |\n\nSource: https://www.timeshighereducation.com/world-university-rankings; https://www.topuniversities.com/university-rankings; https://webometrics.info/en\nNote: THE = Times Higher Education."
+    }
+  ],
+  "seconds": 23.5,
+  "attempts": 2,
+  "tokens_in": 2336,
+  "tokens_out": 456
+}

@@ -1,0 +1,22 @@
+{
+  "page": 79,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 17",
+      "title": "Allocation of Research Funding in Vietnam",
+      "content": "| Research Funding Modality | Availability in Vietnam | Comments |\n| --- | --- | --- |\n| Combined core funding for teaching and research | No | No objective and transparent criteria |\n| Performance-based grants to top researchers | No | Not available |\n| Competitive research grants | Yes/partially | Significant room for improvement, to link grants to results and policy objectives |\n| Centers of excellence/chairs of excellence | Partially | Not available |\n| Demand-side funding | No | No dedicated funding for PhD students |\n| Excellence initiative | No | Not available |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        470,
+        114,
+        748,
+        893
+      ]
+    }
+  ],
+  "seconds": 8.9,
+  "attempts": 1,
+  "tokens_in": 2137,
+  "tokens_out": 218
+}

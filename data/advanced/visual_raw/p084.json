@@ -1,0 +1,22 @@
+{
+  "page": 84,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 18",
+      "title": "Table 18: Examples of Comprehensive HEMIS",
+      "content": "| Country/Region | Name of Organization | Website Address |\n|---|---|---|\n| Australia | Australian Universities | https://www.australianuniversities.com.au/ |\n| China | Ministry of Education | http://en.cqvip.com/ceis.html |\n| Malaysia | Ministry of Education | https://www.moe.gov.my/index.php/en/korporat/jabatan-dan-bahagian/unit-pengurusan-kpi |\n| Philippines | Higher Education Commission | https://ched.gov.ph/higher-education-institutions-data/ |\n| Singapore | Ministry of Education | https://www.moe.gov.sg/about/org-structure/research-and-management-information |\n| Korea, Rep. | Ministry of Education | http://heik.academyinfo.go.kr/ |",
+      "box_2d": [
+        378,
+        107,
+        617,
+        883
+      ]
+    }
+  ],
+  "seconds": 6.0,
+  "attempts": 1,
+  "tokens_in": 2152,
+  "tokens_out": 271
+}

@@ -1,0 +1,22 @@
+{
+  "page": 14,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure ES.1",
+      "title": "Basic Education Output versus Higher Education Output for Selected Countries",
+      "box_2d": [
+        211,
+        104,
+        460,
+        884
+      ],
+      "content": "Chart type: Scatter plot with trend line\nX-axis title: Learning-Adjusted Schooling Years (years, scale 8 to 13)\nY-axis title: Gross Graduattion Ratio at Higher Education, % (%, scale 0 to 70)\nLegend: None (individual points labeled by country/economy)\n\nData points:\n- IDN: (Learning-Adjusted Schooling Years ≈ 8.0, Gross Graduation Ratio ≈ 21%)\n- PHIL: (Learning-Adjusted Schooling Years ≈ 8.4, Gross Graduation Ratio ≈ 28%)\n- THAI: (Learning-Adjusted Schooling Years ≈ 8.7, Gross Graduation Ratio ≈ 25%)\n- MEX: (Learning-Adjusted Schooling Years ≈ 8.9, Gross Graduation Ratio ≈ 31%)\n- MAL: (Learning-Adjusted Schooling Years ≈ 9.4, Gross Graduation Ratio ≈ 31%)\n- CHINA: (Learning-Adjusted Schooling Years ≈ 9.8, Gross Graduation Ratio ≈ 34%)\n- VNM: (Learning-Adjusted Schooling Years ≈ 10.4, Gross Graduation Ratio ≈ 19%)\n- SPAIN: (Learning-Adjusted Schooling Years ≈ 11.2, Gross Graduation Ratio ≈ 44%)\n- US: (Learning-Adjusted Schooling Years ≈ 11.4, Gross Graduation Ratio ≈ 54%)\n- POL: (Learning-Adjusted Schooling Years ≈ 11.6, Gross Graduation Ratio ≈ 54%)\n- FRAN: (Learning-Adjusted Schooling Years ≈ 11.7, Gross Graduation Ratio ≈ 46%)\n- UK: (Learning-Adjusted Schooling Years ≈ 11.8, Gross Graduation Ratio ≈ 54%)\n- NLD: (Learning-Adjusted Schooling Years ≈ 12.0, Gross Graduation Ratio ≈ 51%)\n- FIN: (Learning-Adjusted Schooling Years ≈ 12.4, Gross Graduation Ratio ≈ 58%)\n- KOR: (Learning-Adjusted Schooling Years ≈ 12.5, Gross Graduation Ratio ≈ 56%)\n- SGN: (Learning-Adjusted Schooling Years ≈ 13.0, Gross Graduation Ratio ≈ 58%)\n\nSource: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics.\n\nFactual comparisons:\n- Singapore (SGN) and Finland (FIN) achieve the highest Gross Graduation Ratios at higher education (≈58%), while Vietnam (VNM) has the lowest at ≈19%.\n- Singapore (SGN) achieves the highest Learning-Adjusted Schooling Years (≈13.0), whereas Indonesia (IDN) has the lowest (≈8.0).\n- Vietnam (VNM) is a noticeable outlier, showing relatively high basic education output (≈10.4 years) but falling substantially below the positive trendline with the lowest tertiary graduation ratio among all countries shown."
+    }
+  ],
+  "seconds": 15.7,
+  "attempts": 1,
+  "tokens_in": 2152,
+  "tokens_out": 782
+}

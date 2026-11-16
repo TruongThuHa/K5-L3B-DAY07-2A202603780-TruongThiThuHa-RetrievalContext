@@ -1,0 +1,34 @@
+{
+  "page": 40,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 6",
+      "title": "Figure 6: Gap in Tertiary Education Access Rate between Kinh/Hoa and Ethnic Minorities, 2006-2018",
+      "content": "Line chart\nX-axis: Years (2006, 2008, 2010, 2012, 2014, 2016, 2018)\nY-axis: Access rate (%)\nLegend: Kinh & Hoa (grey dashed line), Ethnic Minority (orange dashed line)\n\nData points:\n- 2006 / Kinh & Hoa: 18\n- 2006 / Ethnic Minority: 5\n- 2008 / Kinh & Hoa: 16\n- 2008 / Ethnic Minority: 4\n- 2010 / Kinh & Hoa: 29\n- 2010 / Ethnic Minority: 6\n- 2012 / Kinh & Hoa: 33\n- 2012 / Ethnic Minority: 9\n- 2014 / Kinh & Hoa: 37\n- 2014 / Ethnic Minority: 8\n- 2016 / Kinh & Hoa: 42\n- 2016 / Ethnic Minority: 12\n- 2018 / Kinh & Hoa: 45\n- 2018 / Ethnic Minority: 11\n\nFactual comparisons:\n- Kinh & Hoa access rate consistently remained substantially higher than Ethnic Minority access rate across all years.\n- Kinh & Hoa access rate increased from 18% in 2006 to a peak of 45% in 2018.\n- Ethnic Minority access rate ranged from a low of 4% in 2008 to a high of 12% in 2016.\n- The gap widened from 13 percentage points in 2006 to 34 percentage points in 2018.\n\nSource: Authors' calculation from VHLSS (2006-2018).",
+      "box_2d": [
+        178,
+        107,
+        412,
+        882
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table 2",
+      "title": "Table 2: Tertiary Education Access Rates by Socioeconomic Regions, 2018",
+      "content": "| Socioeconomic Region | Tertiary Education Access Rate (%) |\n| :--- | :--- |\n| 1. North midland and mountainous | 22 |\n| 2. Red river delta | 52 |\n| 3. Central coastal | 37 |\n| 4. Central highland | 35 |\n| 5. Southeast | 45 |\n| 6. Mekong river delta | 33 |\n\nSource: Authors' estimates from VHLSS 2018.",
+      "box_2d": [
+        433,
+        107,
+        631,
+        882
+      ]
+    }
+  ],
+  "seconds": 6.4,
+  "attempts": 1,
+  "tokens_in": 2255,
+  "tokens_out": 744
+}

@@ -1,0 +1,22 @@
+{
+  "page": 33,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 1",
+      "title": "Human Capital Index and Tertiary Education Outcomes",
+      "content": "Chart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics",
+      "box_2d": [
+        414,
+        114,
+        725,
+        896
+      ]
+    }
+  ],
+  "seconds": 15.9,
+  "attempts": 1,
+  "tokens_in": 2372,
+  "tokens_out": 888
+}

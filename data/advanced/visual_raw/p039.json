@@ -1,0 +1,34 @@
+{
+  "page": 39,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 4",
+      "title": "Tertiary Education Access Rates (%) by Expenditure Quintiles, 2006-2018",
+      "content": "Chart type: Line chart\nAxis titles: x-axis: Year (no label printed), y-axis: Access rate (%), unlabeled explicitly, scale 0 to 80\nLegend: Poorest Quintile, 2nd Poorest, Middle, 2nd Richest, Richest Quintile\n\nData points:\nPoorest Quintile:\n- 2006: ≈ 1%\n- 2010: ≈ 2%\n- 2014: ≈ 3%\n- 2018: ≈ 5%\n\n2nd Poorest:\n- 2006: ≈ 3%\n- 2010: ≈ 7%\n- 2014: ≈ 10%\n- 2018: ≈ 15%\n\nMiddle:\n- 2006: ≈ 8%\n- 2010: ≈ 18%\n- 2014: ≈ 26%\n- 2018: ≈ 31%\n\n2nd Richest:\n- 2006: ≈ 16%\n- 2010: ≈ 28%\n- 2014: ≈ 41%\n- 2018: ≈ 45%\n\nRichest Quintile:\n- 2006: ≈ 38%\n- 2010: ≈ 54%\n- 2014: ≈ 64%\n- 2018: ≈ 72%\n\nFactual comparisons:\n- The Richest Quintile consistently maintained the highest access rate across all years, rising from around 38% in 2006 to 72% in 2018.\n- The Poorest Quintile had the lowest access rate throughout the period, remaining below 5%.\n- The gap between the richest and poorest quintiles widened significantly from around 37 percentage points in 2006 to 67 percentage points in 2018.\n\nSource: Authors' estimates using VHLSS (2006-2018).",
+      "box_2d": [
+        528,
+        114,
+        800,
+        495
+      ]
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 5",
+      "title": "Tertiary Education Opportunities Shares (%) by Expenditure Quintiles, 2006–2018",
+      "content": "Chart type: 100% stacked area chart\nAxis titles: x-axis: Year (no label printed), y-axis: Share (%), unlabeled explicitly, scale 0 to 100\nLegend: Poorest Quintile, 2nd Poorest, Middle, 2nd Richest, Richest Quintile\n\nData points (estimated shares of total opportunities):\n2006:\n- Poorest Quintile: ≈ 2%\n- 2nd Poorest: ≈ 5%\n- Middle: ≈ 13%\n- 2nd Richest: ≈ 30%\n- Richest Quintile: ≈ 50%\n\n2010:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 16%\n- 2nd Richest: ≈ 28%\n- Richest Quintile: ≈ 49%\n\n2014:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 16%\n- 2nd Richest: ≈ 28%\n- Richest Quintile: ≈ 49%\n\n2018:\n- Poorest Quintile: ≈ 1.5%\n- 2nd Poorest: ≈ 5.5%\n- Middle: ≈ 17%\n- 2nd Richest: ≈ 27%\n- Richest Quintile: ≈ 49%\n\nFactual comparisons:\n- The top two expenditure quintiles accounted for the vast majority (nearly 80%) of tertiary education opportunities throughout 2006–2018.\n- The bottom two quintiles combined represented less than 10% of total tertiary education opportunities across the entire period.\n- The share held by the Richest Quintile remained dominant and stable at approximately 49–50%.\n\nSource: Authors' estimates using VHLSS (2006-2018).",
+      "box_2d": [
+        528,
+        509,
+        799,
+        890
+      ]
+    }
+  ],
+  "seconds": 19.7,
+  "attempts": 1,
+  "tokens_in": 2364,
+  "tokens_out": 1147
+}

@@ -1,0 +1,22 @@
+{
+  "page": 74,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 15",
+      "title": "Table 15: Employment Status of Academics",
+      "content": "| Type of Employment | Advantages | Drawbacks |\n| --- | --- | --- |\n| Civil servants | Guaranteed employment | No performance incentive |\n| Special category of public employees | Better remuneration | No performance incentive |\n| Employees of the university | University can offer better remuneration and performance incentives | — |\n\nSource: Elaborated by the authors.",
+      "box_2d": [
+        727,
+        104,
+        887,
+        883
+      ]
+    }
+  ],
+  "seconds": 6.3,
+  "attempts": 1,
+  "tokens_in": 2151,
+  "tokens_out": 154
+}

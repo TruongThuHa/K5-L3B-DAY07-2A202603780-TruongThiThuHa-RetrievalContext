@@ -1,0 +1,22 @@
+{
+  "page": 26,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        107,
+        372,
+        883
+      ],
+      "content": "| Short-term Policy Action (2021–2023) | Medium/Long-term Policy Action (2021–2030) |\n| :--- | :--- |\n| **E. Financial Sustainability** | |\n| 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. | 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. |\n| 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). | 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. |\n| 35. Update policies to enable public universities to pursue PPPs for capital/infrastructure projects or other educational or ancillary services (once the PPP Law is passed). | 38. Build institutional capacity to improve HEIs’ income diversification and resource mobilization through donations, continuing education, PPPs, fund raising, and removal of penalties on enterprising HEIs. |"
+    }
+  ],
+  "seconds": 7.1,
+  "attempts": 1,
+  "tokens_in": 1865,
+  "tokens_out": 357
+}

@@ -1,0 +1,22 @@
+{
+  "page": 28,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "",
+      "title": "",
+      "box_2d": [
+        107,
+        107,
+        896,
+        883
+      ],
+      "content": "| Policy Action | Technical Complexity | Financial Cost | Political Sensitivity | Benefit Impact |\n| --- | --- | --- | --- | --- |\n| 13. Design and implement a national teaching excellence scheme with sufficient financing available to HEIs and individual faculty, on a competitive basis and aimed at capacity building for faculty to implement curricular and pedagogical innovations (personalized high-tech and high-touch learning through disruptive technology). | ++ | + | - | ++ |\n| 14. Build capacity for universities to enhance university-industry links through student placement services for information and job matching, support for participation of industry professionals in teaching and institutional curriculum committees, industry-funded internships, and integration of entrepreneurship training into regular training programs. | + | - | - | + |\n| **Enhanced Capability of Academic Staff (research and teaching)** | | | | |\n| 15. Introduce policies and incentives to bring top-quality faculty from the Vietnamese diaspora and foreign universities and establish a tenure track for promising young academic staff. | + | + | + | + |\n| 16. Revamp graduate schools to attract high-quality domestic and international PhD students and postdocs, through quality regulations and comprehensive financing schemes (scholarship/stipend/graduate assistantship). | ++ | + | - | ++ |\n| 17. Design and implement a comprehensive program on recruitment and retention of high-quality academic staff at applied universities (all other universities that are not classified as research-intensive universities). | ++ | ++ | - | ++ |\n| 18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. | + | - | - | + |\n| 19. Design and implement performance-based human resource/staffing management. | + | + | + | + |\n| **C. Enhanced Research Quality and STI** | | | | |\n| 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). | + | + | + | + |\n| 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support joint/collaborative research and innovation projects between universities and enterprises (by MOST in coordination with MOF, MPI, MOET, and other line ministries). | + | ++ | - | ++ |\n| 22. Adopt incentives to increase female researchers and their research outputs. | + | + | - | + |\n| 23. Invest in ICT infrastructure (foundational and high-end HPC facilities and research network) to enable cutting-edge research and links to the global frontier. | + | ++ | - | + |\n| **D. Improved Systemwide Governance** | | | | |\n| 24. Improved stewardship and coordination at the national level including the creation of a single Ministry for Higher Education, Science and Technology, and TVET. | + | - | ++ | +++ |"
+    }
+  ],
+  "seconds": 15.3,
+  "attempts": 1,
+  "tokens_in": 2156,
+  "tokens_out": 708
+}

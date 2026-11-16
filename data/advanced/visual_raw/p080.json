@@ -1,0 +1,22 @@
+{
+  "page": 80,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "diagram",
+      "label": "Figure 14",
+      "title": "Instruments for Building Firms’ Technology Capabilities",
+      "content": "A conceptual framework diagram divided into two halves by a vertical dashed line and two levels by a horizontal dashed line:\n\n**Top Categories (orange ovals):**\n- Left: \"Buiding absorptive capacity\"\n- Right: \"Supporting tech generation, commercialization and transfer\"\n\n**Technology Stages (grey ovals, below top categories):**\n- Left: \"Technology adotion\"\n- Center: \"Technology transfer\" (straddling the vertical dashed line)\n- Right: \"Technology generation\"\n\n**Key Actors (grey rectangles along the horizontal dashed line):**\n- Left: \"Firms\"\n- Right: \"Universities / Research institutions\"\n\n**Instruments / Policy Interventions (orange rounded rectangles):**\n- Row 1:\n  - \"Business advisory services\" (arrows pointing to Technology adotion)\n  - \"Technology extension\" (arrows pointing to Technology adotion and Technology transfer)\n  - \"Technology/ R&D centers\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Science/ Technology parks\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Technology Transfer Offices\" (arrows pointing to Technology generation and Technology transfer)\n- Row 2:\n  - \"Grants for (process) innovation\" (left)\n  - \"Loans for innovation (equipment)\" (left-center)\n  - \"Open innovation\" (center-right, across from vertical dashed line)\n\nSource: World Bank (2019). A Practitioner’s Guide to Innovation Policy.",
+      "box_2d": [
+        174,
+        106,
+        557,
+        842
+      ]
+    }
+  ],
+  "seconds": 11.2,
+  "attempts": 1,
+  "tokens_in": 1907,
+  "tokens_out": 415
+}

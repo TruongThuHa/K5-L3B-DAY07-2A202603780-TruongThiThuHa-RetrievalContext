@@ -1,0 +1,22 @@
+{
+  "page": 50,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 5",
+      "title": "Research and Innovation Capacity and Output of Vietnam and Benchmarking Countries",
+      "content": "| Country | Citable Documents per Million Population 2010 | Citable Documents per Million Population 2017 | H-index 2017 | No. of Patents per Million Population 2017 | Global Innovation Index Rankings 2008 | Global Innovation Index Rankings 2018 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Australia | 2,741 | 3,352 | 848 | 251 | 22 | 20 |\n| China | 249 | 356 | 712 | 233 | 37 | 17 |\n| Denmark | 2,975 | 4,179 | 662 | 1,084 | 8 | 8 |\n| Finland | 2,777 | 3,225 | 571 | 1,451 | 13 | 7 |\n| France | 1,510 | 1,564 | 1,023 | 709 | 19 | 16 |\n| Germany | 1,664 | 1,853 | 1,131 | 1,206 | 2 | 9 |\n| Indonesia | 10 | 71 | 196 | 1.67 | 49 | 85 |\n| Japan | 949 | 898 | 920 | 2,282 | 9 | 13 |\n| Malaysia | 547 | 936 | 249 | 30 | 25 | 35 |\n| Netherlands | 2,644 | 2,993 | 893 | 1,233 | 10 | 2 |\n| Philippines | 13 | 28 | 205 | 1.35 | 63 | 73 |\n| Poland | 777 | 1,096 | 479 | 114 | 56 | 39 |\n| Korea, Rep. | 1,192 | 1,491 | 576 | 2,341 | 6 | 12 |\n| Singapore | 2,831 | 3,388 | 492 | 548 | 5 | 5 |\n| Switzerland | 4,092 | 4,813 | 866 | 3,065 | 7 | 1 |\n| Thailand | 140 | 212 | 289 | 3.16 | 44 | 44 |\n| United Kingdom | 2,223 | 2,468 | 1,281 | 362 | 4 | 4 |\n| Vietnam | 23 | 63 | 183 | 1.24 | 64 | 45 |\n\nSources: SCImago for research output; World Intellectual Property Indicators 2017 for patents; Global Innovation Index https://www.globalinnovationindex.org/Home for innovation rankings.",
+      "box_2d": [
+        374,
+        107,
+        858,
+        883
+      ]
+    }
+  ],
+  "seconds": 13.9,
+  "attempts": 1,
+  "tokens_in": 2401,
+  "tokens_out": 852
+}

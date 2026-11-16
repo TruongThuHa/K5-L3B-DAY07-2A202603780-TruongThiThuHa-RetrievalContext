@@ -1,0 +1,34 @@
+{
+  "page": 45,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure 8",
+      "title": "Figure 8: Average Wages by Education Level and Age Group, 2016",
+      "content": "Chart type: Clustered column chart\nX-axis title: Education level (Primary or below, Secondary or below, College, University or higher)\nY-axis title: Average Wage (VND mil/year), scale 0 to 100.000 with increments of 20.000\nLegend: ALL, 25-35 aged\nData points:\n- Primary or below / ALL: ≈ 33.000\n- Primary or below / 25-35 aged: ≈ 36.000\n- Secondary or below / ALL: ≈ 48.000\n- Secondary or below / 25-35 aged: ≈ 51.000\n- College / ALL: ≈ 62.000\n- College / 25-35 aged: ≈ 61.000\n- University or higher / ALL: ≈ 91.000\n- University or higher / 25-35 aged: ≈ 81.000\nSource: Authors’ estimates using VHLSS 2016.\nFactual comparisons:\n- Average wages increase steadily with each higher level of educational attainment for both age cohorts.\n- University or higher graduates earn the highest average wages across all education levels.\n- For university graduates, the average wage across all ages is significantly higher than that for the 25–35 age group, whereas at lower levels of education the differences between age groups are much smaller.",
+      "box_2d": [
+        105,
+        114,
+        365,
+        860
+      ]
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 9",
+      "title": "Figure 9: Proportion of Firms Reporting Difficulties Finding Employees with Required Skills",
+      "content": "Chart type: Clustered column chart\nX-axis categories: Managerial and leadership skills; Interpersonal and communication skills; Work ethic and commitment; Writing skills; Foreign language skills; Computer or general IT skills; Technical skills (other than IT), vocational, or job-specific skills\nY-axis title: Proportion, scale 0 to 0.8 with increments of 0.1\nLegend: Difficult or very difficult, Easy or very easy, Does not apply\nData points:\n- Managerial and leadership skills / Difficult or very difficult: ≈ 0.73\n- Managerial and leadership skills / Easy or very easy: ≈ 0.10\n- Managerial and leadership skills / Does not apply: ≈ 0.17\n- Interpersonal and communication skills / Difficult or very difficult: ≈ 0.54\n- Interpersonal and communication skills / Easy or very easy: ≈ 0.34\n- Interpersonal and communication skills / Does not apply: ≈ 0.12\n- Work ethic and commitment / Difficult or very difficult: ≈ 0.53\n- Work ethic and commitment / Easy or very easy: ≈ 0.45\n- Work ethic and commitment / Does not apply: ≈ 0.02\n- Writing skills / Difficult or very difficult: ≈ 0.28\n- Writing skills / Easy or very easy: ≈ 0.54\n- Writing skills / Does not apply: ≈ 0.18\n- Foreign language skills / Difficult or very difficult: ≈ 0.58\n- Foreign language skills / Easy or very easy: ≈ 0.17\n- Foreign language skills / Does not apply: ≈ 0.25\n- Computer or general IT skills / Difficult or very difficult: ≈ 0.28\n- Computer or general IT skills / Easy or very easy: ≈ 0.62\n- Computer or general IT skills / Does not apply: ≈ 0.10\n- Technical skills (other than IT), vocational, or job-specific skills / Difficult or very difficult: ≈ 0.68\n- Technical skills (other than IT), vocational, or job-specific skills / Easy or very easy: ≈ 0.28\n- Technical skills (other than IT), vocational, or job-specific skills / Does not apply: ≈ 0.04\nSource: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).\nFactual comparisons:\n- Managerial and leadership skills was identified as the most difficult skill area to recruit (≈ 73% of firms reported difficult or very difficult).\n- Computer or general IT skills had the highest proportion of firms reporting it as easy or very easy to find (≈ 62%).\n- Foreign language skills had the highest proportion of firms reporting 'Does not apply' (≈ 25%).",
+      "box_2d": [
+        660,
+        114,
+        926,
+        868
+      ]
+    }
+  ],
+  "seconds": 19.2,
+  "attempts": 1,
+  "tokens_in": 2268,
+  "tokens_out": 1153
+}

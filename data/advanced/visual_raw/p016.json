@@ -1,0 +1,22 @@
+{
+  "page": 16,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "chart",
+      "label": "Figure ES.2",
+      "title": "Inequality in Access in Vietnam, by Education Level, 2006 and 2018",
+      "box_2d": [
+        326,
+        104,
+        755,
+        888
+      ],
+      "content": "Line chart (polynomial smoothing)\nX-axis: Expenditure Percentile (0 to 100, step 10)\nY-axis: Access rate, % (0 to 100, step 10)\nLegend: Basic education 2006 (dashed purple), Basic education 2018 (solid purple), Upper Secondary Edu 2006 (dashed orange), Upper Secondary Edu 2018 (solid orange), Tertiary education 2006 (dashed red), Tertiary education 2018 (solid red)\n\nEstimated values across expenditure percentiles (p0 to p100):\n- Basic education 2006: p0: ≈91%, p20: ≈93%, p40: ≈96%, p60: ≈97%, p80: ≈98%, p100: ≈98%\n- Basic education 2018: p0: ≈95%, p20: ≈96%, p40: ≈97%, p60: ≈98%, p80: ≈98%, p100: ≈98%\n- Upper Secondary Edu 2006: p0: ≈14%, p20: ≈33%, p40: ≈50%, p60: ≈64%, p80: ≈74%, p100: ≈81%\n- Upper Secondary Edu 2018: p0: ≈40%, p20: ≈56%, p40: ≈71%, p60: ≈81%, p80: ≈86%, p100: ≈86%\n- Tertiary education 2006: p0: ≈0%, p20: ≈1%, p40: ≈5%, p60: ≈12%, p80: ≈24%, p100: ≈42%\n- Tertiary education 2018: p0: ≈1%, p20: ≈6%, p40: ≈16%, p60: ≈32%, p80: ≈57%, p100: ≈84%\n\nComparisons:\n- Basic education has the highest access rate across all percentiles in both 2006 and 2018, remaining near or above 90% across the entire income distribution.\n- Tertiary education access rate displays the steepest socioeconomic gradient, increasing sharply from nearly 1% at the lowest percentile to 84% at the 100th percentile in 2018.\n- Access rates improved across all levels between 2006 and 2018, but the gap between the richest and poorest percentiles widened significantly for tertiary education (from a gap of ≈42 percentage points in 2006 to ≈83 percentage points in 2018).\n\nSource: Authors’ estimates using Vietnam Household Living Standard Survey (VHLSS) 2006 and 2018 data on individual member education and household consumption expenditures.\nNote: Access rate for a given education level is defined as proportion of individuals in the reference age-group who ever had access to the particular education level. Reference age-groups are ages 6-14 for basic education (grades 1-9), ages 15-17 upper secondary (grades 10-12) and ages 18-24 for tertiary education level (post-secondary). The graphs show averages using second-order polynomial smoothing."
+    }
+  ],
+  "seconds": 15.4,
+  "attempts": 1,
+  "tokens_in": 2228,
+  "tokens_out": 874
+}

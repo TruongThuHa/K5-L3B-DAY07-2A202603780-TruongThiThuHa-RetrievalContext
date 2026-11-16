@@ -1,0 +1,22 @@
+{
+  "page": 54,
+  "model": "gemini-3.8-flash",
+  "elements": [
+    {
+      "kind": "table",
+      "label": "Table 7",
+      "title": "Table 7: Higher Education Policy Targets and Achievements",
+      "content": "| Indicator | 2015 Target: Original in 2007a | 2015 Target: Revised in 2013b | Actual in 2015 | 2020 Target: Original in 2007a | 2020 Target: Revised in 2013b |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| No. of students per 10,000 people | 300 | n.a. | 220 | 450 | 256 |\n| No. of new enrolments per 10,000 people | 60 | n.a. | 61 | 120 | 56 |\n| Gross enrolment in HEIs (thousands) | 3,000 | n.a. | 2,200 | 4500 | 2,200 |\n| Proportion of enrolment into nonpublic HEIs | n.a. | n.a. | 13 | 30–40 | n.a. |\n| % university lecturers having a master’s degree | 70 | n.a. | 58 | 90 | 100 |\n| % university lecturers having a doctoral degree | 50 | n.a. | 20 | 75 | 21 |\n| Student/lecturer ratio | n.a. | | 23 | 20 | 17–26 |\n| Number of Vietnamese HEIs having at least one program recognized internationally | 20 | 10 | n.a. | n.a. | 20 |\n| Number of Vietnamese HEIs in top 200 globally | | | | 1 | 1 |\n| % of foreign students enrolling in Vietnamese HEIs | 1.5 | 1 | | 5 | 3 |\n| % university enrolment of total higher education enrolment | 64 | 64 | 80 | 56 | 56 |\n| % of R&D revenue in HEIs’ total revenue | n.a. | n.a. | 3 | 25 | n.a. |\n\nSource: MOET (2019) Preliminary estimates.\nNote: a. Decision No. 121/2007/QD-TTg dated July 27, 2007, of Prime Minister, approving the master plan on the university and college network during 2006–2020.\nb. Decision No. 37/2013/QD-TTg dated June 26, 2013, of Prime Minister, adjusting the master plan on the university and college network during 2006–2020.",
+      "box_2d": [
+        104,
+        106,
+        686,
+        885
+      ]
+    }
+  ],
+  "seconds": 17.2,
+  "attempts": 1,
+  "tokens_in": 2295,
+  "tokens_out": 734
+}
