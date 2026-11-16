@@ -1,0 +1,155 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "answerable": true,
+    "filter": {
+      "section": "policy_options"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "answerable": true,
+    "filter": {
+      "section": "diagnosis"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "answerable": true,
+    "filter": {
+      "section": "executive_summary"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "answerable": true
+  },
+  {
+    "id": "n01",
+    "split": "dev",
+    "question": "What is the dropout rate of university students in Vietnam?",
+    "answerable": false
+  },
+  {
+    "id": "n02",
+    "split": "dev",
+    "question": "What is the student-to-lecturer ratio in Vietnamese public universities?",
+    "answerable": false
+  },
+  {
+    "id": "n03",
+    "split": "test",
+    "question": "For how many weeks were Vietnamese universities closed because of COVID-19?",
+    "answerable": false
+  },
+  {
+    "id": "n04",
+    "split": "test",
+    "question": "What is the average monthly salary of a university lecturer in Vietnam?",
+    "answerable": false
+  }
+]

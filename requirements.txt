@@ -1,0 +1,6 @@
+# Day 7 · cài bằng: python -m pip install -r requirements.txt
+psycopg[binary]==3.3.8
+python-dotenv>=1,<2
+sentence-transformers==6.3.0
+openai>=1.40,<3
+rank-bm25==0.2.2

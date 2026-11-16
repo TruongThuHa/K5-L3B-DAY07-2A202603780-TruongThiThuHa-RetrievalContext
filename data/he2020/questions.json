@@ -1,0 +1,356 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "expected_answer": "About 54 percent (of about 2.3 million students).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 15,
+        "evidence": "about 54 percent of the current 2.3 million students are females"
+      },
+      {
+        "source_id": "he2020",
+        "page": 40,
+        "evidence": "the proportion of females who access higher education rising from 48 in 2006 to 54 in 2016"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "expected_answer": "48th out of 157 countries, the best among middle-income countries.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 13,
+        "evidence": "Vietnam ranks 48 out of 157 countries on the World Bank’s Human Capital Index (HCI), the best result among middle-income countries."
+      },
+      {
+        "source_id": "he2020",
+        "page": 32,
+        "evidence": "Vietnam ranked 48 out of 157 countries, the highest among middle-income countries"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "expected_answer": "It rose from 47 percent in 2007 to 72 percent in 2015.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 15,
+        "evidence": "the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015"
+      },
+      {
+        "source_id": "he2020",
+        "page": 53,
+        "evidence": "the share of higher education lecturers with master’s and/or PhD degrees has substantially increased from 47 percent in 2007 to 72 percent in 2015"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "expected_answer": "23 out of 171 public universities.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 57,
+        "evidence": "To date, only 23 out of 171 public universities have been piloted under Resolution 77/2014/NQ-CP (Autonomy)."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "expected_answer": "The Philippines, Indonesia, Thailand, Malaysia, and China.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 14,
+        "evidence": "The level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China."
+      },
+      {
+        "source_id": "he2020",
+        "page": 17,
+        "evidence": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "expected_answer": "US$574, or 46 percent of total per-student household spending.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 59,
+        "evidence": "Tuition fees (US$574) accounted for 46 percent of the total per student spending by households."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "expected_answer": "Decision 37 (2013), which cut the target from 4.5 million to 2.2 million students.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 38,
+        "evidence": "Decision 37 issued in 2013 significantly revised 2020 total enrolment targets downward from 4.5 million to 2.2 million."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "expected_answer": "MOET manages universities (higher education) and MOLISA manages TVET colleges.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 53,
+        "evidence": "There are two separate ministries (MOET and MOLISA) in charge of managing the higher education subsector (universities) and TVET subsector (colleges), respectively"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "expected_answer": "93 percent more on average (and 47 percent more than college degree holders).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 44,
+        "evidence": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "expected_answer": "In 1959–1960.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 65,
+        "evidence": "California pioneered the establishment of a policy framework for a state system of higher education in the United States when it developed and implemented its first Master Plan in 1959–1960."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "expected_answer": "Students with below-average incomes were exempted from repayment.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 91,
+        "evidence": "Students with below average incomes were exempted from repayment."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "filter",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "expected_answer": "About 3.6 million students in total, of which 1.3 million additional seats.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 68,
+        "evidence": "will be 1.3 million additional seats required, for a total of 3.6 million students"
+      }
+    ],
+    "filter": {
+      "section": "policy_options"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "filter",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "expected_answer": "US$316 per student (15 percent of per capita GDP).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 59,
+        "evidence": "Per student public spending on tertiary education for Vietnam was US$316 (15 percent of per capita GDP) in 2015"
+      }
+    ],
+    "filter": {
+      "section": "diagnosis"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "expected_answer": "Uncertainty about long-term employment prospects.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 75,
+        "evidence": "Fixed term Keeps academics on their toes (innovative mindset and behaviors) Uncertainty about long-term employment prospects"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "expected_answer": "About 15 years.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 85,
+        "evidence": "The QA arrangements in the Vietnamese higher education have been in place for about 15 years"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "expected_answer": "About 93 percent.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 31,
+        "evidence": "About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "expected_answer": "It is the lowest: Vietnam is at the bottom of the list when measured by the H-index.",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 50,
+        "evidence": "In terms of quality and impact as measured by the H-indicator, Vietnam is at the bottom of the list."
+      },
+      {
+        "source_id": "he2020",
+        "page": 17,
+        "evidence": "When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "filter",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "expected_answer": "At least 0.8 percent of GDP (up from 0.23 percent).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 26,
+        "evidence": "Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030."
+      },
+      {
+        "source_id": "he2020",
+        "page": 23,
+        "evidence": "share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030"
+      },
+      {
+        "source_id": "he2020",
+        "page": 29,
+        "evidence": "Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030."
+      }
+    ],
+    "filter": {
+      "section": "executive_summary"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "conditional",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "expected_answer": "The student loan program (SLP) managed by the Vietnam Social Policy Bank (VSPB).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 20,
+        "evidence": "The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level."
+      },
+      {
+        "source_id": "he2020",
+        "page": 64,
+        "evidence": "The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "expected_answer": "About 34 percentage points (11 percent vs 45 percent access in 2018).",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "he2020",
+        "page": 16,
+        "evidence": "youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups"
+      },
+      {
+        "source_id": "he2020",
+        "page": 39,
+        "evidence": "tertiary education access rate for young people from the majority ethnic groups Kinh/Hoa was 45 percent and that for minority ethnic groups was 11 percent"
+      }
+    ]
+  }
+]
