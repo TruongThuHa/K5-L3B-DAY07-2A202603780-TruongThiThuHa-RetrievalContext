@@ -1,0 +1,4213 @@
+[
+  {
+    "config": "tfidf",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p066-B01",
+        "page": 66,
+        "section": "policy_options",
+        "score": 0.20884237536761233,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p034-B00",
+        "page": 34,
+        "section": "introduction",
+        "score": 0.19306604334344296,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p040-B02",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 0.18517217115145854,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p066-B01"
+    ],
+    "context_chars": 579,
+    "elapsed_ms": 28.7,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.2898684834121032,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.2668098323810994,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p050-B03",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.187058103652332,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B01"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 1.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p048-B03",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 0.20767137752800433,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.18957235335518352,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p086-B01",
+        "page": 86,
+        "section": "policy_options",
+        "score": 0.14653864999408103,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B03"
+    ],
+    "context_chars": 663,
+    "elapsed_ms": 1.5,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 0.3521539869428742,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.12336462601177672,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 0.12215228936522271,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B04"
+    ],
+    "context_chars": 680,
+    "elapsed_ms": 1.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p050-B00",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.30836687009586794,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B05",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 0.2684153291322415,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p023-B03",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 0.23149199628749106,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p050-B00"
+    ],
+    "context_chars": 158,
+    "elapsed_ms": 1.1,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.33943219354803833,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.22747513449006157,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.19254519487833258,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 1.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p015-B02",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.2346722824613196,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.22010634205216584,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.21011038821374184,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B04"
+    ],
+    "context_chars": 680,
+    "elapsed_ms": 1.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.20897276062347125,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 0.19643675340889744,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p038-B00",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 0.16610013774426802,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 0.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.2722469673967893,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p071-B04",
+        "page": 71,
+        "section": "policy_options",
+        "score": 0.19421400115583562,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p069-B02",
+        "page": 69,
+        "section": "policy_options",
+        "score": 0.18811449095841806,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02"
+    ],
+    "context_chars": 772,
+    "elapsed_ms": 0.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.3365288077074818,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.25074550421449804,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p033-B00",
+        "page": 33,
+        "section": "introduction",
+        "score": 0.23170972231520814,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 0.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.40016137827017717,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.29885393547254824,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.22387733762540288,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 0.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": 0.21634887816982737,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p068-B00",
+        "page": 68,
+        "section": "policy_options",
+        "score": 0.21488500044522488,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p023-B04",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 0.20461313882886642,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p070-B02"
+    ],
+    "context_chars": 709,
+    "elapsed_ms": 1.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.30898288957601633,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.2896788783295679,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p019-B03",
+        "page": 19,
+        "section": "executive_summary",
+        "score": 0.25031007805271055,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 1.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 0.31394370764516305,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p028-B02",
+        "page": 28,
+        "section": "executive_summary",
+        "score": 0.20293755777689337,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p025-B00",
+        "page": 25,
+        "section": "executive_summary",
+        "score": 0.1772208675633627,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p028-B02"
+    ],
+    "context_chars": 787,
+    "elapsed_ms": 0.9,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p025-B03",
+        "page": 25,
+        "section": "executive_summary",
+        "score": 0.20747308623847596,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p055-B06",
+        "page": 55,
+        "section": "diagnosis",
+        "score": 0.1738197920913752,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 0.16757023383629988,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p025-B03"
+    ],
+    "context_chars": 674,
+    "elapsed_ms": 0.8,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p040-B02",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 0.7927,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.7423,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p013-B05",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.7366,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p013-B05"
+    ],
+    "context_chars": 560,
+    "elapsed_ms": 2283.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.7901,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.778,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p034-B01",
+        "page": 34,
+        "section": "introduction",
+        "score": 0.729,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B01"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 46.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p048-B03",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 0.7178,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p052-B01",
+        "page": 52,
+        "section": "diagnosis",
+        "score": 0.7165,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p048-B02",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 0.7053,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B03"
+    ],
+    "context_chars": 663,
+    "elapsed_ms": 53.6,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 0.7059,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 0.6856,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p057-B03",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 0.6676,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p057-B03"
+    ],
+    "context_chars": 485,
+    "elapsed_ms": 39.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 0.7816,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p050-B00",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.7404,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p034-B01",
+        "page": 34,
+        "section": "introduction",
+        "score": 0.7384,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 44.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.8044,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p060-B00",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 0.7152,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p060-B01",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 0.7075,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p060-B00"
+    ],
+    "context_chars": 571,
+    "elapsed_ms": 61.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p038-B03",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 0.7673,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p067-B04",
+        "page": 67,
+        "section": "policy_options",
+        "score": 0.6974,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.697,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p038-B03"
+    ],
+    "context_chars": 768,
+    "elapsed_ms": 40.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 0.7601,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.7277,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p022-B03",
+        "page": 22,
+        "section": "executive_summary",
+        "score": 0.7074,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 47.9,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.7164,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p044-B00",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.6785,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 0.6631,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02"
+    ],
+    "context_chars": 772,
+    "elapsed_ms": 32.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.8577,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.7772,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B01",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.7606,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 31.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.812,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.6998,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.6974,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 43.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p067-B01",
+        "page": 67,
+        "section": "policy_options",
+        "score": 0.7801,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p067-B03",
+        "page": 67,
+        "section": "policy_options",
+        "score": 0.7688,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B05",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.7514,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p067-B01"
+    ],
+    "context_chars": 774,
+    "elapsed_ms": 34.2,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.7147,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.7142,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p059-B03",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.7101,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 43.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 0.753,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p074-B04",
+        "page": 74,
+        "section": "policy_options",
+        "score": 0.7016,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p028-B02",
+        "page": 28,
+        "section": "executive_summary",
+        "score": 0.6732,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p074-B04"
+    ],
+    "context_chars": 669,
+    "elapsed_ms": 50.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p055-B01",
+        "page": 55,
+        "section": "diagnosis",
+        "score": 0.8041,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 0.7785,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p066-B02",
+        "page": 66,
+        "section": "policy_options",
+        "score": 0.7399,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p055-B01"
+    ],
+    "context_chars": 544,
+    "elapsed_ms": 41.5,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p066-B01",
+        "page": 66,
+        "section": "policy_options",
+        "score": 12.4711,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 12.1026,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p034-B00",
+        "page": 34,
+        "section": "introduction",
+        "score": 11.9851,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p066-B01"
+    ],
+    "context_chars": 579,
+    "elapsed_ms": 30.2,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 19.7904,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 18.2945,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p033-B03",
+        "page": 33,
+        "section": "introduction",
+        "score": 17.765,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B01"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 1.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p054-B00",
+        "page": 54,
+        "section": "diagnosis",
+        "score": 22.7362,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p048-B03",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 22.481,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 21.5586,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B03"
+    ],
+    "context_chars": 663,
+    "elapsed_ms": 1.8,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 34.0916,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 14.5067,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 12.3435,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B04"
+    ],
+    "context_chars": 680,
+    "elapsed_ms": 1.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B03",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 20.8491,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 19.6768,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p017-B05",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 18.8588,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 1.4,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 37.5015,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 28.7261,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p019-B03",
+        "page": 19,
+        "section": "executive_summary",
+        "score": 26.4304,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 1.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p015-B02",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 22.1764,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p038-B03",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 22.0927,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 21.57,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p038-B03"
+    ],
+    "context_chars": 768,
+    "elapsed_ms": 1.3,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 16.7203,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 15.8816,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p038-B00",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 13.1551,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 1.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 22.4273,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 21.4894,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p071-B04",
+        "page": 71,
+        "section": "policy_options",
+        "score": 18.813,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02"
+    ],
+    "context_chars": 772,
+    "elapsed_ms": 1.2,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 26.1305,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p033-B00",
+        "page": 33,
+        "section": "introduction",
+        "score": 18.1651,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 17.4139,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 1.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 31.0172,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 20.1536,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 18.9099,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 1.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": 21.177,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p067-B04",
+        "page": 67,
+        "section": "policy_options",
+        "score": 20.6205,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p067-B03",
+        "page": 67,
+        "section": "policy_options",
+        "score": 17.9962,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p070-B02"
+    ],
+    "context_chars": 709,
+    "elapsed_ms": 1.3,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 28.2833,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 25.7324,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 20.2161,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 1.1,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 26.9176,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p028-B02",
+        "page": 28,
+        "section": "executive_summary",
+        "score": 17.0845,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p093-B02",
+        "page": 93,
+        "section": "policy_options",
+        "score": 15.4925,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p028-B02"
+    ],
+    "context_chars": 787,
+    "elapsed_ms": 1.1,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 15.5631,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p025-B03",
+        "page": 25,
+        "section": "executive_summary",
+        "score": 13.6358,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p066-B02",
+        "page": 66,
+        "section": "policy_options",
+        "score": 12.8803,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p085-B00"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 1.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.03226,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p040-B02",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 0.03202,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p048-B04",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 0.03054,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B04"
+    ],
+    "context_chars": 729,
+    "elapsed_ms": 35.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p031-B03",
+        "page": 31,
+        "section": "introduction",
+        "score": 0.03033,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B01"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 37.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p048-B03",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 0.03252,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p054-B00",
+        "page": 54,
+        "section": "diagnosis",
+        "score": 0.03202,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.03126,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B03"
+    ],
+    "context_chars": 663,
+    "elapsed_ms": 32.5,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 0.032,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 0.03128,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B04"
+    ],
+    "context_chars": 680,
+    "elapsed_ms": 39.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p050-B00",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.03151,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p034-B01",
+        "page": 34,
+        "section": "introduction",
+        "score": 0.03102,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 38.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p019-B03",
+        "page": 19,
+        "section": "executive_summary",
+        "score": 0.03126,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p060-B00",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 0.03105,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p060-B00"
+    ],
+    "context_chars": 571,
+    "elapsed_ms": 49.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p038-B03",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.03175,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p015-B02",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.03154,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p038-B03"
+    ],
+    "context_chars": 768,
+    "elapsed_ms": 39.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 0.03252,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p058-B03",
+        "page": 58,
+        "section": "diagnosis",
+        "score": 0.02691,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 36.4,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 0.03227,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p044-B00",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.03175,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02"
+    ],
+    "context_chars": 772,
+    "elapsed_ms": 34.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 0.032,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p033-B00",
+        "page": 33,
+        "section": "introduction",
+        "score": 0.03128,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 41.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.03226,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 0.03175,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 40.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p067-B03",
+        "page": 67,
+        "section": "policy_options",
+        "score": 0.032,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": 0.03154,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p068-B00",
+        "page": 68,
+        "section": "policy_options",
+        "score": 0.03125,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p067-B03"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 34.8,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.03279,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.03226,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p059-B03",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.03102,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 34.7,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 0.03279,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p028-B02",
+        "page": 28,
+        "section": "executive_summary",
+        "score": 0.032,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p074-B04",
+        "page": 74,
+        "section": "policy_options",
+        "score": 0.03175,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p028-B02"
+    ],
+    "context_chars": 787,
+    "elapsed_ms": 43.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 0.03252,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p055-B01",
+        "page": 55,
+        "section": "diagnosis",
+        "score": 0.03178,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p066-B02",
+        "page": 66,
+        "section": "policy_options",
+        "score": 0.03175,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p085-B00"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 37.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 6.8752,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p040-B02",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 6.3873,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p048-B04",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 6.21,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p048-B04"
+    ],
+    "context_chars": 729,
+    "elapsed_ms": 1415.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 7.8814,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 4.0626,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p031-B03",
+        "page": 31,
+        "section": "introduction",
+        "score": -0.1909,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p032-B01"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 111.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 3.7578,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p054-B00",
+        "page": 54,
+        "section": "diagnosis",
+        "score": 1.5026,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.7678,
+        "hit": true
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 256.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 8.8445,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": -0.4781,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p019-B00",
+        "page": 19,
+        "section": "executive_summary",
+        "score": -2.1152,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p019-B00"
+    ],
+    "context_chars": 753,
+    "elapsed_ms": 124.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 5.9029,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p051-B01",
+        "page": 51,
+        "section": "diagnosis",
+        "score": 4.1929,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p014-B01",
+        "page": 14,
+        "section": "executive_summary",
+        "score": 3.0909,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 96.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 8.1645,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p060-B01",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 2.81,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p060-B00",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 1.9705,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p060-B00"
+    ],
+    "context_chars": 571,
+    "elapsed_ms": 213.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p038-B03",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 6.4896,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p015-B02",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 5.4387,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 1.5199,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p038-B03"
+    ],
+    "context_chars": 768,
+    "elapsed_ms": 126.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 7.7694,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 6.5707,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p061-B01",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 4.0419,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02"
+    ],
+    "context_chars": 735,
+    "elapsed_ms": 98.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 9.2577,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 3.1688,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.9883,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02"
+    ],
+    "context_chars": 772,
+    "elapsed_ms": 113.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 10.2727,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p065-B01",
+        "page": 65,
+        "section": "policy_options",
+        "score": 5.311,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 4.8476,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 112.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 7.8063,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 5.2326,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 3.0012,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02"
+    ],
+    "context_chars": 650,
+    "elapsed_ms": 196.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p068-B00",
+        "page": 68,
+        "section": "policy_options",
+        "score": 5.5605,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p070-B03",
+        "page": 70,
+        "section": "policy_options",
+        "score": 2.9652,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B05",
+        "page": 65,
+        "section": "policy_options",
+        "score": 2.3133,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p070-B03"
+    ],
+    "context_chars": 339,
+    "elapsed_ms": 131.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 2.9835,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 1.3354,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p058-B03",
+        "page": 58,
+        "section": "diagnosis",
+        "score": 1.1378,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01"
+    ],
+    "context_chars": 609,
+    "elapsed_ms": 216.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 3.9985,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p025-B01",
+        "page": 25,
+        "section": "executive_summary",
+        "score": -1.3546,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p074-B04",
+        "page": 74,
+        "section": "policy_options",
+        "score": -2.8367,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p074-B04"
+    ],
+    "context_chars": 669,
+    "elapsed_ms": 267.3,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 8.1123,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p055-B01",
+        "page": 55,
+        "section": "diagnosis",
+        "score": 1.6109,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 1.4933,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p085-B00"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 215.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      15,
+      40
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 6.8752,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p040-B02",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 6.3873,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p048-B04",
+        "page": 48,
+        "section": "diagnosis",
+        "score": 6.21,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p015-B00",
+      "he2020-p040-B02"
+    ],
+    "context_chars": 1676,
+    "elapsed_ms": 174.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      13,
+      32
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 7.8814,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p032-B01",
+        "page": 32,
+        "section": "introduction",
+        "score": 4.0626,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p031-B03",
+        "page": 31,
+        "section": "introduction",
+        "score": -0.1909,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p013-B04",
+      "he2020-p032-B01",
+      "he2020-p031-B03"
+    ],
+    "context_chars": 2317,
+    "elapsed_ms": 196.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      15,
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 3.7578,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p054-B00",
+        "page": 54,
+        "section": "diagnosis",
+        "score": 1.5026,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p015-B00",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.7678,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p053-B04",
+      "he2020-p054-B00"
+    ],
+    "context_chars": 1651,
+    "elapsed_ms": 232.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      57
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p057-B00",
+        "page": 57,
+        "section": "diagnosis",
+        "score": 8.8445,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": -0.4781,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p019-B00",
+        "page": 19,
+        "section": "executive_summary",
+        "score": -2.1152,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p057-B00",
+      "he2020-p061-B02"
+    ],
+    "context_chars": 1681,
+    "elapsed_ms": 226.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      14,
+      17
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 5.9029,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p051-B01",
+        "page": 51,
+        "section": "diagnosis",
+        "score": 4.1929,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p014-B01",
+        "page": 14,
+        "section": "executive_summary",
+        "score": 3.0909,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04",
+      "he2020-p051-B01",
+      "he2020-p014-B01"
+    ],
+    "context_chars": 2136,
+    "elapsed_ms": 160.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 8.1645,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p060-B01",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 2.81,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p060-B00",
+        "page": 60,
+        "section": "diagnosis",
+        "score": 1.9705,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B02",
+      "he2020-p060-B01",
+      "he2020-p060-B00"
+    ],
+    "context_chars": 2247,
+    "elapsed_ms": 267.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      38
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p038-B03",
+        "page": 38,
+        "section": "diagnosis",
+        "score": 6.4896,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p015-B02",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 5.4387,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p053-B04",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 1.5199,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p038-B03",
+      "he2020-p015-B02"
+    ],
+    "context_chars": 1585,
+    "elapsed_ms": 281.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      53
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p018-B02",
+        "page": 18,
+        "section": "executive_summary",
+        "score": 7.7694,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p053-B00",
+        "page": 53,
+        "section": "diagnosis",
+        "score": 6.5707,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p061-B01",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 4.0419,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p018-B02",
+      "he2020-p053-B00",
+      "he2020-p061-B01"
+    ],
+    "context_chars": 2334,
+    "elapsed_ms": 227.4,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      44
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p044-B02",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 9.2577,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 3.1688,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p059-B02",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 0.9883,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p044-B02",
+      "he2020-p016-B03"
+    ],
+    "context_chars": 1616,
+    "elapsed_ms": 340.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      65
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p065-B02",
+        "page": 65,
+        "section": "policy_options",
+        "score": 10.2727,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p065-B01",
+        "page": 65,
+        "section": "policy_options",
+        "score": 5.311,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B04",
+        "page": 65,
+        "section": "policy_options",
+        "score": 4.8476,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p065-B02",
+      "he2020-p065-B01",
+      "he2020-p065-B04"
+    ],
+    "context_chars": 1566,
+    "elapsed_ms": 334.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      91
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p091-B02",
+        "page": 91,
+        "section": "policy_options",
+        "score": 7.8063,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p091-B03",
+        "page": 91,
+        "section": "policy_options",
+        "score": 5.2326,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p091-B01",
+        "page": 91,
+        "section": "policy_options",
+        "score": 3.0012,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p091-B02",
+      "he2020-p091-B03",
+      "he2020-p091-B01"
+    ],
+    "context_chars": 1778,
+    "elapsed_ms": 219.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      68
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p068-B00",
+        "page": 68,
+        "section": "policy_options",
+        "score": 5.5605,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p070-B03",
+        "page": 70,
+        "section": "policy_options",
+        "score": 2.9652,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p065-B05",
+        "page": 65,
+        "section": "policy_options",
+        "score": 2.3133,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p068-B00",
+      "he2020-p070-B03",
+      "he2020-p065-B05"
+    ],
+    "context_chars": 1837,
+    "elapsed_ms": 269.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      59
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p059-B01",
+        "page": 59,
+        "section": "diagnosis",
+        "score": 2.9835,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p061-B02",
+        "page": 61,
+        "section": "diagnosis",
+        "score": 1.3354,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p058-B03",
+        "page": 58,
+        "section": "diagnosis",
+        "score": 1.1378,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p059-B01",
+      "he2020-p061-B02",
+      "he2020-p058-B03"
+    ],
+    "context_chars": 2195,
+    "elapsed_ms": 251.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      75
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p075-B00",
+        "page": 75,
+        "section": "policy_options",
+        "score": 3.9985,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p025-B01",
+        "page": 25,
+        "section": "executive_summary",
+        "score": -1.3546,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p074-B04",
+        "page": 74,
+        "section": "policy_options",
+        "score": -2.8367,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p075-B00",
+      "he2020-p025-B01",
+      "he2020-p074-B04"
+    ],
+    "context_chars": 2319,
+    "elapsed_ms": 196.4,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      85
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p085-B00",
+        "page": 85,
+        "section": "policy_options",
+        "score": 8.1123,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p055-B01",
+        "page": 55,
+        "section": "diagnosis",
+        "score": 1.6109,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p032-B04",
+        "page": 32,
+        "section": "introduction",
+        "score": 1.4933,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p085-B00",
+      "he2020-p055-B01",
+      "he2020-p032-B04"
+    ],
+    "context_chars": 1852,
+    "elapsed_ms": 197.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]
