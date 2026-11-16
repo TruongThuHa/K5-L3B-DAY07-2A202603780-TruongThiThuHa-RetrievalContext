@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      true
+    ],
+    "reason": "Khoảng 93%; trang 31",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "reason": "Thấp hơn tất cả các nước so sánh theo H-index; trang 17",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: dense tìm thấy p023-B00 ở hạng 1 nhưng budget 800 chỉ giữ p021-B00",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "reason": "SLP do VSPB quản lý; trang 64",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true
+    ],
+    "reason": "Chênh 34 điểm %; trang 16 (không nêu 45%/11% nhưng câu hỏi chỉ hỏi độ chênh)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "n03",
+    "citation_support": [],
+    "reason": "Từ chối đúng",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "n04",
+    "citation_support": [],
+    "reason": "Từ chối đúng",
+    "abstention_correct": true
+  }
+]

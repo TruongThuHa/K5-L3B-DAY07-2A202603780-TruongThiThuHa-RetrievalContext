@@ -58,6 +58,24 @@ LABELS = {
         "n01": (None, [], True, "Từ chối đúng"),
         "n02": (None, [], True, "Từ chối đúng"),
     },
+    ("test", "selected"): {
+        "q16": (2, [True], None, "Khoảng 93%; trang 31 nêu nguyên văn"),
+        "q17": (2, [True, True], None, "Đứng cuối bảng theo H-index; trang 50 và trang 17 đều nêu"),
+        "q18": (2, [True, True], None, "Từ 0,23% lên ít nhất 0,8% GDP năm 2030; trang 23 và 26, đúng filter executive_summary"),
+        "q19": (2, [True, True], None, "Chương trình cho vay SLP do VSPB quản lý; trang 20 và 64"),
+        "q20": (2, [True, True, True], None, "Chênh 34 điểm % (45% so với 11%, 2018); trang 16, 39, 40"),
+        "n03": (None, [], True, "Tìm 3 lần, tài liệu chỉ nói đóng cửa kéo dài, không có số tuần; từ chối đúng"),
+        "n04": (None, [], True, "Tìm 3 lần, không có lương giảng viên; không lấy nhầm thu nhập người tốt nghiệp; từ chối đúng"),
+    },
+    ("test", "baseline"): {
+        "q16": (2, [True], None, "Khoảng 93%; trang 31"),
+        "q17": (2, [True], None, "Thấp hơn tất cả các nước so sánh theo H-index; trang 17"),
+        "q18": (0, [], None, "Từ chối nhầm: dense tìm thấy p023-B00 ở hạng 1 nhưng budget 800 chỉ giữ p021-B00"),
+        "q19": (2, [True], None, "SLP do VSPB quản lý; trang 64"),
+        "q20": (2, [True], None, "Chênh 34 điểm %; trang 16 (không nêu 45%/11% nhưng câu hỏi chỉ hỏi độ chênh)"),
+        "n03": (None, [], True, "Từ chối đúng"),
+        "n04": (None, [], True, "Từ chối đúng"),
+    },
 }
 
 

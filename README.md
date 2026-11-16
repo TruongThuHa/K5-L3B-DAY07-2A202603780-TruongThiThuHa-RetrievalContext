@@ -1,33 +1,69 @@
-# Day 7 — Agentic RAG
+# Day 07 · Agentic RAG: bài nộp của Trương Thị Thu Hà (2A202603780, L3B)
 
-**Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
+Agent dùng Gemini (tool calling) truy xuất kho tài liệu Day 6 (báo cáo World Bank 2020 về giáo dục đại học Việt Nam, 82 trang, 416 chunk trong pgvector), trả lời có `[chunk-id]` hoặc từ chối khi không đủ bằng chứng. So sánh 3 phương pháp retrieval (dense, BM25, hybrid RRF) cùng 2 cấu hình cải thiện (rerank, context budget) trên dev, chốt cấu hình rồi đánh giá một lần trên test.
 
-Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+- Đề bài gốc: https://github.com/VinUni-AI20k/K5-L3-Day07-Retrieval-Context-Engineering (hướng dẫn gốc giữ trong `GUIDE.md`, `BENCHMARK.md`, `RUBRIC.md`…)
+- **Báo cáo:** [report/individual/2A202603780_TruongThiThuHa.md](report/individual/2A202603780_TruongThiThuHa.md)
+- Cấu hình đã chốt trước test: [results/LOCKED_CONFIG.md](results/LOCKED_CONFIG.md)
 
-> **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+## Kết quả chính
 
-## Bài cần làm
+| | Dev: Context Evidence Rate | Dev: grounded answer (/2) | Test: grounded answer (/2) | Abstention đúng (dev / test) |
+|---|---|---|---|---|
+| Baseline: dense Day 6, budget 800 | 7/15 | 1,20 (từ chối nhầm 6/15) | 1,60 | 2/2 · 2/2 |
+| **Selected: hybrid RRF + rerank, budget 2400** | **14/15** | **1,87** (từ chối nhầm 1/15) | **2,00** | 2/2 · 2/2 |
 
-![Agent tìm tài liệu trong kho Day 6 và trả lời có nguồn](assets/retrieval-pipeline.svg)
+## Cấu trúc
 
-1. Kết nối dữ liệu, embedding và vector store Day 6.
-2. Xây agent dùng model thật và ít nhất một khả năng truy xuất dữ liệu. Agent có thể dùng nhiều tool và nhiều lượt gọi.
-3. Thử **ít nhất 3 phương pháp retrieval khác nhau**, trong đó có dense retrieval dùng vector store Day 6. Tự chọn các phương pháp còn lại; xem [gợi ý](GUIDE.md#2-thử-các-phương-pháp-retrieval).
-4. Thử nhiều cấu hình, benchmark, phân tích lỗi và chọn cấu hình tốt trên **dev**; sau đó đánh giá trên **test**.
+~~~text
+data/he2020/        chunks.json (xuất từ pgvector Day 6), questions.json (20 câu có gold), unanswerable.json (4 câu), cases.json (24 câu, KHÔNG có gold, agent chỉ đọc file này)
+src/export_day6.py  xuất chunk + chuyển benchmark Day 6 sang schema Day 7
+src/retrievers.py   Dense (pgvector) · BM25 · Hybrid RRF · Rerank (cross-encoder)
+src/eval_retrieval.py  Hit@1, Evidence Hit@3, Context Evidence Rate cho mọi cấu hình
+src/check_llm.py    kiểm tra key và tool calling của model
+src/agent.py        controller Gemini (tool search_documents / final_answer) cho run_agent của starter
+src/run_agent.py    chạy agent trên dev/test, lưu trace đầy đủ
+src/make_reviews.py nhãn chấm tay (có lý do) -> reviews.json + review_sheet.md
+results/retrieval/{dev,test}/   summary.md, summary.json, traces.json
+results/agent/{dev,test}/{baseline,selected}/  traces.json, reviews.json, metrics.json
+results/pip_freeze.txt          phiên bản thư viện
+~~~
 
-Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 câu thiếu bằng chứng; test gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Xem [benchmark](BENCHMARK.md) và [rubric](RUBRIC.md).
+## Cách chạy lại (macOS, Python 3.13)
 
-## Thử thách nâng cao · +15 điểm
+Cần database Day 6 đã ingest (repo `K5-L3B-DAY06-2A202603780-DataIngestion`, Docker Desktop đang chạy).
 
-Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
+~~~bash
+# 1. Bật pgvector Day 6
+docker compose -f ~/Documents/K5-L3B-DAY06-2A202603780-DataIngestion/starter/docker-compose.yml -p day6_student_starter up -d --wait
 
-## Bắt đầu
+# 2. Môi trường Python
+python3.13 -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env      # điền LLM_API_KEY (Gemini) và LLM_MODEL=gemini-3.8-flash; KHÔNG commit .env
 
-1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).
-2. Tạo repo cá nhân theo [cách nộp bài](SUBMISSION.md), chuẩn bị đầu ra Day 6 và model hỗ trợ tool calling.
-3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
-4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
+# 3. Dữ liệu + benchmark
+python -m src.export_day6
 
-![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
+# 4. Retrieval
+python -m src.eval_retrieval --split dev
+python -m src.eval_retrieval --split test --locked
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+# 5. Agent
+python -m src.check_llm
+python -m src.run_agent --split dev --config selected
+python -m src.run_agent --split dev --config baseline
+python -m src.run_agent --split test --config selected --locked
+python -m src.run_agent --split test --config baseline --locked
+
+# 6. Nhãn + điểm agent
+python -m src.make_reviews --split dev
+python -m src.make_reviews --split test
+python starter/agent_metrics.py --cases data/he2020/cases.json --traces results/agent/test/selected/traces.json \
+  --reviews results/agent/test/selected/reviews.json --split test --output results/agent/test/selected/metrics.json
+
+# Test của đề (mock, chỉ kiểm tra code)
+python -m unittest discover -s tests -v
+~~~
+
+Model và dữ liệu: embedding `BAAI/bge-small-en-v1.5` (384 chiều, local), reranker `cross-encoder/ms-marco-MiniLM-L-6-v2` (local), LLM `gemini-3.8-flash` (Google Gemini API). Corpus: World Bank 2020, CC BY 3.0 IGO (http://hdl.handle.net/10986/33681).

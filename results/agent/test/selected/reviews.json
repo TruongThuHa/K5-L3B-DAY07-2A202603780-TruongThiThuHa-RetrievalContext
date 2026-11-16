@@ -1,0 +1,59 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      true
+    ],
+    "reason": "Khoảng 93%; trang 31 nêu nguyên văn",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đứng cuối bảng theo H-index; trang 50 và trang 17 đều nêu",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Từ 0,23% lên ít nhất 0,8% GDP năm 2030; trang 23 và 26, đúng filter executive_summary",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Chương trình cho vay SLP do VSPB quản lý; trang 20 và 64",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Chênh 34 điểm % (45% so với 11%, 2018); trang 16, 39, 40",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "n03",
+    "citation_support": [],
+    "reason": "Tìm 3 lần, tài liệu chỉ nói đóng cửa kéo dài, không có số tuần; từ chối đúng",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "n04",
+    "citation_support": [],
+    "reason": "Tìm 3 lần, không có lương giảng viên; không lấy nhầm thu nhập người tốt nghiệp; từ chối đúng",
+    "abstention_correct": true
+  }
+]
