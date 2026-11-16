@@ -83,13 +83,35 @@ class LLMController:
                "tool": call.function.name if call else None}
         self.calls.append(log)
 
-        if call is None:   # model trả lời bằng chữ thường thay vì gọi tool -> coi là câu trả lời cuối
+        if call is None:   # model trả lời bằng chữ thường thay vì gọi tool
             text = (msg.content or "").strip()
+            leaked = self._leaked_tool_call(text)
+            if leaked:   # Gemini đôi khi viết lời gọi tool thành JSON trong nội dung -> đọc lại đúng tool đó
+                log["leaked_tool_call"] = leaked[0]
+                name, args = leaked
+                if name == "search_documents" and left > 0:
+                    return {"action": "search", "query": str(args.get("query", "")).strip() or question}
+                return self._answer(str(args.get("answer", "")).strip(), list(args.get("citations") or []), log)
             return self._answer(text, [cid for cid in state["context_ids"] if cid in text], log)
         args = json.loads(call.function.arguments or "{}")
         if call.function.name == "search_documents":
             return {"action": "search", "query": str(args.get("query", "")).strip() or question}
         return self._answer(str(args.get("answer", "")).strip(), list(args.get("citations") or []), log)
+
+    @staticmethod
+    def _leaked_tool_call(text: str) -> tuple[str, dict[str, Any]] | None:
+        """Nhận dạng nội dung kiểu ```json {"call": "default_api:final_answer", "args": {...}}``` ."""
+        start, end = text.find("{"), text.rfind("}")
+        if start < 0 or end < 0:
+            return None
+        try:
+            data = json.loads(text[start:end + 1])
+        except json.JSONDecodeError:
+            return None
+        if not isinstance(data, dict) or not isinstance(data.get("args"), dict):
+            return None
+        name = str(data.get("call") or data.get("name") or "").split(":")[-1].split(".")[-1]
+        return (name, data["args"]) if name in ("final_answer", "search_documents") else None
 
     def _answer(self, answer: str, citations: list[str], log: dict[str, Any]) -> dict[str, Any]:
         # Chuẩn hóa: "[he2020-p040-B02 | page 40]" -> "he2020-p040-B02"; bỏ trùng, giữ thứ tự

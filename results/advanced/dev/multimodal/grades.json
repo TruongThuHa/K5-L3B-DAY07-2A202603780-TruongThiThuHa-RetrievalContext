@@ -1,0 +1,272 @@
+{
+  "summary": {
+    "split": "dev",
+    "config": "multimodal",
+    "pass": 17,
+    "total": 18,
+    "pass_rate": 0.9444,
+    "threshold_90": true,
+    "by_group": {
+      "table": {
+        "pass": 4,
+        "total": 4
+      },
+      "image": {
+        "pass": 3,
+        "total": 3
+      },
+      "chart": {
+        "pass": 3,
+        "total": 4
+      },
+      "multihop": {
+        "pass": 2,
+        "total": 2
+      },
+      "text": {
+        "pass": 2,
+        "total": 2
+      },
+      "unanswerable": {
+        "pass": 3,
+        "total": 3
+      }
+    },
+    "system_errors": 0,
+    "median_seconds": 6.105,
+    "tokens_in": 71055,
+    "tokens_out": 1667
+  },
+  "grades": [
+    {
+      "query_id": "ad01",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "76, đúng cột QS; trích chunk Table 3 trang 43",
+      "citations": [
+        "he2020-p043-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.31,
+      "error": null
+    },
+    {
+      "query_id": "ad02",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "0,24 đúng hàng % HE/GDP cột 2011; chunk Table 9 trang 58",
+      "citations": [
+        "he2020-p058-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.58,
+      "error": null
+    },
+    {
+      "query_id": "ad03",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "65.628 đúng ô Universities × Researchers; chunk Table 13 trang 62",
+      "citations": [
+        "he2020-p062-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 9.01,
+      "error": null
+    },
+    {
+      "query_id": "ad04",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "Nêu đủ Competitive research grants (Yes/partially) và Centers of excellence (Partially); Table 17 trang 79",
+      "citations": [
+        "he2020-p079-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.44,
+      "error": null
+    },
+    {
+      "query_id": "ad05",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 3 HE outcomes; chunk Figure 2 trang 34",
+      "citations": [
+        "he2020-p034-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.05,
+      "error": null
+    },
+    {
+      "query_id": "ad06",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 4 đơn vị đánh giá; chunk Figure 11 trang 56",
+      "citations": [
+        "he2020-p056-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.48,
+      "error": null
+    },
+    {
+      "query_id": "ad07",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 3 chức năng (giữ lỗi chính tả 'adotion' của bản gốc, có ghi adoption); Figure 14 trang 80",
+      "citations": [
+        "he2020-p080-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.9,
+      "error": null
+    },
+    {
+      "query_id": "ad08",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Rep. of Korea và Singapore = 1,00; Figure ES.3 trang 20",
+      "citations": [
+        "he2020-p020-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.99,
+      "error": null
+    },
+    {
+      "query_id": "ad09",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "3,4; Figure 10 trang 51",
+      "citations": [
+        "he2020-p051-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.34,
+      "error": null
+    },
+    {
+      "query_id": "ad10",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Female - Male ≈13; Figure 7 trang 41",
+      "citations": [
+        "he2020-p041-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.62,
+      "error": null
+    },
+    {
+      "query_id": "ad11",
+      "group": "chart",
+      "status": "answered",
+      "pass": false,
+      "reason": "Sai: nói không nước nào vượt 100% vì vision đọc đỉnh Hàn Quốc ≈100 (gốc ≈104); câu trả lời còn lộ JSON tool call",
+      "citations": [
+        "he2020-p037-V00"
+      ],
+      "n_searches": 4,
+      "elapsed_s": 25.84,
+      "error": null
+    },
+    {
+      "query_id": "ad12",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "0,6 (Figure 10 tr. 51) và 3,16 (Table 5 tr. 50), trích đúng 2 chunk",
+      "citations": [
+        "he2020-p051-V00",
+        "he2020-p050-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 9.3,
+      "error": null
+    },
+    {
+      "query_id": "ad13",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "1.276.647 = 3.584.647 − 2.308.000, nêu đủ 2 số; Table 14 tr. 68 + Table 1 tr. 38",
+      "citations": [
+        "he2020-p068-V00",
+        "he2020-p038-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 11.87,
+      "error": null
+    },
+    {
+      "query_id": "ad14",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "More than 600 GRIs; đoạn văn trang 51",
+      "citations": [
+        "he2020-p051-B03"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 8.68,
+      "error": null
+    },
+    {
+      "query_id": "ad15",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "US$1.124 triệu; chú thích trang 60",
+      "citations": [
+        "he2020-p060-B02"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.95,
+      "error": null
+    },
+    {
+      "query_id": "ad16",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy nhầm tỷ lệ toàn hệ thống (23) thành của VNU-Hanoi",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 13.98,
+      "error": null
+    },
+    {
+      "query_id": "ad17",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không bịa hạng 2023",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 11.71,
+      "error": null
+    },
+    {
+      "query_id": "ad18",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không bịa số chi",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 14.96,
+      "error": null
+    }
+  ]
+}

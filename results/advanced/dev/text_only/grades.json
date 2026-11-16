@@ -1,0 +1,263 @@
+{
+  "summary": {
+    "split": "dev",
+    "config": "text_only",
+    "pass": 10,
+    "total": 18,
+    "pass_rate": 0.5556,
+    "threshold_90": false,
+    "by_group": {
+      "table": {
+        "pass": 2,
+        "total": 4
+      },
+      "image": {
+        "pass": 2,
+        "total": 3
+      },
+      "chart": {
+        "pass": 2,
+        "total": 4
+      },
+      "multihop": {
+        "pass": 0,
+        "total": 2
+      },
+      "text": {
+        "pass": 1,
+        "total": 2
+      },
+      "unanswerable": {
+        "pass": 3,
+        "total": 3
+      }
+    },
+    "system_errors": 0,
+    "median_seconds": 10.975000000000001,
+    "tokens_in": 54675,
+    "tokens_out": 1768
+  },
+  "grades": [
+    {
+      "query_id": "ad01",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "76; text trang 43 có bảng dạng chữ",
+      "citations": [
+        "he2020-p043-B03"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 9.27,
+      "error": null
+    },
+    {
+      "query_id": "ad02",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "0,24; text trang 58",
+      "citations": [
+        "he2020-p058-B02",
+        "he2020-p058-B01"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.86,
+      "error": null
+    },
+    {
+      "query_id": "ad03",
+      "group": "table",
+      "status": "abstain",
+      "pass": false,
+      "reason": "Từ chối sau 3 lần tìm: không đưa được ô Universities × Researchers (Table 13) vào context",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 10.19,
+      "error": null
+    },
+    {
+      "query_id": "ad04",
+      "group": "table",
+      "status": "answered",
+      "pass": false,
+      "reason": "Chỉ nêu 1/2 modality (thiếu Centers of excellence)",
+      "citations": [
+        "he2020-p079-B02"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 11.98,
+      "error": null
+    },
+    {
+      "query_id": "ad05",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 3 HE outcomes (chữ trong sơ đồ có trong text pypdf)",
+      "citations": [
+        "he2020-p034-B02"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 13.24,
+      "error": null
+    },
+    {
+      "query_id": "ad06",
+      "group": "image",
+      "status": "abstain",
+      "pass": false,
+      "reason": "Từ chối sau 3 lần tìm: text pypdf của sơ đồ Figure 11 không đủ để agent xác định hàng tiêu đề",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 11.55,
+      "error": null
+    },
+    {
+      "query_id": "ad07",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 3 chức năng; text trang 80 có chữ trong sơ đồ",
+      "citations": [
+        "he2020-p080-B00"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 10.55,
+      "error": null
+    },
+    {
+      "query_id": "ad08",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đúng 2 nước; nhãn số biểu đồ có trong text trang 20",
+      "citations": [
+        "he2020-p020-B00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.82,
+      "error": null
+    },
+    {
+      "query_id": "ad09",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "3,4; nhãn số có trong text trang 51",
+      "citations": [
+        "he2020-p051-B04"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 18.65,
+      "error": null
+    },
+    {
+      "query_id": "ad10",
+      "group": "chart",
+      "status": "abstain",
+      "pass": false,
+      "reason": "Từ chối: biểu đồ không nhãn số, text không có giá trị",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 13.64,
+      "error": null
+    },
+    {
+      "query_id": "ad11",
+      "group": "chart",
+      "status": "abstain",
+      "pass": false,
+      "reason": "Từ chối: biểu đồ đường không có nhãn số",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 13.79,
+      "error": null
+    },
+    {
+      "query_id": "ad12",
+      "group": "multihop",
+      "status": "answered",
+      "pass": false,
+      "reason": "Nội dung đúng nhưng câu trả lời lộ JSON tool call (lỗi định dạng), không chấm đạt",
+      "citations": [
+        "he2020-p051-B04",
+        "he2020-p051-B02",
+        "he2020-p051-B00"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 16.25,
+      "error": null
+    },
+    {
+      "query_id": "ad13",
+      "group": "multihop",
+      "status": "abstain",
+      "pass": false,
+      "reason": "Từ chối sau 3 lần tìm: không có đủ cả hai tổng (Table 14 và Table 1) trong context",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 11.4,
+      "error": null
+    },
+    {
+      "query_id": "ad14",
+      "group": "text",
+      "status": "answered",
+      "pass": false,
+      "reason": "Sai: 'several hundred' thay vì 'more than 600', trích trang 18 không có số này",
+      "citations": [
+        "he2020-p018-B03"
+      ],
+      "n_searches": 3,
+      "elapsed_s": 8.72,
+      "error": null
+    },
+    {
+      "query_id": "ad15",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "US$1.124 triệu",
+      "citations": [
+        "he2020-p060-B02"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.04,
+      "error": null
+    },
+    {
+      "query_id": "ad16",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối đúng",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 40.68,
+      "error": null
+    },
+    {
+      "query_id": "ad17",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối đúng",
+      "citations": [],
+      "n_searches": 2,
+      "elapsed_s": 8.9,
+      "error": null
+    },
+    {
+      "query_id": "ad18",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối đúng",
+      "citations": [],
+      "n_searches": 3,
+      "elapsed_s": 9.57,
+      "error": null
+    }
+  ]
+}

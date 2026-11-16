@@ -1,0 +1,568 @@
+[
+  {
+    "query_id": "ad11",
+    "split": "dev",
+    "group": "chart",
+    "config": "multimodal",
+    "strategies": "B,V",
+    "chunks": "all",
+    "top_k": 4,
+    "budget": 6000,
+    "max_searches": 4,
+    "depth": 30,
+    "model": "gemini-3.8-flash",
+    "question": "In Figure 3, which country's tertiary gross enrolment ratio rose above 100 percent?",
+    "status": "answered",
+    "answer": "According to Figure 3, no country's tertiary gross enrolment ratio is shown rising above 100 percent; however, the Republic of Korea reached the highest level among the countries shown, peaking at approximately 100 percent in 2008–2009. [he2020-p037-V00]",
+    "citations": [
+      "he2020-p037-V00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Figure 3, which country's tertiary gross enrolment ratio rose above 100 percent?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p037-V00",
+            "text": "[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "section": "diagnosis",
+              "kind": "chart",
+              "label": "Figure 3",
+              "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+              "box_2d": [
+                468,
+                114,
+                847,
+                895
+              ],
+              "page_image": "data/advanced/pages/p037.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": 5.74,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 8
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p033-V00",
+            "text": "[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 33,
+            "metadata": {
+              "section": "introduction",
+              "kind": "chart",
+              "label": "Figure 1",
+              "title": "Human Capital Index and Tertiary Education Outcomes",
+              "box_2d": [
+                414,
+                114,
+                725,
+                896
+              ],
+              "page_image": "data/advanced/pages/p033.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": 2.5409,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 29,
+              "bm25": 5
+            },
+            "base_rank": 10
+          },
+          {
+            "id": "he2020-p015-B03",
+            "text": "Currently, Vietnam’s tertiary education enrolment is below that of the 2010 level, and the corresponding GER is 28 percent, one of the lowest in East Asia.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.0874,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 13
+            },
+            "base_rank": 23
+          },
+          {
+            "id": "he2020-p037-B00",
+            "text": "25 Diagnosis of the Vietnamese Higher Education System 2. DIAGNOSIS OF THE VIETNAMESE HIGHER EDUCATION SYSTEM 2.1 Access and Equity Access Performance Despite significant progress made in the past 15 years, Vietnam’s tertiary education access level is one of the lowest in East Asia. Vietnam made impressive progress in expanding tertiary education access between 2000 and 2016, as enrolments grew from 0.9 million to 2.3 million students, with the tertiary GER increasing from 9 percent to 28 percent in the same period. However, as shown in Figure 3, Vietnam’s GER lags behind its comparators and aspirational peers in the East Asia region. Moreover, countries such as Indonesia and China have grown much faster than Vietnam.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "page_id": "he2020-p037",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.4516,
+            "rank": 4,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 11
+            },
+            "base_rank": 22
+          }
+        ],
+        "context": "[he2020-p037-V00 | data/he2020.pdf | page 37]\n[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.\n\n[he2020-p033-V00 | data/he2020.pdf | page 33]\n[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics\n\n[he2020-p015-B03 | data/he2020.pdf | page 15]\nCurrently, Vietnam’s tertiary education enrolment is below that of the 2010 level, and the corresponding GER is 28 percent, one of the lowest in East Asia.\n\n[he2020-p037-B00 | data/he2020.pdf | page 37]\n25 Diagnosis of the Vietnamese Higher Education System 2. DIAGNOSIS OF THE VIETNAMESE HIGHER EDUCATION SYSTEM 2.1 Access and Equity Access Performance Despite significant progress made in the past 15 years, Vietnam’s tertiary education access level is one of the lowest in East Asia. Vietnam made impressive progress in expanding tertiary education access between 2000 and 2016, as enrolments grew from 0.9 million to 2.3 million students, with the tertiary GER increasing from 9 percent to 28 percent in the same period. However, as shown in Figure 3, Vietnam’s GER lags behind its comparators and aspirational peers in the East Asia region. Moreover, countries such as Indonesia and China have grown much faster than Vietnam.",
+        "context_ids": [
+          "he2020-p037-V00",
+          "he2020-p033-V00",
+          "he2020-p015-B03",
+          "he2020-p037-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Figure 3\" \"Republic of Korea\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p037-V00",
+            "text": "[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "section": "diagnosis",
+              "kind": "chart",
+              "label": "Figure 3",
+              "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+              "box_2d": [
+                468,
+                114,
+                847,
+                895
+              ],
+              "page_image": "data/advanced/pages/p037.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": 0.7947,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 5
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p020-V00",
+            "text": "[Figure ES.3: Figure ES.3: Public Expenditure on Tertiary Education, as % of GDP (2016)] (page 20, chart)\nChart type: Vertical bar chart\nX-axis: Country (Vietnam, Indonesia, Thailand, China, Rep. of Korea, Singapore, Malaysia, Poland, France, UK, Australia, Netherlands, Finland)\nY-axis: Public Expenditure on Tertiary Education, as % of GDP (unit: % of GDP)\nLegend: None (Vietnam is highlighted in orange; other countries are in grey)\n\nData points:\n- Vietnam: 0.33\n- Indonesia: 0.57\n- Thailand: 0.64\n- China: 0.87\n- Rep. of Korea: 1.00\n- Singapore: 1.00\n- Malaysia: 1.13\n- Poland: 1.22\n- France: 1.25\n- UK: 1.29\n- Australia: 1.54\n- Netherlands: 1.63\n- Finland: 1.89\n\nSource: UIS for all countries except Vietnam (authors’ estimates using MOF data of 2015) and China (estimate for the most recent year from World Bank’s Innovative China Report of 2019).\nNote: Vietnam MOF data on public financing on education includes tuition collected from students/households. The analysis in this report treats tuition revenue in public universities as non-public resource, and this portion is excluded when estimating the real allocation from the public sector. When tuition fees from households are included, the expenditure on tertiary education would increase from 0.33 percent of GDP to 0.69 percent of GDP .\n\nComparisons:\n- Finland has the highest public expenditure on tertiary education at 1.89% of GDP.\n- Vietnam has the lowest public expenditure on tertiary education among all comparator countries shown at 0.33% of GDP.\n- Republic of Korea and Singapore spend the same proportion of GDP at 1.00%.\n- Among East Asian countries shown, Vietnam's spending (0.33%) is lower than Indonesia (0.57%), Thailand (0.64%), China (0.87%), and Malaysia (1.13%).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 20,
+            "metadata": {
+              "section": "executive_summary",
+              "kind": "chart",
+              "label": "Figure ES.3",
+              "title": "Figure ES.3: Public Expenditure on Tertiary Education, as % of GDP (2016)",
+              "box_2d": [
+                152,
+                102,
+                551,
+                887
+              ],
+              "page_image": "data/advanced/pages/p020.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": -2.1895,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 4
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p051-V00",
+            "text": "[Figure 10: Figure 10: GERD as a Percentage of GDP in 2015] (page 51, chart)\nColumn chart; x-axis: Country / Group; y-axis: GERD as a percentage of GDP (%) from 0.0 to 4.5 in intervals of 0.5; Legend: None;\n- Australia: 1.9\n- China: 2.1\n- Denmark: 3.0\n- Finland: 2.9\n- France: 2.3\n- Germany: 2.9\n- Indonesia: 0.1\n- Malaysia: 1.3\n- Netherlands: 2.0\n- Philippines: 0.1\n- Poland: 1.0\n- Republic of Korea: 4.2\n- Singapore: 2.0\n- Switzeland: 3.4\n- Thailand: 0.6\n- United Kingdom: 1.7\n- Viet Nam: 0.4\n- Lower middle income countries: 0.4\n- Middle income countries: 1.1\nSource: UIS.\nComparisons: Republic of Korea has the highest GERD at 4.2% of GDP, followed by Switzeland at 3.4%; Indonesia and the Philippines have the lowest at 0.1% each; Viet Nam's expenditure of 0.4% equals the Lower middle income countries average (0.4%) and is below the Middle income countries average (1.1%).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "section": "diagnosis",
+              "kind": "chart",
+              "label": "Figure 10",
+              "title": "Figure 10: GERD as a Percentage of GDP in 2015",
+              "box_2d": [
+                666,
+                114,
+                925,
+                856
+              ],
+              "page_image": "data/advanced/pages/p051.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": -3.1126,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p051-B04",
+            "text": "The limited resources in support of research and technology transfer in universities are spread too thin, do not always promote performance, and are not always aligned with national and local priorities. Figure 10: GERD as a Percentage of GDP in 2015 1.9 2.1 3.0 2.9 2.3 2.9 0.1 1.3 2.0 0.1 1.0 4.2 2.0 3.4 0.6 1.7 0.4 0.4 1.1 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 Australia China DenmarkFinlandFranceGermanyIndonesiaMalaysiaNetherlandsPhilippinesPoland Republic of Korea SingaporeSwitzeland United Kingdom Viet Nam Lower middle income countries Middle income countriesThailand Source: UIS.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -3.1407,
+            "rank": 4,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 2
+            },
+            "base_rank": 12
+          }
+        ],
+        "context": "[he2020-p037-V00 | data/he2020.pdf | page 37]\n[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.\n\n[he2020-p033-V00 | data/he2020.pdf | page 33]\n[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics\n\n[he2020-p015-B03 | data/he2020.pdf | page 15]\nCurrently, Vietnam’s tertiary education enrolment is below that of the 2010 level, and the corresponding GER is 28 percent, one of the lowest in East Asia.\n\n[he2020-p037-B00 | data/he2020.pdf | page 37]\n25 Diagnosis of the Vietnamese Higher Education System 2. DIAGNOSIS OF THE VIETNAMESE HIGHER EDUCATION SYSTEM 2.1 Access and Equity Access Performance Despite significant progress made in the past 15 years, Vietnam’s tertiary education access level is one of the lowest in East Asia. Vietnam made impressive progress in expanding tertiary education access between 2000 and 2016, as enrolments grew from 0.9 million to 2.3 million students, with the tertiary GER increasing from 9 percent to 28 percent in the same period. However, as shown in Figure 3, Vietnam’s GER lags behind its comparators and aspirational peers in the East Asia region. Moreover, countries such as Indonesia and China have grown much faster than Vietnam.",
+        "context_ids": [
+          "he2020-p037-V00",
+          "he2020-p033-V00",
+          "he2020-p015-B03",
+          "he2020-p037-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Figure 3\" \"100\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p037-V00",
+            "text": "[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "section": "diagnosis",
+              "kind": "chart",
+              "label": "Figure 3",
+              "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+              "box_2d": [
+                468,
+                114,
+                847,
+                895
+              ],
+              "page_image": "data/advanced/pages/p037.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": -2.5158,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 5
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p037-B01",
+            "text": "Vietnam’s 2000 and 2010 tertiary education GERs were similar to those of China, but as of 2016 China had moved ahead significantly. Vietnam’s 2016 tertiary GER matches Malaysia’s 2002 GER, thus putting Vietnam behind by 14 years. Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016 0 10 20 30 40 50 60 70 80 90 100 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 China Indonesia Malaysia Philippines Republic of Korea Thailand Viet Nam Source: UIS Education Statistics.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "page_id": "he2020-p037",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -5.961,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 1
+            },
+            "base_rank": 9
+          },
+          {
+            "id": "he2020-p016-V00",
+            "text": "[Figure ES.2: Inequality in Access in Vietnam, by Education Level, 2006 and 2018] (page 16, chart)\nLine chart (polynomial smoothing)\nX-axis: Expenditure Percentile (0 to 100, step 10)\nY-axis: Access rate, % (0 to 100, step 10)\nLegend: Basic education 2006 (dashed purple), Basic education 2018 (solid purple), Upper Secondary Edu 2006 (dashed orange), Upper Secondary Edu 2018 (solid orange), Tertiary education 2006 (dashed red), Tertiary education 2018 (solid red)\n\nEstimated values across expenditure percentiles (p0 to p100):\n- Basic education 2006: p0: ≈91%, p20: ≈93%, p40: ≈96%, p60: ≈97%, p80: ≈98%, p100: ≈98%\n- Basic education 2018: p0: ≈95%, p20: ≈96%, p40: ≈97%, p60: ≈98%, p80: ≈98%, p100: ≈98%\n- Upper Secondary Edu 2006: p0: ≈14%, p20: ≈33%, p40: ≈50%, p60: ≈64%, p80: ≈74%, p100: ≈81%\n- Upper Secondary Edu 2018: p0: ≈40%, p20: ≈56%, p40: ≈71%, p60: ≈81%, p80: ≈86%, p100: ≈86%\n- Tertiary education 2006: p0: ≈0%, p20: ≈1%, p40: ≈5%, p60: ≈12%, p80: ≈24%, p100: ≈42%\n- Tertiary education 2018: p0: ≈1%, p20: ≈6%, p40: ≈16%, p60: ≈32%, p80: ≈57%, p100: ≈84%\n\nComparisons:\n- Basic education has the highest access rate across all percentiles in both 2006 and 2018, remaining near or above 90% across the entire income distribution.\n- Tertiary education access rate displays the steepest socioeconomic gradient, increasing sharply from nearly 1% at the lowest percentile to 84% at the 100th percentile in 2018.\n- Access rates improved across all levels between 2006 and 2018, but the gap between the richest and poorest percentiles widened significantly for tertiary education (from a gap of ≈42 percentage points in 2006 to ≈83 percentage points in 2018).\n\nSource: Authors’ estimates using Vietnam Household Living Standard Survey (VHLSS) 2006 and 2018 data on individual member education and household consumption expenditures.\nNote: Access rate for a given education level is defined as proportion of individuals in the reference age-group who ever had access to the particular education level. Reference age-groups are ages 6-14 for basic education (grades 1-9), ages 15-17 upper secondary (grades 10-12) and ages 18-24 for tertiary education level (post-secondary). The graphs show averages using second-order polynomial smoothing.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "section": "executive_summary",
+              "kind": "chart",
+              "label": "Figure ES.2",
+              "title": "Inequality in Access in Vietnam, by Education Level, 2006 and 2018",
+              "box_2d": [
+                326,
+                104,
+                755,
+                888
+              ],
+              "page_image": "data/advanced/pages/p016.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": -6.1767,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 11
+            },
+            "base_rank": 23
+          },
+          {
+            "id": "he2020-p080-V00",
+            "text": "[Figure 14: Instruments for Building Firms’ Technology Capabilities] (page 80, diagram)\nA conceptual framework diagram divided into two halves by a vertical dashed line and two levels by a horizontal dashed line:\n\n**Top Categories (orange ovals):**\n- Left: \"Buiding absorptive capacity\"\n- Right: \"Supporting tech generation, commercialization and transfer\"\n\n**Technology Stages (grey ovals, below top categories):**\n- Left: \"Technology adotion\"\n- Center: \"Technology transfer\" (straddling the vertical dashed line)\n- Right: \"Technology generation\"\n\n**Key Actors (grey rectangles along the horizontal dashed line):**\n- Left: \"Firms\"\n- Right: \"Universities / Research institutions\"\n\n**Instruments / Policy Interventions (orange rounded rectangles):**\n- Row 1:\n  - \"Business advisory services\" (arrows pointing to Technology adotion)\n  - \"Technology extension\" (arrows pointing to Technology adotion and Technology transfer)\n  - \"Technology/ R&D centers\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Science/ Technology parks\" (arrows pointing to Technology transfer and Technology generation)\n  - \"Technology Transfer Offices\" (arrows pointing to Technology generation and Technology transfer)\n- Row 2:\n  - \"Grants for (process) innovation\" (left)\n  - \"Loans for innovation (equipment)\" (left-center)\n  - \"Open innovation\" (center-right, across from vertical dashed line)\n\nSource: World Bank (2019). A Practitioner’s Guide to Innovation Policy.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 80,
+            "metadata": {
+              "section": "policy_options",
+              "kind": "diagram",
+              "label": "Figure 14",
+              "title": "Instruments for Building Firms’ Technology Capabilities",
+              "box_2d": [
+                174,
+                106,
+                557,
+                842
+              ],
+              "page_image": "data/advanced/pages/p080.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": -6.41,
+            "rank": 4,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 12
+            },
+            "base_rank": 24
+          }
+        ],
+        "context": "[he2020-p037-V00 | data/he2020.pdf | page 37]\n[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.\n\n[he2020-p033-V00 | data/he2020.pdf | page 33]\n[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics\n\n[he2020-p015-B03 | data/he2020.pdf | page 15]\nCurrently, Vietnam’s tertiary education enrolment is below that of the 2010 level, and the corresponding GER is 28 percent, one of the lowest in East Asia.\n\n[he2020-p037-B00 | data/he2020.pdf | page 37]\n25 Diagnosis of the Vietnamese Higher Education System 2. DIAGNOSIS OF THE VIETNAMESE HIGHER EDUCATION SYSTEM 2.1 Access and Equity Access Performance Despite significant progress made in the past 15 years, Vietnam’s tertiary education access level is one of the lowest in East Asia. Vietnam made impressive progress in expanding tertiary education access between 2000 and 2016, as enrolments grew from 0.9 million to 2.3 million students, with the tertiary GER increasing from 9 percent to 28 percent in the same period. However, as shown in Figure 3, Vietnam’s GER lags behind its comparators and aspirational peers in the East Asia region. Moreover, countries such as Indonesia and China have grown much faster than Vietnam.",
+        "context_ids": [
+          "he2020-p037-V00",
+          "he2020-p033-V00",
+          "he2020-p015-B03",
+          "he2020-p037-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Figure 3\" \"gross enrolment ratio\" OR \"GER\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p037-V00",
+            "text": "[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 37,
+            "metadata": {
+              "section": "diagnosis",
+              "kind": "chart",
+              "label": "Figure 3",
+              "title": "Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016",
+              "box_2d": [
+                468,
+                114,
+                847,
+                895
+              ],
+              "page_image": "data/advanced/pages/p037.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": 3.8371,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 5
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p033-V00",
+            "text": "[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 33,
+            "metadata": {
+              "section": "introduction",
+              "kind": "chart",
+              "label": "Figure 1",
+              "title": "Human Capital Index and Tertiary Education Outcomes",
+              "box_2d": [
+                414,
+                114,
+                725,
+                896
+              ],
+              "page_image": "data/advanced/pages/p033.png",
+              "extractor": "gemini-3.8-flash",
+              "day6_strategy": "V"
+            },
+            "score": 0.656,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 9,
+              "bm25": 4
+            },
+            "base_rank": 6
+          },
+          {
+            "id": "he2020-p033-B03",
+            "text": "80 90 100 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Gross Enrolent Rate at Tertiary EducationHuman Capital Index VNM CHN IDN KOR MYSPHL THA SGP 0 100 200 300 400 500 600 700 800 900 1000 0.3 0.4 0.5 0.6 0.7 0.8 0.9 Research Output (H-index) Human Capital Index Source: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 33,
+            "metadata": {
+              "page_id": "he2020-p033",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.962,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 8
+            },
+            "base_rank": 5
+          },
+          {
+            "id": "he2020-p013-B05",
+            "text": "However, Vietnam’s higher education system is not ready to capitalize on this huge potential of young people coming out of general education. Vietnam’s access to higher education, as measured by the gross enrolment rate (GER), is below 30 percent, one of the lowest among the East Asian countries. Its higher education output, as measured by the gross graduation ratio 2 (GGR), is only 19 percent, which is much 1 The ‘Vietnam 2035’ Report (2016) and upcoming Socioeconomic Development Strategy (SEDS) (2021–2030).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 13,
+            "metadata": {
+              "page_id": "he2020-p013",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.1132,
+            "rank": 4,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 1
+            },
+            "base_rank": 1
+          }
+        ],
+        "context": "[he2020-p037-V00 | data/he2020.pdf | page 37]\n[Figure 3: Figure 3: Tertiary Education GER in Vietnam and Selected Countries, 2000–2016] (page 37, chart)\nChart type: Line chart\nHorizontal axis: Year (2000 to 2017)\nVertical axis: Tertiary Gross Enrolment Ratio (%) (0 to 100)\nLegend: China, Indonesia, Malaysia, Philippines, Republic of Korea, Thailand, Viet Nam\nData points:\n- Republic of Korea: 2000: ≈ 77%, 2001: ≈ 80%, 2002: ≈ 82%, 2003: ≈ 85%, 2004: ≈ 88%, 2005: ≈ 91%, 2006: ≈ 95%, 2007: ≈ 98%, 2008: ≈ 100%, 2009: ≈ 100%, 2010: ≈ 99%, 2011: ≈ 98%, 2012: ≈ 96%, 2013: ≈ 95%, 2014: ≈ 95%, 2015: ≈ 94%, 2016: ≈ 94%, 2017: ≈ 94%\n- Thailand: 2000: ≈ 35%, 2001: ≈ 40%, 2002: ≈ 41%, 2003: ≈ 42%, 2004: ≈ 43%, 2005: ≈ 45%, 2006: ≈ 46%, 2007: ≈ 49%, 2008: ≈ 49%, 2009: ≈ 50%, 2010: ≈ 51%, 2011: ≈ 52%, 2012: ≈ 51%, 2013: ≈ 50%, 2014: ≈ 50%, 2015: ≈ 49%, 2016: ≈ 49%, 2017: ≈ 49%\n- China: 2000: ≈ 8%, 2001: ≈ 10%, 2002: ≈ 13%, 2003: ≈ 15%, 2004: ≈ 17%, 2005: ≈ 19%, 2006: ≈ 20%, 2007: ≈ 21%, 2008: ≈ 21%, 2009: ≈ 22%, 2010: ≈ 24%, 2011: ≈ 25%, 2012: ≈ 27%, 2013: ≈ 30%, 2014: ≈ 39%, 2015: ≈ 43%, 2016: ≈ 48%, 2017: ≈ 51%\n- Malaysia: 2000: ≈ 26%, 2001: ≈ 26%, 2002: ≈ 28%, 2003: ≈ 29%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 29%, 2007: ≈ 31%, 2008: ≈ 34%, 2009: ≈ 36%, 2010: ≈ 37%, 2011: ≈ 36%, 2012: ≈ 37%, 2013: ≈ 38%, 2014: ≈ 41%, 2015: ≈ 46%, 2016: ≈ 47%, 2017: ≈ 44%\n- Philippines: 2000: ≈ 30%, 2001: ≈ 30%, 2002: ≈ 30%, 2003: ≈ 30%, 2004: ≈ 29%, 2005: ≈ 28%, 2006: ≈ 28%, 2007: ≈ 29%, 2008: ≈ 29%, 2009: ≈ 29%, 2010: ≈ 29%, 2011: ≈ 30%, 2012: ≈ 31%, 2013: ≈ 34%, 2014: ≈ 36%, 2015: ≈ 35%, 2016: ≈ 35%, 2017: ≈ 36%\n- Indonesia: 2000: ≈ 15%, 2001: ≈ 15%, 2002: ≈ 15%, 2003: ≈ 16%, 2004: ≈ 17%, 2005: ≈ 17%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 21%, 2009: ≈ 23%, 2010: ≈ 24%, 2011: ≈ 26%, 2012: ≈ 28%, 2013: ≈ 31%, 2014: ≈ 31%, 2015: ≈ 33%, 2016: ≈ 35%, 2017: ≈ 36%\n- Viet Nam: 2000: ≈ 9%, 2001: ≈ 10%, 2002: ≈ 10%, 2003: ≈ 10%, 2004: ≈ 14%, 2005: ≈ 16%, 2006: ≈ 17%, 2007: ≈ 18%, 2008: ≈ 20%, 2009: ≈ 21%, 2010: ≈ 23%, 2011: ≈ 25%, 2012: ≈ 26%, 2013: ≈ 26%, 2014: ≈ 31%, 2015: ≈ 29%, 2016: ≈ 28%, 2017: ≈ 29%\n\nComparisons:\n- Republic of Korea maintains by far the highest tertiary GER across the entire period, peaking at approximately 100% in 2008–2009.\n- Viet Nam has the lowest tertiary GER among the comparators by 2016–2017 (around 28–29%).\n- China experienced the steepest growth after 2010, rising from around 24% to over 50% by 2017 and overtaking all Southeast Asian peers in the chart.\n\nSource: UIS Education Statistics.\n\n[he2020-p033-V00 | data/he2020.pdf | page 33]\n[Figure 1: Human Capital Index and Tertiary Education Outcomes] (page 33, chart)\nChart type: Two scatter plots side by side comparing Human Capital Index with tertiary education outcomes.\n\nLeft Panel: Gross Enrolment Rate at Tertiary Education vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Gross Enrolment Rate at Tertiary Education (%) (range: 20 to 100)\n- Visual features: Dotted linear trend line running from bottom-left to top-right across the panel; Vietnam (VNM) is highlighted in red, other countries in blue.\n- Data points (HCI, GER %):\n  - PHL: ≈ (0.54, 36)\n  - IDN: ≈ (0.55, 38)\n  - THA: ≈ (0.60, 49)\n  - MYS: ≈ (0.62, 43)\n  - CHN: ≈ (0.65, 50)\n  - VNM: ≈ (0.67, 28)\n  - KOR: ≈ (0.84, 94)\n  - SGP: ≈ (0.88, 84)\n\nRight Panel: Research Output (H-index) vs. Human Capital Index\n- X-axis: Human Capital Index (range: 0.3 to 0.9)\n- Y-axis: Research Output (H-index) (range: 0 to 1000)\n- Visual features: Vietnam (VNM) highlighted with a red dot, other countries shown in green.\n- Data points (HCI, H-index):\n  - IDN: ≈ (0.54, 200)\n  - PHL: ≈ (0.55, 230)\n  - THA: ≈ (0.60, 380)\n  - MYS: ≈ (0.62, 330)\n  - CHN: ≈ (0.65, 830)\n  - VNM: ≈ (0.67, 200)\n  - KOR: ≈ (0.84, 680)\n  - SGP: ≈ (0.88, 560)\n\nFactual comparisons:\n- In the left panel, Vietnam (VNM) has a Gross Enrolment Rate of around 28%, which is the lowest among the benchmarked East Asian countries and falls substantially below the regional trend line given its Human Capital Index of ≈ 0.67.\n- In the left panel, South Korea (KOR) has the highest tertiary GER (≈ 94%), followed by Singapore (SGP, ≈ 84%).\n- In the right panel, China (CHN) achieves the highest research output with an H-index of ≈ 830, while Vietnam (VNM) and Indonesia (IDN) have the lowest at ≈ 200.\n\nSource: HCI data from World Bank (2018a), tertiary GER data from UIS (2018), research output (H-index) data from SCImago (2018).\nNote: The data used for the linear trend line for each of the above figures come from a full set of countries with non-missing data. The labels are shown for benchmarking countries from East Asia only. The H-index is a bibliometric index calculated as the maximum number of publications for which each publication is cited at least that many times and thus captures both productivity and impact of research. UIS= UNESCO Institute for Statistics\n\n[he2020-p015-B03 | data/he2020.pdf | page 15]\nCurrently, Vietnam’s tertiary education enrolment is below that of the 2010 level, and the corresponding GER is 28 percent, one of the lowest in East Asia.\n\n[he2020-p037-B00 | data/he2020.pdf | page 37]\n25 Diagnosis of the Vietnamese Higher Education System 2. DIAGNOSIS OF THE VIETNAMESE HIGHER EDUCATION SYSTEM 2.1 Access and Equity Access Performance Despite significant progress made in the past 15 years, Vietnam’s tertiary education access level is one of the lowest in East Asia. Vietnam made impressive progress in expanding tertiary education access between 2000 and 2016, as enrolments grew from 0.9 million to 2.3 million students, with the tertiary GER increasing from 9 percent to 28 percent in the same period. However, as shown in Figure 3, Vietnam’s GER lags behind its comparators and aspirational peers in the East Asia region. Moreover, countries such as Indonesia and China have grown much faster than Vietnam.",
+        "context_ids": [
+          "he2020-p037-V00",
+          "he2020-p033-V00",
+          "he2020-p015-B03",
+          "he2020-p037-B00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 4,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 8398,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 3425,
+        "tokens_out": 25,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3322,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 3435,
+        "tokens_out": 25,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 4020,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 3445,
+        "tokens_out": 29,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 15086,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 3385,
+        "tokens_out": 199,
+        "tool": null,
+        "leaked_tool_call": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p037-V00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 13690,
+    "tokens_out": 278,
+    "elapsed_s": 35.42
+  }
+]

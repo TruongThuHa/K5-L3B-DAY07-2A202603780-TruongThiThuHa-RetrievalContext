@@ -22,7 +22,48 @@ ALL_CHUNKS = ROOT / "data" / "advanced" / "chunks_all.json"
 GROUPS = ["table", "image", "chart", "multihop", "text", "unanswerable"]
 
 # (split, config) -> query_id -> (đạt?, lý do)
-LABELS: dict[tuple[str, str], dict[str, tuple[bool, str]]] = {}
+LABELS: dict[tuple[str, str], dict[str, tuple[bool, str]]] = {
+    ("dev", "multimodal"): {
+        "ad01": (True, "76, đúng cột QS; trích chunk Table 3 trang 43"),
+        "ad02": (True, "0,24 đúng hàng % HE/GDP cột 2011; chunk Table 9 trang 58"),
+        "ad03": (True, "65.628 đúng ô Universities × Researchers; chunk Table 13 trang 62"),
+        "ad04": (True, "Nêu đủ Competitive research grants (Yes/partially) và Centers of excellence (Partially); Table 17 trang 79"),
+        "ad05": (True, "Đủ 3 HE outcomes; chunk Figure 2 trang 34"),
+        "ad06": (True, "Đủ 4 đơn vị đánh giá; chunk Figure 11 trang 56"),
+        "ad07": (True, "Đủ 3 chức năng (giữ lỗi chính tả 'adotion' của bản gốc, có ghi adoption); Figure 14 trang 80"),
+        "ad08": (True, "Rep. of Korea và Singapore = 1,00; Figure ES.3 trang 20"),
+        "ad09": (True, "3,4; Figure 10 trang 51"),
+        "ad10": (True, "Female - Male ≈13; Figure 7 trang 41"),
+        "ad11": (False, "Sai: nói không nước nào vượt 100% vì vision đọc đỉnh Hàn Quốc ≈100 (gốc ≈104); câu trả lời còn lộ JSON tool call"),
+        "ad12": (True, "0,6 (Figure 10 tr. 51) và 3,16 (Table 5 tr. 50), trích đúng 2 chunk"),
+        "ad13": (True, "1.276.647 = 3.584.647 − 2.308.000, nêu đủ 2 số; Table 14 tr. 68 + Table 1 tr. 38"),
+        "ad14": (True, "More than 600 GRIs; đoạn văn trang 51"),
+        "ad15": (True, "US$1.124 triệu; chú thích trang 60"),
+        "ad16": (True, "Từ chối, không lấy nhầm tỷ lệ toàn hệ thống (23) thành của VNU-Hanoi"),
+        "ad17": (True, "Từ chối, không bịa hạng 2023"),
+        "ad18": (True, "Từ chối, không bịa số chi"),
+    },
+    ("dev", "text_only"): {
+        "ad01": (True, "76; text trang 43 có bảng dạng chữ"),
+        "ad02": (True, "0,24; text trang 58"),
+        "ad03": (False, "Từ chối sau 3 lần tìm: không đưa được ô Universities × Researchers (Table 13) vào context"),
+        "ad04": (False, "Chỉ nêu 1/2 modality (thiếu Centers of excellence)"),
+        "ad05": (True, "Đủ 3 HE outcomes (chữ trong sơ đồ có trong text pypdf)"),
+        "ad06": (False, "Từ chối sau 3 lần tìm: text pypdf của sơ đồ Figure 11 không đủ để agent xác định hàng tiêu đề"),
+        "ad07": (True, "Đủ 3 chức năng; text trang 80 có chữ trong sơ đồ"),
+        "ad08": (True, "Đúng 2 nước; nhãn số biểu đồ có trong text trang 20"),
+        "ad09": (True, "3,4; nhãn số có trong text trang 51"),
+        "ad10": (False, "Từ chối: biểu đồ không nhãn số, text không có giá trị"),
+        "ad11": (False, "Từ chối: biểu đồ đường không có nhãn số"),
+        "ad12": (False, "Nội dung đúng nhưng câu trả lời lộ JSON tool call (lỗi định dạng), không chấm đạt"),
+        "ad13": (False, "Từ chối sau 3 lần tìm: không có đủ cả hai tổng (Table 14 và Table 1) trong context"),
+        "ad14": (False, "Sai: 'several hundred' thay vì 'more than 600', trích trang 18 không có số này"),
+        "ad15": (True, "US$1.124 triệu"),
+        "ad16": (True, "Từ chối đúng"),
+        "ad17": (True, "Từ chối đúng"),
+        "ad18": (True, "Từ chối đúng"),
+    },
+}
 
 
 def main() -> None:
