@@ -1,0 +1,1296 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "status": "answered",
+    "answer": "About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure (with 35 percent being in the global middle class). [he2020-p031-B01]",
+    "citations": [
+      "he2020-p031-B01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p031-B01",
+            "text": "At the individual level, higher education has a significant positive effect on household poverty and long-term earnings. About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure 5 (with 35 percent being in the global middle class), compared to 70 percent classified as economically secure (with 13 percent in the global middle class) nationally (Vietnam Poverty Update Report 2017). Among all educational subgroups in Vietnam, higher education graduates today have the best labor market outcomes in terms of labor force participation, type of jobs, and wage earnings.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 31,
+            "metadata": {
+              "page_id": "he2020-p031",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 10.0391,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p031-B05",
+            "text": "Third, demographic shifts such as rise of the consumer middle class, increased 5 The remaining 7 percent of the population, headed by post-secondary education, is classified as either extreme poor, moderate poor, or economically vulnerable. 6 World Bank Open Data 2019.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 31,
+            "metadata": {
+              "page_id": "he2020-p031",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.8681,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 2
+            },
+            "base_rank": 6
+          },
+          {
+            "id": "he2020-p016-B03",
+            "text": "National household surveys suggest that university and college graduates have the highest labor force participation (88 percent), are more likely to have better wage jobs with contracts, and earn substantially more than secondary school graduates (wage premium of 50–90 percent). At the same time, a significant proportion of firms in Vietnam report difficulties in recruiting employees with leadership and managerial skills, socio-emotional skills, and job-specific technical skills, suggesting large skills gaps.3 3 According to the World Bank skills and enterprise survey (2019), 73 percent of sampled Vietnamese firms report difficulties in recruiting employees with leadership and managerial skills, 54 percent with socio-emotional skills, and 68 percent with job- specific technical skills.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.0994,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5
+            },
+            "base_rank": 9
+          }
+        ],
+        "context": "[he2020-p031-B01 | data/he2020.pdf | page 31]\nAt the individual level, higher education has a significant positive effect on household poverty and long-term earnings. About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure 5 (with 35 percent being in the global middle class), compared to 70 percent classified as economically secure (with 13 percent in the global middle class) nationally (Vietnam Poverty Update Report 2017). Among all educational subgroups in Vietnam, higher education graduates today have the best labor market outcomes in terms of labor force participation, type of jobs, and wage earnings.\n\n[he2020-p031-B05 | data/he2020.pdf | page 31]\nThird, demographic shifts such as rise of the consumer middle class, increased 5 The remaining 7 percent of the population, headed by post-secondary education, is classified as either extreme poor, moderate poor, or economically vulnerable. 6 World Bank Open Data 2019.\n\n[he2020-p016-B03 | data/he2020.pdf | page 16]\nNational household surveys suggest that university and college graduates have the highest labor force participation (88 percent), are more likely to have better wage jobs with contracts, and earn substantially more than secondary school graduates (wage premium of 50–90 percent). At the same time, a significant proportion of firms in Vietnam report difficulties in recruiting employees with leadership and managerial skills, socio-emotional skills, and job-specific technical skills, suggesting large skills gaps.3 3 According to the World Bank skills and enterprise survey (2019), 73 percent of sampled Vietnamese firms report difficulties in recruiting employees with leadership and managerial skills, 54 percent with socio-emotional skills, and 68 percent with job- specific technical skills.",
+        "context_ids": [
+          "he2020-p031-B01",
+          "he2020-p031-B05",
+          "he2020-p016-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3391,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 914,
+        "tokens_out": 72,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p031-B01"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 914,
+    "tokens_out": 72,
+    "elapsed_s": 5.08
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "status": "answered",
+    "answer": "When measured by the H-index (or H-indicator), which captures both the quality and impact of research output, Vietnam ranks at the bottom of the benchmarking country list, below regional peers such as the Philippines, Indonesia, Thailand, Malaysia, Singapore, and China [he2020-p050-B01, he2020-p017-B04]. [he2020-p050-B01] [he2020-p017-B04]",
+    "citations": [
+      "he2020-p050-B01",
+      "he2020-p017-B04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p050-B01",
+            "text": "Despite a notable progress made in the quantity of research output, Vietnam remains at the bottom of the benchmarking country list (Table 4). To assess the research output of Vietnam in a comparative perspective, the report analyzes the evolution of the number of citable documents relative to the population between 2010 and 2017, corresponding to the quantitative dimension of research production, and the H-index, 13 which measures the quality and impact of that research. In terms of quantity, the number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but lower than in Indonesia and much lower than in Malaysia and Singapore. In terms of quality and impact as measured by the H-indicator, Vietnam is at the bottom of the list. STI Performance",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 50,
+            "metadata": {
+              "page_id": "he2020-p050",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.9705,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 4
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p017-B04",
+            "text": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.858,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p051-B01",
+            "text": "On innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.8501,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 8
+            },
+            "base_rank": 17
+          }
+        ],
+        "context": "[he2020-p050-B01 | data/he2020.pdf | page 50]\nDespite a notable progress made in the quantity of research output, Vietnam remains at the bottom of the benchmarking country list (Table 4). To assess the research output of Vietnam in a comparative perspective, the report analyzes the evolution of the number of citable documents relative to the population between 2010 and 2017, corresponding to the quantitative dimension of research production, and the H-index, 13 which measures the quality and impact of that research. In terms of quantity, the number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but lower than in Indonesia and much lower than in Malaysia and Singapore. In terms of quality and impact as measured by the H-indicator, Vietnam is at the bottom of the list. STI Performance\n\n[he2020-p017-B04 | data/he2020.pdf | page 17]\nVietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.\n\n[he2020-p051-B01 | data/he2020.pdf | page 51]\nOn innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.",
+        "context_ids": [
+          "he2020-p050-B01",
+          "he2020-p017-B04",
+          "he2020-p051-B01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4495,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1043,
+        "tokens_out": 135,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p050-B01",
+          "he2020-p017-B04"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1043,
+    "tokens_out": 135,
+    "elapsed_s": 4.96
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "status": "answered",
+    "answer": "According to the Executive Summary, Vietnam should raise the share of public funding for higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. [he2020-p023-B00] [he2020-p026-B00]",
+    "citations": [
+      "he2020-p023-B00",
+      "he2020-p026-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+        "filter": {
+          "section": "executive_summary"
+        },
+        "results": [
+          {
+            "id": "he2020-p023-B00",
+            "text": "11 Executive Summary share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. It should explore opportunities to enter into PPPs as a way of mobilizing additional resources for capital investment projects and foster income generation at the institutional level, through donations, contract research, consultancies and continuing education. Further progress in raising resources through cost sharing cannot be envisaged without putting in place a comprehensive student aid system to ensure that qualified Vietnamese students can access university education regardless of their financial situation. One option is to revamp the student loan scheme, by developing an innovative loan program that would be income contingent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 23,
+            "metadata": {
+              "page_id": "he2020-p023",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 7.9069,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p021-B00",
+            "text": "9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 21,
+            "metadata": {
+              "page_id": "he2020-p021",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.219,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 2
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p026-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 14 Short-term Policy Action (2021–2023) Medium/Long-term Policy Action (2021–2030) E. Financial Sustainability 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 26,
+            "metadata": {
+              "page_id": "he2020-p026",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.5725,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 5
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p023-B00 | data/he2020.pdf | page 23]\n11 Executive Summary share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. It should explore opportunities to enter into PPPs as a way of mobilizing additional resources for capital investment projects and foster income generation at the institutional level, through donations, contract research, consultancies and continuing education. Further progress in raising resources through cost sharing cannot be envisaged without putting in place a comprehensive student aid system to ensure that qualified Vietnamese students can access university education regardless of their financial situation. One option is to revamp the student loan scheme, by developing an innovative loan program that would be income contingent.\n\n[he2020-p021-B00 | data/he2020.pdf | page 21]\n9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.\n\n[he2020-p026-B00 | data/he2020.pdf | page 26]\nImproving the Performance of Higher Education in Vietnam 14 Short-term Policy Action (2021–2023) Medium/Long-term Policy Action (2021–2030) E. Financial Sustainability 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent",
+        "context_ids": [
+          "he2020-p023-B00",
+          "he2020-p021-B00",
+          "he2020-p026-B00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4085,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 985,
+        "tokens_out": 94,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p023-B00",
+          "he2020-p026-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 985,
+    "tokens_out": 94,
+    "elapsed_s": 5.1
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The student loan program (SLP), currently managed by the Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. [he2020-p020-B03] [he2020-p064-B00]",
+    "citations": [
+      "he2020-p020-B03",
+      "he2020-p064-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the only kind of student financial aid available at the national system level?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p064-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 64,
+            "metadata": {
+              "page_id": "he2020-p064",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.3074,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p020-B03",
+            "text": "Current institutional scholarships and need-based loans suffer from low coverage, low amounts, and, in the case of the loans, unattractive repayment terms. Vietnam does not have a nationwide scholarship program for higher education studies. Universities receive recurrent funding to cover tuition exemptions for students from certain backgrounds such as ethnic minorities and veterans/demobilized soldiers, but the coverage of such exemptions is too low to make any significantly positive equity impact. The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. However, cumbersome application processes mean",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 20,
+            "metadata": {
+              "page_id": "he2020-p020",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.2398,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 2
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p070-B02",
+            "text": "For Vietnam, perhaps the most important access-equalizing policy would be to establish and implement a comprehensive and well-targeted financial aid scheme that benefits the economically disadvantaged students and other disadvantaged groups. Student aid schemes are discussed further in Section 3.6 of this chapter. At the same time, it is important to have a much more diversified higher education system, with the non-university sector and alternative learning options taking up more important roles, for students from all economic welfare groups and the entire academic readiness spectrum to have a variety of options to attend and complete tertiary education.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 70,
+            "metadata": {
+              "page_id": "he2020-p070",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -3.0694,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 8
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p064-B00 | data/he2020.pdf | page 64]\nImproving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.\n\n[he2020-p020-B03 | data/he2020.pdf | page 20]\nCurrent institutional scholarships and need-based loans suffer from low coverage, low amounts, and, in the case of the loans, unattractive repayment terms. Vietnam does not have a nationwide scholarship program for higher education studies. Universities receive recurrent funding to cover tuition exemptions for students from certain backgrounds such as ethnic minorities and veterans/demobilized soldiers, but the coverage of such exemptions is too low to make any significantly positive equity impact. The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. However, cumbersome application processes mean\n\n[he2020-p070-B02 | data/he2020.pdf | page 70]\nFor Vietnam, perhaps the most important access-equalizing policy would be to establish and implement a comprehensive and well-targeted financial aid scheme that benefits the economically disadvantaged students and other disadvantaged groups. Student aid schemes are discussed further in Section 3.6 of this chapter. At the same time, it is important to have a much more diversified higher education system, with the non-university sector and alternative learning options taking up more important roles, for students from all economic welfare groups and the entire academic readiness spectrum to have a variety of options to attend and complete tertiary education.",
+        "context_ids": [
+          "he2020-p064-B00",
+          "he2020-p020-B03",
+          "he2020-p070-B02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3094,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 930,
+        "tokens_out": 86,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p020-B03",
+          "he2020-p064-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 930,
+    "tokens_out": 86,
+    "elapsed_s": 4.13
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Youth from ethnic minority communities are 34 percentage points less likely to access tertiary education than those from majority groups [he2020-p016-B00]. This gap increased from 13 percentage points in 2006 to 34 percentage points in 2018, when the access rate was 45 percent for Kinh/Hoa youth compared to 11 percent for ethnic minority youth [he2020-p039-B03, he2020-p040-B00]. [he2020-p039-B03] [he2020-p040-B00]",
+    "citations": [
+      "he2020-p016-B00",
+      "he2020-p039-B03",
+      "he2020-p040-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.5764,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p040-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 28 from 13 percentage points in 2006 to 34 percentage points in 201 8. Across socioeconomic regions, northern midland and mountainous region has the lowest tertiary education access rate at 22 percent while Red River Delta has the highest at 52 percent (Table 2). Figure 6: Gap in Tertiary Education Access Rate between Kinh/Hoa and Ethnic Minorities, 2006- 2018 0 10 20 30 40 50 60 70 80 2006 2010 2014 2018 Poorest Quintile 2nd Poorest Middle 2nd Richest Richest Quintile 0 10 20 30 40 50 60 70 80 90 100 2006 2010 2014 2018 Poorest Quintile 2nd Poorest Middle 2nd Richest Richest Quintile 18 16 29 33 37 42 45 5 4 6 9 8 12 11 2006 2008 2010 2012 2014 2016 2018 Access rate (%) Kinh & Hoa Ethnic Minority",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 40,
+            "metadata": {
+              "page_id": "he2020-p040",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.891,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 3
+            },
+            "base_rank": 10
+          },
+          {
+            "id": "he2020-p039-B03",
+            "text": "2nd Richest Richest Quintile 18 16 29 33 37 42 45 5 4 6 9 8 12 11 2006 2008 2010 2012 2014 2016 2018 Access rate (%) Kinh & Hoa Ethnic Minority Source: Authors’ estimates using VHLSS (2006-2018). Y ouths from ethnic minority groups have significantly lower tertiary education access rates compared to those from ethnic majority groups. For example, in 2018, tertiary education access rate for young people from the majority ethnic groups Kinh/Hoa was 45 percent and that for minority ethnic groups was 11 percent (Figure 6). Even more worrisome, the gap in access rate has increased steadfastly",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 39,
+            "metadata": {
+              "page_id": "he2020-p039",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.8305,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 9,
+              "bm25": 2
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.\n\n[he2020-p040-B00 | data/he2020.pdf | page 40]\nImproving the Performance of Higher Education in Vietnam 28 from 13 percentage points in 2006 to 34 percentage points in 201 8. Across socioeconomic regions, northern midland and mountainous region has the lowest tertiary education access rate at 22 percent while Red River Delta has the highest at 52 percent (Table 2). Figure 6: Gap in Tertiary Education Access Rate between Kinh/Hoa and Ethnic Minorities, 2006- 2018 0 10 20 30 40 50 60 70 80 2006 2010 2014 2018 Poorest Quintile 2nd Poorest Middle 2nd Richest Richest Quintile 0 10 20 30 40 50 60 70 80 90 100 2006 2010 2014 2018 Poorest Quintile 2nd Poorest Middle 2nd Richest Richest Quintile 18 16 29 33 37 42 45 5 4 6 9 8 12 11 2006 2008 2010 2012 2014 2016 2018 Access rate (%) Kinh & Hoa Ethnic Minority\n\n[he2020-p039-B03 | data/he2020.pdf | page 39]\n2nd Richest Richest Quintile 18 16 29 33 37 42 45 5 4 6 9 8 12 11 2006 2008 2010 2012 2014 2016 2018 Access rate (%) Kinh & Hoa Ethnic Minority Source: Authors’ estimates using VHLSS (2006-2018). Y ouths from ethnic minority groups have significantly lower tertiary education access rates compared to those from ethnic majority groups. For example, in 2018, tertiary education access rate for young people from the majority ethnic groups Kinh/Hoa was 45 percent and that for minority ethnic groups was 11 percent (Figure 6). Even more worrisome, the gap in access rate has increased steadfastly",
+        "context_ids": [
+          "he2020-p016-B00",
+          "he2020-p040-B00",
+          "he2020-p039-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 5832,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1190,
+        "tokens_out": 189,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p039-B03",
+          "he2020-p040-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1190,
+    "tokens_out": 189,
+    "elapsed_s": 6.4
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "For how many weeks were Vietnamese universities closed because of COVID-19?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "For how many weeks were Vietnamese universities closed because of COVID-19?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.244,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.0834,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 3
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p072-B03",
+            "text": "For Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 72,
+            "metadata": {
+              "page_id": "he2020-p072",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.0469,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 8
+            },
+            "base_rank": 5
+          }
+        ],
+        "context": "[he2020-p049-B04 | data/he2020.pdf | page 49]\nICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.\n\n[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer\n\n[he2020-p072-B03 | data/he2020.pdf | page 72]\nFor Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+        "context_ids": [
+          "he2020-p049-B04",
+          "he2020-p017-B03",
+          "he2020-p072-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "weeks COVID-19 closure universities",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.1995,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 3
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7835,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p072-B03",
+            "text": "For Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 72,
+            "metadata": {
+              "page_id": "he2020-p072",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.0883,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 1
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p049-B04 | data/he2020.pdf | page 49]\nICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.\n\n[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer\n\n[he2020-p072-B03 | data/he2020.pdf | page 72]\nFor Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+        "context_ids": [
+          "he2020-p049-B04",
+          "he2020-p017-B03",
+          "he2020-p072-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "COVID-19 weeks closed closure months",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.1081,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 3
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p072-B03",
+            "text": "For Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 72,
+            "metadata": {
+              "page_id": "he2020-p072",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -4.4362,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -4.6051,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 2
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p049-B04 | data/he2020.pdf | page 49]\nICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.\n\n[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer\n\n[he2020-p072-B03 | data/he2020.pdf | page 72]\nFor Vietnam, the Government and universities should consider investing in (a) standardized integrated infrastructure including smart lecture halls, classrooms and computer labs, (b) integrated central data centers with cloud services and high-speed campus networks, (c) e-libraries, (d) leveraging on existing e-learning platforms to implement distance-learning at scale, and (e) piloting an AI-based adaptive learning in selected training programs. A well-developed distance learning system, supported by appropriate digital infrastructure platform, will contribute to building a resilient and an inclusive teaching-learning system to respond to crises such as the current COVID-19 outbreak which resulted in prolonged closure of universities and other education institutions.",
+        "context_ids": [
+          "he2020-p049-B04",
+          "he2020-p017-B03",
+          "he2020-p072-B03"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2949,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 846,
+        "tokens_out": 22,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 1950,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 854,
+        "tokens_out": 23,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3385,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 790,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 2490,
+    "tokens_out": 70,
+    "elapsed_s": 9.25
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the average monthly salary of a university lecturer in Vietnam?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the average monthly salary of a university lecturer in Vietnam?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p045-B00",
+            "text": "33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.3765,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2
+            },
+            "base_rank": 8
+          },
+          {
+            "id": "he2020-p045-B03",
+            "text": "20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.1573,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 7
+            },
+            "base_rank": 14
+          },
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.2207,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 9
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p045-B00 | data/he2020.pdf | page 45]\n33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.\n\n[he2020-p045-B03 | data/he2020.pdf | page 45]\n20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).\n\n[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+        "context_ids": [
+          "he2020-p045-B00",
+          "he2020-p045-B03",
+          "he2020-p044-B02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lecturer salary faculty remuneration wage",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p045-B03",
+            "text": "20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -6.8714,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 8
+            },
+            "base_rank": 16
+          },
+          {
+            "id": "he2020-p045-B00",
+            "text": "33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -7.7121,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 10,
+              "bm25": 10
+            },
+            "base_rank": 4
+          },
+          {
+            "id": "he2020-p074-B05",
+            "text": "Civil servants Guaranteed employment No performance incentive Special category of public employees Better remuneration No performance incentive Employees of the university University can offer better remuneration and performance incentives — Source: Elaborated by the authors.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 74,
+            "metadata": {
+              "page_id": "he2020-p074",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -8.8409,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          }
+        ],
+        "context": "[he2020-p045-B00 | data/he2020.pdf | page 45]\n33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.\n\n[he2020-p045-B03 | data/he2020.pdf | page 45]\n20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).\n\n[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+        "context_ids": [
+          "he2020-p045-B00",
+          "he2020-p045-B03",
+          "he2020-p044-B02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lecturer salary monthly VND faculty remuneration",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p045-B03",
+            "text": "20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.4874,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 6
+            },
+            "base_rank": 11
+          },
+          {
+            "id": "he2020-p045-B00",
+            "text": "33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.8747,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 9
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -3.6622,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 8
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p045-B00 | data/he2020.pdf | page 45]\n33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.\n\n[he2020-p045-B03 | data/he2020.pdf | page 45]\n20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using the World Bank Skills and Enterprise Survey on Innovation and Skills in Vietnam (2019).\n\n[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+        "context_ids": [
+          "he2020-p045-B00",
+          "he2020-p045-B03",
+          "he2020-p044-B02"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4448,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1098,
+        "tokens_out": 21,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 1997,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1105,
+        "tokens_out": 22,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3540,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1040,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 3243,
+    "tokens_out": 68,
+    "elapsed_s": 10.96
+  }
+]

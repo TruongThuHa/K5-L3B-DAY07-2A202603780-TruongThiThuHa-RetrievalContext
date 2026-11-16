@@ -1,0 +1,1434 @@
+[
+  {
+    "config": "tfidf",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 0.40857848486758247,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p031-B05",
+        "page": 31,
+        "section": "introduction",
+        "score": 0.23182114859347,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p014-B04",
+        "page": 14,
+        "section": "executive_summary",
+        "score": 0.1317972143680575,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 2.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p050-B01",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.2002147290372204,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p076-B00",
+        "page": 76,
+        "section": "policy_options",
+        "score": 0.19563963323145925,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p052-B00",
+        "page": 52,
+        "section": "diagnosis",
+        "score": 0.18367326786243293,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p076-B00"
+    ],
+    "context_chars": 754,
+    "elapsed_ms": 1.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p013-B00",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.3927195687803135,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 0.2276470553003379,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p022-B04",
+        "page": 22,
+        "section": "executive_summary",
+        "score": 0.21104103673771732,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p013-B00"
+    ],
+    "context_chars": 180,
+    "elapsed_ms": 1.2,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 0.298201994927068,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 0.21837575605125945,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p084-B00",
+        "page": 84,
+        "section": "policy_options",
+        "score": 0.2069969899173629,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00"
+    ],
+    "context_chars": 653,
+    "elapsed_ms": 0.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "tfidf",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p039-B03",
+        "page": 39,
+        "section": "diagnosis",
+        "score": 0.3503624176114246,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 0.3359811108460198,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p015-B05",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.19342401861457822,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p039-B03"
+    ],
+    "context_chars": 640,
+    "elapsed_ms": 1.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 0.8635,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p044-B00",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.7573,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p013-B05",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.7508,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 1201.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p050-B01",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.7828,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 0.777,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p034-B01",
+        "page": 34,
+        "section": "introduction",
+        "score": 0.7737,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 34.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 0.7742,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p019-B03",
+        "page": 19,
+        "section": "executive_summary",
+        "score": 0.7645,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p021-B00",
+        "page": 21,
+        "section": "executive_summary",
+        "score": 0.761,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p021-B00"
+    ],
+    "context_chars": 470,
+    "elapsed_ms": 38.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "dense",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 0.7005,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": 0.6764,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 0.6732,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00"
+    ],
+    "context_chars": 653,
+    "elapsed_ms": 38.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "dense",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 0.8045,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p041-B00",
+        "page": 41,
+        "section": "diagnosis",
+        "score": 0.7659,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p015-B05",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.7541,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p016-B00"
+    ],
+    "context_chars": 617,
+    "elapsed_ms": 32.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 42.1424,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p031-B05",
+        "page": 31,
+        "section": "introduction",
+        "score": 25.1654,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p016-B02",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 13.359,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 6.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p066-B02",
+        "page": 66,
+        "section": "policy_options",
+        "score": 18.4896,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 18.1041,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p033-B05",
+        "page": 33,
+        "section": "introduction",
+        "score": 17.3153,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p066-B02"
+    ],
+    "context_chars": 730,
+    "elapsed_ms": 1.3,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 24.649,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p021-B00",
+        "page": 21,
+        "section": "executive_summary",
+        "score": 21.3371,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p029-B00",
+        "page": 29,
+        "section": "executive_summary",
+        "score": 19.015,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p021-B00"
+    ],
+    "context_chars": 470,
+    "elapsed_ms": 1.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "bm25",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 22.1917,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 20.2242,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p041-B02",
+        "page": 41,
+        "section": "diagnosis",
+        "score": 17.9858,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00"
+    ],
+    "context_chars": 653,
+    "elapsed_ms": 1.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "bm25",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 39.9825,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p039-B03",
+        "page": 39,
+        "section": "diagnosis",
+        "score": 36.0468,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p040-B00",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 24.6381,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p016-B00"
+    ],
+    "context_chars": 617,
+    "elapsed_ms": 1.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p044-B00",
+        "page": 44,
+        "section": "diagnosis",
+        "score": 0.03041,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p058-B03",
+        "page": 58,
+        "section": "diagnosis",
+        "score": 0.03012,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 30.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 0.03226,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p050-B01",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 0.03202,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p013-B04",
+        "page": 13,
+        "section": "executive_summary",
+        "score": 0.0292,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 30.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p021-B00",
+        "page": 21,
+        "section": "executive_summary",
+        "score": 0.032,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p026-B00",
+        "page": 26,
+        "section": "executive_summary",
+        "score": 0.03101,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p021-B00"
+    ],
+    "context_chars": 470,
+    "elapsed_ms": 30.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 0.032,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p041-B02",
+        "page": 41,
+        "section": "diagnosis",
+        "score": 0.03126,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00"
+    ],
+    "context_chars": 653,
+    "elapsed_ms": 31.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 0.03279,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p015-B05",
+        "page": 15,
+        "section": "executive_summary",
+        "score": 0.03126,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p039-B03",
+        "page": 39,
+        "section": "diagnosis",
+        "score": 0.03062,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p016-B00"
+    ],
+    "context_chars": 617,
+    "elapsed_ms": 32.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 10.0391,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p031-B05",
+        "page": 31,
+        "section": "introduction",
+        "score": 2.8681,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 2.0994,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01"
+    ],
+    "context_chars": 702,
+    "elapsed_ms": 389.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p050-B01",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 5.9705,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 5.858,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p051-B01",
+        "page": 51,
+        "section": "diagnosis",
+        "score": 3.8501,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p017-B04"
+    ],
+    "context_chars": 707,
+    "elapsed_ms": 95.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 7.9069,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p021-B00",
+        "page": 21,
+        "section": "executive_summary",
+        "score": 4.219,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p026-B00",
+        "page": 26,
+        "section": "executive_summary",
+        "score": 3.5725,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p021-B00"
+    ],
+    "context_chars": 470,
+    "elapsed_ms": 88.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 6.3074,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 4.2398,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": -3.0694,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00"
+    ],
+    "context_chars": 653,
+    "elapsed_ms": 90.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 5.5764,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p040-B00",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 3.891,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p039-B03",
+        "page": 39,
+        "section": "diagnosis",
+        "score": 3.8305,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p016-B00"
+    ],
+    "context_chars": 617,
+    "elapsed_ms": 97.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q16",
+    "split": "test",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      31
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p031-B01",
+        "page": 31,
+        "section": "introduction",
+        "score": 10.0391,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p031-B05",
+        "page": 31,
+        "section": "introduction",
+        "score": 2.8681,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p016-B03",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 2.0994,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p031-B01",
+      "he2020-p031-B05",
+      "he2020-p016-B03"
+    ],
+    "context_chars": 1863,
+    "elapsed_ms": 108.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q17",
+    "split": "test",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      17,
+      50
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p050-B01",
+        "page": 50,
+        "section": "diagnosis",
+        "score": 5.9705,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p017-B04",
+        "page": 17,
+        "section": "executive_summary",
+        "score": 5.858,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p051-B01",
+        "page": 51,
+        "section": "diagnosis",
+        "score": 3.8501,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p050-B01",
+      "he2020-p017-B04",
+      "he2020-p051-B01"
+    ],
+    "context_chars": 2330,
+    "elapsed_ms": 102.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q18",
+    "split": "test",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      23,
+      26,
+      29
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p023-B00",
+        "page": 23,
+        "section": "executive_summary",
+        "score": 7.9069,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p021-B00",
+        "page": 21,
+        "section": "executive_summary",
+        "score": 4.219,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p026-B00",
+        "page": 26,
+        "section": "executive_summary",
+        "score": 3.5725,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p023-B00",
+      "he2020-p021-B00",
+      "he2020-p026-B00"
+    ],
+    "context_chars": 2109,
+    "elapsed_ms": 97.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      20,
+      64
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p064-B00",
+        "page": 64,
+        "section": "diagnosis",
+        "score": 6.3074,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p020-B03",
+        "page": 20,
+        "section": "executive_summary",
+        "score": 4.2398,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p070-B02",
+        "page": 70,
+        "section": "policy_options",
+        "score": -3.0694,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "he2020-p064-B00",
+      "he2020-p020-B03",
+      "he2020-p070-B02"
+    ],
+    "context_chars": 2123,
+    "elapsed_ms": 94.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "hybrid_rerank_b2400",
+    "query_id": "q20",
+    "split": "test",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold_pages": [
+      16,
+      39
+    ],
+    "results": [
+      {
+        "rank": 1,
+        "id": "he2020-p016-B00",
+        "page": 16,
+        "section": "executive_summary",
+        "score": 5.5764,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "he2020-p040-B00",
+        "page": 40,
+        "section": "diagnosis",
+        "score": 3.891,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "he2020-p039-B03",
+        "page": 39,
+        "section": "diagnosis",
+        "score": 3.8305,
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "he2020-p016-B00",
+      "he2020-p040-B00",
+      "he2020-p039-B03"
+    ],
+    "context_chars": 2070,
+    "elapsed_ms": 103.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

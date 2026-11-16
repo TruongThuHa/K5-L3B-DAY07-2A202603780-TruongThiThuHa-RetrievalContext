@@ -1,0 +1,1407 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+    "filter": null,
+    "status": "answered",
+    "answer": "About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure. [he2020-p031-B01]",
+    "citations": [
+      "he2020-p031-B01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What percentage of Vietnamese people in households headed by someone with post-secondary education are economically secure?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p031-B01",
+            "text": "At the individual level, higher education has a significant positive effect on household poverty and long-term earnings. About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure 5 (with 35 percent being in the global middle class), compared to 70 percent classified as economically secure (with 13 percent in the global middle class) nationally (Vietnam Poverty Update Report 2017). Among all educational subgroups in Vietnam, higher education graduates today have the best labor market outcomes in terms of labor force participation, type of jobs, and wage earnings.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 31,
+            "metadata": {
+              "page_id": "he2020-p031",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.8635,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p044-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7573,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p013-B05",
+            "text": "However, Vietnam’s higher education system is not ready to capitalize on this huge potential of young people coming out of general education. Vietnam’s access to higher education, as measured by the gross enrolment rate (GER), is below 30 percent, one of the lowest among the East Asian countries. Its higher education output, as measured by the gross graduation ratio 2 (GGR), is only 19 percent, which is much 1 The ‘Vietnam 2035’ Report (2016) and upcoming Socioeconomic Development Strategy (SEDS) (2021–2030).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 13,
+            "metadata": {
+              "page_id": "he2020-p013",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7508,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p031-B01 | data/he2020.pdf | page 31]\nAt the individual level, higher education has a significant positive effect on household poverty and long-term earnings. About 93 percent of Vietnamese people living in households headed by a person with post-secondary education are classified as economically secure 5 (with 35 percent being in the global middle class), compared to 70 percent classified as economically secure (with 13 percent in the global middle class) nationally (Vietnam Poverty Update Report 2017). Among all educational subgroups in Vietnam, higher education graduates today have the best labor market outcomes in terms of labor force participation, type of jobs, and wage earnings.",
+        "context_ids": [
+          "he2020-p031-B01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 5531,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 640,
+        "tokens_out": 60,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p031-B01"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 640,
+    "tokens_out": 60,
+    "elapsed_s": 7.99
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+    "filter": null,
+    "status": "answered",
+    "answer": "When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all benchmark/regional peer countries (such as the Philippines, Indonesia, Thailand, Malaysia, Singapore, and China). [he2020-p017-B04]",
+    "citations": [
+      "he2020-p017-B04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How does the quality and impact of Vietnam's research compare with the benchmark countries?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p050-B01",
+            "text": "Despite a notable progress made in the quantity of research output, Vietnam remains at the bottom of the benchmarking country list (Table 4). To assess the research output of Vietnam in a comparative perspective, the report analyzes the evolution of the number of citable documents relative to the population between 2010 and 2017, corresponding to the quantitative dimension of research production, and the H-index, 13 which measures the quality and impact of that research. In terms of quantity, the number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but lower than in Indonesia and much lower than in Malaysia and Singapore. In terms of quality and impact as measured by the H-indicator, Vietnam is at the bottom of the list. STI Performance",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 50,
+            "metadata": {
+              "page_id": "he2020-p050",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7828,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p017-B04",
+            "text": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.777,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p034-B01",
+            "text": "Approach. This report is informed by a literature review, field visits carried out during 2018 and 2019, and a series of background documents prepared by a team of World Bank staff and consultants. Whenever possible, the diagnosis considers benchmarking data that put the evolution of the performance and the main characteristics of the Vietnamese higher education system in a regional and international perspective. The report relies on a number of comparator countries with a balance between ‘aspirational’ countries and countries at a similar level of development. Similarly, the policy options considered in this note reflect the experience of countries facing similar challenges to those encountered today in Vietnam. The report uses the following analytical/conceptual framework (Figure 2).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 34,
+            "metadata": {
+              "page_id": "he2020-p034",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7737,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p017-B04 | data/he2020.pdf | page 17]\nVietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+        "context_ids": [
+          "he2020-p017-B04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3893,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 644,
+        "tokens_out": 79,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p017-B04"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 644,
+    "tokens_out": 79,
+    "elapsed_s": 4.95
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+    "filter": {
+      "section": "executive_summary"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to the Executive Summary, what level of public funding for higher education should Vietnam reach by 2030?",
+        "filter": {
+          "section": "executive_summary"
+        },
+        "results": [
+          {
+            "id": "he2020-p023-B00",
+            "text": "11 Executive Summary share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. It should explore opportunities to enter into PPPs as a way of mobilizing additional resources for capital investment projects and foster income generation at the institutional level, through donations, contract research, consultancies and continuing education. Further progress in raising resources through cost sharing cannot be envisaged without putting in place a comprehensive student aid system to ensure that qualified Vietnamese students can access university education regardless of their financial situation. One option is to revamp the student loan scheme, by developing an innovative loan program that would be income contingent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 23,
+            "metadata": {
+              "page_id": "he2020-p023",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7742,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p019-B03",
+            "text": "Not surprisingly, when benchmarked against peers and aspirational countries, Vietnam’s public funding allocation to tertiary education (which includes higher education) is by far the lowest (Figure ES.3). Per student public spending on tertiary education for Vietnam was US$316 (15 percent of per capita GDP) in 2015, also one of the lowest compared to its peers. Household contributions to higher education have steadily increased over time and now stand as the primary source of funding for the public universities. The public subsidy constituted only 22 percent of the total revenues for public universities in 2017 while tuition fees accounted for 55 percent of the revenue and the remaining 23 percent came from other sources (such as R&D, technology transfer, and other services).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 19,
+            "metadata": {
+              "page_id": "he2020-p019",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7645,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p021-B00",
+            "text": "9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 21,
+            "metadata": {
+              "page_id": "he2020-p021",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.761,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p021-B00 | data/he2020.pdf | page 21]\n9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.",
+        "context_ids": [
+          "he2020-p021-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Executive Summary public funding 2030 GDP",
+        "filter": {
+          "section": "executive_summary"
+        },
+        "results": [
+          {
+            "id": "he2020-p029-B02",
+            "text": "35. Encourage public universities to pursue PPPs for capital/ infrastructure projects or other educational or ancillary services (once the PPP Law is passed). ++ - - + 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. + +++ ++ +++ 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. ++ ++ ++ ++ 38. Build institutional capacity to improve HEIs’ income",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 29,
+            "metadata": {
+              "page_id": "he2020-p029",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7415,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p023-B00",
+            "text": "11 Executive Summary share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. It should explore opportunities to enter into PPPs as a way of mobilizing additional resources for capital investment projects and foster income generation at the institutional level, through donations, contract research, consultancies and continuing education. Further progress in raising resources through cost sharing cannot be envisaged without putting in place a comprehensive student aid system to ensure that qualified Vietnamese students can access university education regardless of their financial situation. One option is to revamp the student loan scheme, by developing an innovative loan program that would be income contingent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 23,
+            "metadata": {
+              "page_id": "he2020-p023",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7117,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p026-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 14 Short-term Policy Action (2021–2023) Medium/Long-term Policy Action (2021–2030) E. Financial Sustainability 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 26,
+            "metadata": {
+              "page_id": "he2020-p026",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7078,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p021-B00 | data/he2020.pdf | page 21]\n9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.",
+        "context_ids": [
+          "he2020-p021-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Executive Summary public funding percent GDP 2030",
+        "filter": {
+          "section": "executive_summary"
+        },
+        "results": [
+          {
+            "id": "he2020-p029-B02",
+            "text": "35. Encourage public universities to pursue PPPs for capital/ infrastructure projects or other educational or ancillary services (once the PPP Law is passed). ++ - - + 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. + +++ ++ +++ 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent expenditures, performance contracts for additional public funding to qualified HEIs, and competitive funds for transformative investment. ++ ++ ++ ++ 38. Build institutional capacity to improve HEIs’ income",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 29,
+            "metadata": {
+              "page_id": "he2020-p029",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.752,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p023-B00",
+            "text": "11 Executive Summary share of public funding to higher education from the current 0.23 percent to at least 0.8 percent of GDP by 2030. It should explore opportunities to enter into PPPs as a way of mobilizing additional resources for capital investment projects and foster income generation at the institutional level, through donations, contract research, consultancies and continuing education. Further progress in raising resources through cost sharing cannot be envisaged without putting in place a comprehensive student aid system to ensure that qualified Vietnamese students can access university education regardless of their financial situation. One option is to revamp the student loan scheme, by developing an innovative loan program that would be income contingent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 23,
+            "metadata": {
+              "page_id": "he2020-p023",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7216,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p026-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 14 Short-term Policy Action (2021–2023) Medium/Long-term Policy Action (2021–2030) E. Financial Sustainability 33. Establish and operationalize a single funding agency to administer allocation of public resources to universities. 36. Progressively raise the share of public funding to higher education from the current 0.23 percent of GDP to at least 0.8 percent of GDP by 2030. 34. Set up and implement a comprehensive financial support system for students including a targeted free tuition (TFT) scheme, need-based scholarships, and income-contingent loans (ICLs). 37. Design and implement comprehensive financing mechanisms to HEIs including performance-based allocation, formula-based funding for recurrent",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 26,
+            "metadata": {
+              "page_id": "he2020-p026",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7198,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p021-B00 | data/he2020.pdf | page 21]\n9 Executive Summary that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Way Forward: Strategic Priorities and Policy Actions Master Plan One of the most urgent tasks for the future development of higher education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030.",
+        "context_ids": [
+          "he2020-p021-B00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2852,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 603,
+        "tokens_out": 25,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3197,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 614,
+        "tokens_out": 26,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3785,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 553,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 1770,
+    "tokens_out": 76,
+    "elapsed_s": 10.47
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the only kind of student financial aid available at the national system level?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The Student Loan Program (SLP), currently managed by the Vietnam Bank for Social Policies (VSPB), is the only form of student aid currently available at the system level. [he2020-p064-B00]",
+    "citations": [
+      "he2020-p064-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the only kind of student financial aid available at the national system level?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p064-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 64,
+            "metadata": {
+              "page_id": "he2020-p064",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7005,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p070-B02",
+            "text": "For Vietnam, perhaps the most important access-equalizing policy would be to establish and implement a comprehensive and well-targeted financial aid scheme that benefits the economically disadvantaged students and other disadvantaged groups. Student aid schemes are discussed further in Section 3.6 of this chapter. At the same time, it is important to have a much more diversified higher education system, with the non-university sector and alternative learning options taking up more important roles, for students from all economic welfare groups and the entire academic readiness spectrum to have a variety of options to attend and complete tertiary education.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 70,
+            "metadata": {
+              "page_id": "he2020-p070",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6764,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p020-B03",
+            "text": "Current institutional scholarships and need-based loans suffer from low coverage, low amounts, and, in the case of the loans, unattractive repayment terms. Vietnam does not have a nationwide scholarship program for higher education studies. Universities receive recurrent funding to cover tuition exemptions for students from certain backgrounds such as ethnic minorities and veterans/demobilized soldiers, but the coverage of such exemptions is too low to make any significantly positive equity impact. The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. However, cumbersome application processes mean",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 20,
+            "metadata": {
+              "page_id": "he2020-p020",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6732,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p064-B00 | data/he2020.pdf | page 64]\nImproving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+        "context_ids": [
+          "he2020-p064-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "SLP VSPB student loan program",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p064-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 64,
+            "metadata": {
+              "page_id": "he2020-p064",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7628,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p041-B03",
+            "text": "The coverage of the national student loan program (SLP) administered by the Vietnam Social Policy Bank (VSPB) has been declining over time, either because of stricter criteria and procedures or because the loan amounts are not sufficient to cover the full educational expenses (including non-tuition). The above analysis also suggests that nonfinancial factors were associated with excluding disadvantaged communities and households from accessing tertiary education. They include insufficient academic readiness to enter tertiary education level and lack of outreach programs (such as information campaigns and counseling services on the cost-benefits, type of TEIs or programs).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 41,
+            "metadata": {
+              "page_id": "he2020-p041",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7553,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p020-B03",
+            "text": "Current institutional scholarships and need-based loans suffer from low coverage, low amounts, and, in the case of the loans, unattractive repayment terms. Vietnam does not have a nationwide scholarship program for higher education studies. Universities receive recurrent funding to cover tuition exemptions for students from certain backgrounds such as ethnic minorities and veterans/demobilized soldiers, but the coverage of such exemptions is too low to make any significantly positive equity impact. The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. However, cumbersome application processes mean",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 20,
+            "metadata": {
+              "page_id": "he2020-p020",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7434,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p064-B00 | data/he2020.pdf | page 64]\nImproving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+        "context_ids": [
+          "he2020-p064-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "SLP VSPB full form abbreviation",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p064-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 64,
+            "metadata": {
+              "page_id": "he2020-p064",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6814,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p020-B03",
+            "text": "Current institutional scholarships and need-based loans suffer from low coverage, low amounts, and, in the case of the loans, unattractive repayment terms. Vietnam does not have a nationwide scholarship program for higher education studies. Universities receive recurrent funding to cover tuition exemptions for students from certain backgrounds such as ethnic minorities and veterans/demobilized soldiers, but the coverage of such exemptions is too low to make any significantly positive equity impact. The student loan program (SLP), currently managed by Vietnam Social Policy Bank (VSPB), is the only form of student aid currently available at the system level. However, cumbersome application processes mean",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 20,
+            "metadata": {
+              "page_id": "he2020-p020",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6177,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p041-B03",
+            "text": "The coverage of the national student loan program (SLP) administered by the Vietnam Social Policy Bank (VSPB) has been declining over time, either because of stricter criteria and procedures or because the loan amounts are not sufficient to cover the full educational expenses (including non-tuition). The above analysis also suggests that nonfinancial factors were associated with excluding disadvantaged communities and households from accessing tertiary education. They include insufficient academic readiness to enter tertiary education level and lack of outreach programs (such as information campaigns and counseling services on the cost-benefits, type of TEIs or programs).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 41,
+            "metadata": {
+              "page_id": "he2020-p041",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.5973,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p064-B00 | data/he2020.pdf | page 64]\nImproving the Performance of Higher Education in Vietnam 52 veterans/demobilized soldiers, but the coverage of such exemption is too low to make any significant impact. The SLP , currently managed by VSPB, is the only form of student aid currently available at the system level. However, cumbersome application processes mean that the scheme does not always select the neediest students, and borrowing limits result in having only the basic tuition costs covered. The Government allocation to subsidize the SLP is equivalent to only 1.6 percent of government spending on higher education, which is very low.",
+        "context_ids": [
+          "he2020-p064-B00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3146,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 626,
+        "tokens_out": 23,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3244,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 635,
+        "tokens_out": 23,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2863,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 571,
+        "tokens_out": 70,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p064-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1832,
+    "tokens_out": 116,
+    "elapsed_s": 9.63
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Youth from ethnic minority communities are 34 percentage points less likely to access tertiary education than those from majority groups. [he2020-p016-B00]",
+    "citations": [
+      "he2020-p016-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How large is the gap in access to tertiary education between ethnic minority youth and majority youth?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.8045,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p041-B00",
+            "text": "29 Diagnosis of the Vietnamese Higher Education System explains more than 60 percent of gender gaps (in favor of females) and ethnicity gaps in tertiary education opportunities. Access gaps by parental education and area of residence is equally explained by the two factors (about 50 percent each). Relative importance of these two effects suggest policies need to address high school graduation and tertiary education equally or differentially depending on which equity objectives. Figure 7: Decomposition of Access Gaps in Tertiary Education, 2018 0 10 20 30 40 50 60 70 Q5-Q1 Q5-Q2 Q5-Q3 Q5-Q4 Female - Male Parents HS nonHS Urban - Rural Kinh - nonKinh high school completion rates tertiary entry rates",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 41,
+            "metadata": {
+              "page_id": "he2020-p041",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7659,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p015-B05",
+            "text": "Vietnam’s tertiary education access gaps are most pronounced across income groups, and the situation has worsened over time. The nation’s substantial progress in equitable access to basic education has not been matched by corresponding greater opportunities at the tertiary education level (Figure ES.2). Estimates from the national household survey data show that the bottom two welfare quintiles constitute less than 10 percent of all tertiary-level students. Youth from the top quintile are",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7541,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3807,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 612,
+        "tokens_out": 57,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p016-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 612,
+    "tokens_out": 57,
+    "elapsed_s": 4.01
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "For how many weeks were Vietnamese universities closed because of COVID-19?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "For how many weeks were Vietnamese universities closed because of COVID-19?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.758,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.745,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p032-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 20 urbanization, and aging population will raise education aspirations of Vietnamese students and their families as well as the share of jobs involving tasks more intensive in interpersonal skills (World Bank 2018b). Together, these mega trends can provide opportunity for Vietnam to enhance the relevance of higher education to prepare its workforce for today’s jobs as well as future jobs and at the same time use the higher education system as a platform for innovation to respond to these mega trends. Finally, the ongoing COVID-19 outbreak has resulted in severe social and economic disruptions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 32,
+            "metadata": {
+              "page_id": "he2020-p032",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7259,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+        "context_ids": [
+          "he2020-p017-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "COVID weeks closed universities",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6739,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6654,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p047-B04",
+            "text": "National and institutional strategies have predominantly focused on mobility of scholars and university lecturers and recently expanded to the curriculum and learning outcomes of selected programs and international reputation and visibility of leading universities. However, internationalization activities in practice are “fragmented, inconsistent and ad hoc” and overall are “rather ineffective” (Tran and Marginson 2018). Several strategic mobility programs for university lecturers, funded by the Government, have been implemented with moderate success (Program 322) or without achieving its goals (Scheme 911).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 47,
+            "metadata": {
+              "page_id": "he2020-p047",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6484,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+        "context_ids": [
+          "he2020-p017-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "COVID-19 closed weeks university school",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p049-B04",
+            "text": "ICT-based distance learning is a critical element of how countries around the world are addressing the challenges associated with the extended university closures because of the current COVID-19 outbreak. Underdeveloped digital learning platforms, as well as the absence of appropriate QA mechanisms on the content and delivery of e-learning courses, has made it difficult for Vietnam to implement this at scale and cater to the disadvantaged students in particular.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 49,
+            "metadata": {
+              "page_id": "he2020-p049",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7168,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p017-B03",
+            "text": "Vietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6959,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p032-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 20 urbanization, and aging population will raise education aspirations of Vietnamese students and their families as well as the share of jobs involving tasks more intensive in interpersonal skills (World Bank 2018b). Together, these mega trends can provide opportunity for Vietnam to enhance the relevance of higher education to prepare its workforce for today’s jobs as well as future jobs and at the same time use the higher education system as a platform for innovation to respond to these mega trends. Finally, the ongoing COVID-19 outbreak has resulted in severe social and economic disruptions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 32,
+            "metadata": {
+              "page_id": "he2020-p032",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6747,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p017-B03 | data/he2020.pdf | page 17]\nVietnamese universities in general lack the foundational infrastructure and ICT technology to take advantage of digital and/or disruptive technology to support innovative educational approaches in the classrooms, a serious limitation that has come to light in an even sharper way during the COVID-19 crisis. Research and Technology Transfer",
+        "context_ids": [
+          "he2020-p017-B03"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2130,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 561,
+        "tokens_out": 19,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2928,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 566,
+        "tokens_out": 23,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2739,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 502,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 1629,
+    "tokens_out": 67,
+    "elapsed_s": 8.36
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "config": "baseline",
+    "retriever": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the average monthly salary of a university lecturer in Vietnam?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the average monthly salary of a university lecturer in Vietnam?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p048-B03",
+            "text": "In terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7312,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p045-B00",
+            "text": "33 Diagnosis of the Vietnamese Higher Education System Figure 8: Average Wages by Education Level and Age Group, 2016 0 20.000 40.000 60.000 80.000 100.000 Primary or below Secondary or below College University or higher Average Wage (VND mil/year) ALL 25-35 aged 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Managerial and leadership skills Interpersonal and communication skills Work ethic and commitment Writing skills Foreign language skills Computer or general IT skills Technical skills (other than IT), vocational, or job- speci/f_ic skills Diﬃcult or very diﬃcult Easy or very easy Does not apply Source: Authors’ estimates using VHLSS 2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 45,
+            "metadata": {
+              "page_id": "he2020-p045",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7158,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p031-B02",
+            "text": "The returns to higher education are around 15 percent which are significantly higher than the regional average, one of the highest in the World (Patrinos, Thang, and Thanh 2017). At the macroeconomic level, Vietnam needs a highly skilled workforce as it aspires to become an upper-middle-income country by 2035. With its 95 million people and US$2,563 per capita gross domestic product (GDP) (2018), 6 Vietnam is globally recognized for its transformational socioeconomic progress since the introduction of the Doi Moi reforms in the late 1980s. Between 1990 and 2018, Vietnam’s per capita GDP grew at an impressive average annual rate of 5.5 percent, much of it driven by factor-led growth.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 31,
+            "metadata": {
+              "page_id": "he2020-p031",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7099,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p048-B03 | data/he2020.pdf | page 48]\nIn terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+        "context_ids": [
+          "he2020-p048-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "salary lecturer academic staff remuneration wage",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p074-B05",
+            "text": "Civil servants Guaranteed employment No performance incentive Special category of public employees Better remuneration No performance incentive Employees of the university University can offer better remuneration and performance incentives — Source: Elaborated by the authors.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 74,
+            "metadata": {
+              "page_id": "he2020-p074",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6789,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p048-B03",
+            "text": "In terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6438,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p075-B00",
+            "text": "63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 75,
+            "metadata": {
+              "page_id": "he2020-p075",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6417,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p048-B03 | data/he2020.pdf | page 48]\nIn terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+        "context_ids": [
+          "he2020-p048-B03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lecturer salary income remuneration faculty pay",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p074-B05",
+            "text": "Civil servants Guaranteed employment No performance incentive Special category of public employees Better remuneration No performance incentive Employees of the university University can offer better remuneration and performance incentives — Source: Elaborated by the authors.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 74,
+            "metadata": {
+              "page_id": "he2020-p074",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6594,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p060-B01",
+            "text": "The trend of increasing share of student contribution of the total university budget is also validated by institutional survey data which show that tuition has become the largest source of income for public universities and by a significant margin. Data from a university survey commissioned by MOET in 2018 indicate that government budget/subsidy constituted only 22 percent of the total revenues for public universities in 2017 15 (Figure 12). Tuition fees accounted for 55 percent of the revenue and the remaining 23 percent came from other sources (such as R&D, technology transfer, business and training services, and donations). Comparable figures from 2004 show that government budget constituted 68 percent of total revenue, tuition fees 26 percent, and other sources only 6 percent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 60,
+            "metadata": {
+              "page_id": "he2020-p060",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6494,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "he2020-p060-B02",
+            "text": "Figure 12: Evolution of Sources of Revenue of Public Universities, 2004 and 2017 68 26 6 22 55 23 0 10 20 30 40 50 60 70 80 State Subsidy Tuition RDI, services, others etc. 2004 2017 Source: Authors’ calculations using MOET University Surveys (2004 and 2017). With one of the lowest public spending as share of GDP and one of the highest reliance on tuition fees, Vietnam is a clear outlier (Table 12). 15 Total revenue for public universities in the sample was US$1,124 million in 2017.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 60,
+            "metadata": {
+              "page_id": "he2020-p060",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.6332,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[he2020-p048-B03 | data/he2020.pdf | page 48]\nIn terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+        "context_ids": [
+          "he2020-p048-B03"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2580,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 667,
+        "tokens_out": 21,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3298,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 674,
+        "tokens_out": 22,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3577,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 609,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 1950,
+    "tokens_out": 68,
+    "elapsed_s": 9.8
+  }
+]
