@@ -1,0 +1,3073 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "status": "answered",
+    "answer": "About 54 percent of Vietnam's current 2.3 million higher education students are female. [he2020-p015-B00]",
+    "citations": [
+      "he2020-p015-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What share of Vietnam's current higher education students are female?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p015-B00",
+            "text": "3 Executive Summary Diagnostic of the Present Situation Overall achievement. Vietnam’s higher education has made progress in a number of areas. MOET has played a proactive role in initiating positive changes toward modern governance through amendment to the Higher Education Law in 2018 and implementation of the university autonomy agenda since 2014. Access to higher education has more than doubled since 2000, and about 54 percent of the current 2.3 million students are females. Impressive progress is also seen in the qualification levels of academic staff: the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015. The number of joint programs and internationally accredited academic programs has also grown substantially.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.8752,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p040-B02",
+            "text": "Vietnam performs well in terms of gender equity in enrolments, with the proportion of females who access higher education rising from 48 in 2006 to 54 in 2016. To complement this positive picture of gender balance in higher education, it is important to look at an additional aspect: the proportion of female students in science, technology, engineering, and mathematics (STEM) programs. Data from the University Survey conducted by MOET in 2018 show that female students account for 34 percent of all students enrolled in 39 Vietnamese universities that focus essentially on STEM programs. While this is significantly better than the proportion of women in engineering studies in the United States (25 percent), it is still far from the ideal of 50 percent that any country should aim for.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 40,
+            "metadata": {
+              "page_id": "he2020-p040",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.3873,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 4
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p048-B04",
+            "text": "Gender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.21,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 6
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p015-B00 | data/he2020.pdf | page 15]\n3 Executive Summary Diagnostic of the Present Situation Overall achievement. Vietnam’s higher education has made progress in a number of areas. MOET has played a proactive role in initiating positive changes toward modern governance through amendment to the Higher Education Law in 2018 and implementation of the university autonomy agenda since 2014. Access to higher education has more than doubled since 2000, and about 54 percent of the current 2.3 million students are females. Impressive progress is also seen in the qualification levels of academic staff: the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015. The number of joint programs and internationally accredited academic programs has also grown substantially.\n\n[he2020-p040-B02 | data/he2020.pdf | page 40]\nVietnam performs well in terms of gender equity in enrolments, with the proportion of females who access higher education rising from 48 in 2006 to 54 in 2016. To complement this positive picture of gender balance in higher education, it is important to look at an additional aspect: the proportion of female students in science, technology, engineering, and mathematics (STEM) programs. Data from the University Survey conducted by MOET in 2018 show that female students account for 34 percent of all students enrolled in 39 Vietnamese universities that focus essentially on STEM programs. While this is significantly better than the proportion of women in engineering studies in the United States (25 percent), it is still far from the ideal of 50 percent that any country should aim for.",
+        "context_ids": [
+          "he2020-p015-B00",
+          "he2020-p040-B02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 81925,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 865,
+        "tokens_out": 55,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p015-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 865,
+    "tokens_out": 55,
+    "elapsed_s": 83.57
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is Vietnam's rank on the World Bank Human Capital Index?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Vietnam ranks 48 out of 157 countries on the World Bank's Human Capital Index (HCI), which is the highest result among middle-income countries. [he2020-p013-B04] [he2020-p032-B01]",
+    "citations": [
+      "he2020-p013-B04",
+      "he2020-p032-B01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is Vietnam's rank on the World Bank Human Capital Index?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p013-B04",
+            "text": "There is a disconnect between Vietnam’s remarkable achievement on equitable economic growth and human development, on the one hand, and the performance of the higher education system, on the other. Vietnam ranks 48 out of 157 countries on the World Bank’s Human Capital Index (HCI), the best result among middle-income countries. A Vietnamese child born today will be 67 percent as productive when s/he grows up as s/he could be if s/he enjoyed complete general education and full health. Of the three subcomponents in the HCI, Vietnam comes out especially strong with regard to access and quality in general education. Vietnam’s average years of schooling, adjusted for learning, is 10.2 years, second only to Singapore among Association of Southeast Asian Nations (ASEAN) countries.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 13,
+            "metadata": {
+              "page_id": "he2020-p013",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 7.8814,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p032-B01",
+            "text": "Vietnam’s higher education system and its universities can collaborate with the Government and industry to find innovative solutions to the public health response, economic recovery, and educational resilience. Vietnam’s remarkable record on equitable growth7 and equally impressive achievement on human development is disconnected with the low coverage and poor quality of higher education. The achievement on human development is reflected in the high performance in the 2018 Human Capital Index (HCI)8—that estimates the contribution of health and education of today’s youth (ages 0–17) for future productivity—where Vietnam ranked 48 out of 157 countries, the highest among middle-income countries (World Bank 2018c).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 32,
+            "metadata": {
+              "page_id": "he2020-p032",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.0626,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p031-B03",
+            "text": "However, there are signs of a downward trend in labor productivity growth since the late 1990s, from nearly 7 percent in 1995 to 3.5 percent in 2013 (World Bank and MPI 2016). Vietnam’s path toward prosperity by 2035 requires continuous increases in productivity, which require greater use of higher quality human capital. Vietnam’s economic development is roughly where Korea was three decades ago. As Korea did in those 30 years, Vietnam needs to increase the quality and relevance of higher education institutions (HEIs). Importantly, global and national mega trends are likely to create opportunities for Vietnam to further enhance the relevance of higher education.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 31,
+            "metadata": {
+              "page_id": "he2020-p031",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.1909,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 8,
+              "bm25": 4
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p013-B04 | data/he2020.pdf | page 13]\nThere is a disconnect between Vietnam’s remarkable achievement on equitable economic growth and human development, on the one hand, and the performance of the higher education system, on the other. Vietnam ranks 48 out of 157 countries on the World Bank’s Human Capital Index (HCI), the best result among middle-income countries. A Vietnamese child born today will be 67 percent as productive when s/he grows up as s/he could be if s/he enjoyed complete general education and full health. Of the three subcomponents in the HCI, Vietnam comes out especially strong with regard to access and quality in general education. Vietnam’s average years of schooling, adjusted for learning, is 10.2 years, second only to Singapore among Association of Southeast Asian Nations (ASEAN) countries.\n\n[he2020-p032-B01 | data/he2020.pdf | page 32]\nVietnam’s higher education system and its universities can collaborate with the Government and industry to find innovative solutions to the public health response, economic recovery, and educational resilience. Vietnam’s remarkable record on equitable growth7 and equally impressive achievement on human development is disconnected with the low coverage and poor quality of higher education. The achievement on human development is reflected in the high performance in the 2018 Human Capital Index (HCI)8—that estimates the contribution of health and education of today’s youth (ages 0–17) for future productivity—where Vietnam ranked 48 out of 157 countries, the highest among middle-income countries (World Bank 2018c).\n\n[he2020-p031-B03 | data/he2020.pdf | page 31]\nHowever, there are signs of a downward trend in labor productivity growth since the late 1990s, from nearly 7 percent in 1995 to 3.5 percent in 2013 (World Bank and MPI 2016). Vietnam’s path toward prosperity by 2035 requires continuous increases in productivity, which require greater use of higher quality human capital. Vietnam’s economic development is roughly where Korea was three decades ago. As Korea did in those 30 years, Vietnam needs to increase the quality and relevance of higher education institutions (HEIs). Importantly, global and national mega trends are likely to create opportunities for Vietnam to further enhance the relevance of higher education.",
+        "context_ids": [
+          "he2020-p013-B04",
+          "he2020-p032-B01",
+          "he2020-p031-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3222,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1029,
+        "tokens_out": 87,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p013-B04",
+          "he2020-p032-B01"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1029,
+    "tokens_out": 87,
+    "elapsed_s": 4.17
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The share of higher education lecturers with master’s and/or PhD degrees substantially increased from 47 percent in 2007 to 72 percent in 2015. [he2020-p053-B04]",
+    "citations": [
+      "he2020-p053-B04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How did the proportion of university teachers holding a master's or doctoral degree change from 2007 to 2015?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p053-B04",
+            "text": "MOET has been actively engaged in revising the law and regulations and setting policies and targets, resulting in increased share of HEI enrolment in total tertiary education enrolment, quantitative improvement of TE entrants, and enhanced quality of teaching and training during 2007–2015. For instance, the share of higher education lecturers with master’s and/or PhD degrees has substantially increased from 47 percent in 2007 to 72 percent in 2015 (GSO 2019). However, lack of a well-formulated logical framework and well-resourced strategic implementation plans has meant the subsector has not developed as it could have. The system targets set in 2007 (Decision 121 following HERA 2005) were deemed to be unachievable and were revised downward in 2013 (Decision 37).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 53,
+            "metadata": {
+              "page_id": "he2020-p053",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.7578,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 3
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p054-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 54,
+            "metadata": {
+              "page_id": "he2020-p054",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.5026,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p015-B00",
+            "text": "3 Executive Summary Diagnostic of the Present Situation Overall achievement. Vietnam’s higher education has made progress in a number of areas. MOET has played a proactive role in initiating positive changes toward modern governance through amendment to the Higher Education Law in 2018 and implementation of the university autonomy agenda since 2014. Access to higher education has more than doubled since 2000, and about 54 percent of the current 2.3 million students are females. Impressive progress is also seen in the qualification levels of academic staff: the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015. The number of joint programs and internationally accredited academic programs has also grown substantially.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.7678,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 8,
+              "bm25": 4
+            },
+            "base_rank": 6
+          }
+        ],
+        "context": "[he2020-p053-B04 | data/he2020.pdf | page 53]\nMOET has been actively engaged in revising the law and regulations and setting policies and targets, resulting in increased share of HEI enrolment in total tertiary education enrolment, quantitative improvement of TE entrants, and enhanced quality of teaching and training during 2007–2015. For instance, the share of higher education lecturers with master’s and/or PhD degrees has substantially increased from 47 percent in 2007 to 72 percent in 2015 (GSO 2019). However, lack of a well-formulated logical framework and well-resourced strategic implementation plans has meant the subsector has not developed as it could have. The system targets set in 2007 (Decision 121 following HERA 2005) were deemed to be unachievable and were revised downward in 2013 (Decision 37).\n\n[he2020-p054-B00 | data/he2020.pdf | page 54]\nImproving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+        "context_ids": [
+          "he2020-p053-B04",
+          "he2020-p054-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"proportion of university teachers\" \"master's\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p048-B03",
+            "text": "In terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.8135,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p054-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 54,
+            "metadata": {
+              "page_id": "he2020-p054",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.9253,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 6,
+              "bm25": 2
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p048-B04",
+            "text": "Gender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -4.1218,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 10,
+              "bm25": 18
+            },
+            "base_rank": 7
+          }
+        ],
+        "context": "[he2020-p053-B04 | data/he2020.pdf | page 53]\nMOET has been actively engaged in revising the law and regulations and setting policies and targets, resulting in increased share of HEI enrolment in total tertiary education enrolment, quantitative improvement of TE entrants, and enhanced quality of teaching and training during 2007–2015. For instance, the share of higher education lecturers with master’s and/or PhD degrees has substantially increased from 47 percent in 2007 to 72 percent in 2015 (GSO 2019). However, lack of a well-formulated logical framework and well-resourced strategic implementation plans has meant the subsector has not developed as it could have. The system targets set in 2007 (Decision 121 following HERA 2005) were deemed to be unachievable and were revised downward in 2013 (Decision 37).\n\n[he2020-p054-B00 | data/he2020.pdf | page 54]\nImproving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top\n\n[he2020-p048-B03 | data/he2020.pdf | page 48]\nIn terms of quality, in 2016 Vietnam had approximately 73,000 higher education academic staff, of whom more than 16,500 had a PhD degree (23 percent) and more than 43,000 had a master’s degree (59 percent), together accounting for more than 82 percent of all professors/lecturers. This compares well with data from 2005 when only 12 percent had a PhD degree and 32 percent had a master’s degree (GSO 2019). Despite the progress, the proportion of PhD qualified staff, at 23 percent, is still low. Further, available data do not distinguish what proportion of these PhD holders are from high-quality academic programs.",
+        "context_ids": [
+          "he2020-p053-B04",
+          "he2020-p054-B00",
+          "he2020-p048-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 2,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4034,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1063,
+        "tokens_out": 26,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3439,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1273,
+        "tokens_out": 74,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p053-B04"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 2336,
+    "tokens_out": 100,
+    "elapsed_s": 8.56
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+    "filter": null,
+    "status": "answered",
+    "answer": "To date, only 23 out of 171 public universities have been piloted under Resolution 77/2014/NQ-CP (Autonomy). [he2020-p057-B00]",
+    "citations": [
+      "he2020-p057-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How many public universities have been piloted under the autonomy resolution (Resolution 77)?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p057-B00",
+            "text": "45 Diagnosis of the Vietnamese Higher Education System Institutional Autonomy and Accountability Vietnam’s recent autonomy reform is a clear step in the right direction, but the results have been mixed because of significant gaps between policy intent and implementation. To date, only 23 out of 171 public universities have been piloted under Resolution 77/2014/NQ-CP (Autonomy). Autonomy normally refers to academic, organizational, human resources, and financial autonomy. While Vietnam performs well on the policy intent of autonomy, as compared to benchmarking countries (Table 8), the implementation is limited in scope and is yet to produce meaningful results. The amended Higher Education Law, effective July 2019, provides even more clarity on different definitions of autonomy.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 57,
+            "metadata": {
+              "page_id": "he2020-p057",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 8.8445,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p061-B02",
+            "text": "For instance, average per student public funding in 48 universities directly managed by MOET is under VND 9 million per year; the comparable figure for VNU-Hanoi (with seven member universities) is close to VND 30 million per year. In 2015, the Government issued Decree 16/2015/ND-CP that stipulates the mechanism for exercising the autonomy of public service delivery units (PSDUs) in which public universities were categorized in four groups of PSDUs: Group 1 fully financial autonomy (both recurrent and capital spending), Group 2 fully recurrent expenditure autonomy, Group 3 partial recurrent expenditure autonomy, and Group 4 fully dependent on state budget transfer. The state budget is to ‘support recurrent expenditure’ only, and the level of funding depends on the autonomy status of PSDUs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 61,
+            "metadata": {
+              "page_id": "he2020-p061",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.4781,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 3
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p019-B00",
+            "text": "7 Executive Summary have taken part in the autonomy pilot reform. While Vietnam performs well on the policy intent of autonomy, compared to benchmarking countries, the implementation is limited in scope and yet to produce meaningful results. Implementation guidelines are needed to provide clarity on the various definitions of autonomy in the amended Higher Education Law 2018. Financial autonomy is largely associated with financial self-reliance in terms of mobilization of nonpublic resources. With regard to organizational autonomy, a limitation is that university presidents are still appointed by MOET, thus not always fully adhering to professional criteria of academic and leadership qualification.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 19,
+            "metadata": {
+              "page_id": "he2020-p019",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.1152,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 16
+            },
+            "base_rank": 6
+          }
+        ],
+        "context": "[he2020-p057-B00 | data/he2020.pdf | page 57]\n45 Diagnosis of the Vietnamese Higher Education System Institutional Autonomy and Accountability Vietnam’s recent autonomy reform is a clear step in the right direction, but the results have been mixed because of significant gaps between policy intent and implementation. To date, only 23 out of 171 public universities have been piloted under Resolution 77/2014/NQ-CP (Autonomy). Autonomy normally refers to academic, organizational, human resources, and financial autonomy. While Vietnam performs well on the policy intent of autonomy, as compared to benchmarking countries (Table 8), the implementation is limited in scope and is yet to produce meaningful results. The amended Higher Education Law, effective July 2019, provides even more clarity on different definitions of autonomy.\n\n[he2020-p061-B02 | data/he2020.pdf | page 61]\nFor instance, average per student public funding in 48 universities directly managed by MOET is under VND 9 million per year; the comparable figure for VNU-Hanoi (with seven member universities) is close to VND 30 million per year. In 2015, the Government issued Decree 16/2015/ND-CP that stipulates the mechanism for exercising the autonomy of public service delivery units (PSDUs) in which public universities were categorized in four groups of PSDUs: Group 1 fully financial autonomy (both recurrent and capital spending), Group 2 fully recurrent expenditure autonomy, Group 3 partial recurrent expenditure autonomy, and Group 4 fully dependent on state budget transfer. The state budget is to ‘support recurrent expenditure’ only, and the level of funding depends on the autonomy status of PSDUs.",
+        "context_ids": [
+          "he2020-p057-B00",
+          "he2020-p061-B02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2431,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 870,
+        "tokens_out": 70,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p057-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 870,
+    "tokens_out": 70,
+    "elapsed_s": 2.86
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The report states that Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China [he2020-p014-B01, he2020-p017-B04]. When measured by the H-index, Vietnam ranks below all these countries as well as Singapore [he2020-p017-B04]. [he2020-p014-B01]",
+    "citations": [
+      "he2020-p014-B01",
+      "he2020-p017-B04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which neighbouring countries does the report say are ahead of Vietnam in research and technology transfer?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p017-B04",
+            "text": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.9029,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p051-B01",
+            "text": "On innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.1929,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 4
+            },
+            "base_rank": 4
+          },
+          {
+            "id": "he2020-p014-B01",
+            "text": "Source: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics. In addition, Vietnamese employers are concerned about the significant skills gaps of university graduates relative to labor market needs. The level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. For a country with ambitions to become a knowledge-based economy, it is indispensable to further increase access to higher education and improve the quality and relevance of programs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 14,
+            "metadata": {
+              "page_id": "he2020-p014",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.0909,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 6
+            },
+            "base_rank": 11
+          }
+        ],
+        "context": "[he2020-p017-B04 | data/he2020.pdf | page 17]\nVietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.\n\n[he2020-p051-B01 | data/he2020.pdf | page 51]\nOn innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.\n\n[he2020-p014-B01 | data/he2020.pdf | page 14]\nSource: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics. In addition, Vietnamese employers are concerned about the significant skills gaps of university graduates relative to labor market needs. The level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. For a country with ambitions to become a knowledge-based economy, it is indispensable to further increase access to higher education and improve the quality and relevance of programs.",
+        "context_ids": [
+          "he2020-p017-B04",
+          "he2020-p051-B01",
+          "he2020-p014-B01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "neighbouring countries research technology transfer",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p017-B04",
+            "text": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.2453,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p051-B04",
+            "text": "The limited resources in support of research and technology transfer in universities are spread too thin, do not always promote performance, and are not always aligned with national and local priorities. Figure 10: GERD as a Percentage of GDP in 2015 1.9 2.1 3.0 2.9 2.3 2.9 0.1 1.3 2.0 0.1 1.0 4.2 2.0 3.4 0.6 1.7 0.4 0.4 1.1 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 Australia China DenmarkFinlandFranceGermanyIndonesiaMalaysiaNetherlandsPhilippinesPoland Republic of Korea SingaporeSwitzeland United Kingdom Viet Nam Lower middle income countries Middle income countriesThailand Source: UIS.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.8475,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 16,
+              "bm25": 18
+            },
+            "base_rank": 12
+          },
+          {
+            "id": "he2020-p051-B01",
+            "text": "On innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.7852,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 7,
+              "bm25": 4
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p017-B04 | data/he2020.pdf | page 17]\nVietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.\n\n[he2020-p051-B01 | data/he2020.pdf | page 51]\nOn innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.\n\n[he2020-p014-B01 | data/he2020.pdf | page 14]\nSource: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics. In addition, Vietnamese employers are concerned about the significant skills gaps of university graduates relative to labor market needs. The level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. For a country with ambitions to become a knowledge-based economy, it is indispensable to further increase access to higher education and improve the quality and relevance of programs.",
+        "context_ids": [
+          "he2020-p017-B04",
+          "he2020-p051-B01",
+          "he2020-p014-B01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "neighbouring countries research technology transfer",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p017-B04",
+            "text": "Vietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 17,
+            "metadata": {
+              "page_id": "he2020-p017",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.2453,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p051-B04",
+            "text": "The limited resources in support of research and technology transfer in universities are spread too thin, do not always promote performance, and are not always aligned with national and local priorities. Figure 10: GERD as a Percentage of GDP in 2015 1.9 2.1 3.0 2.9 2.3 2.9 0.1 1.3 2.0 0.1 1.0 4.2 2.0 3.4 0.6 1.7 0.4 0.4 1.1 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 Australia China DenmarkFinlandFranceGermanyIndonesiaMalaysiaNetherlandsPhilippinesPoland Republic of Korea SingaporeSwitzeland United Kingdom Viet Nam Lower middle income countries Middle income countriesThailand Source: UIS.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.8475,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 16,
+              "bm25": 18
+            },
+            "base_rank": 12
+          },
+          {
+            "id": "he2020-p051-B01",
+            "text": "On innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 51,
+            "metadata": {
+              "page_id": "he2020-p051",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.7852,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 7,
+              "bm25": 4
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p017-B04 | data/he2020.pdf | page 17]\nVietnam’s level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. The number of citable documents per million inhabitants of Vietnam is higher than in the Philippines but slightly lower than in Indonesia and much lower than in Malaysia, Singapore, and Thailand. When measured by the H-index, which captures both the quality and impact of research output, Vietnam ranks below all these countries. On technology transfer, Vietnam has a low output at 1.24 patents per million of population, which is less than 10 percent of Malaysia’s output and less than 1 percent of China’s.\n\n[he2020-p051-B01 | data/he2020.pdf | page 51]\nOn innovation capacity, Vietnam ranked 45 among 126 countries in 2018, lower than most benchmarking countries but better than the Philippines (73) and Indonesia (85). This is an improvement of Vietnam from the rank of 64 in 2008. In contrast, both Indonesia and the Philippines have their ranks worsened (from 63 in 2008 to 73 in 2018 for the Philippines and from 49 in 2008 to 85 in 2018 for Indonesia). Determinants of Research and STI The low level of research and technology transfer is largely associated with inadequate and inefficient financing, lack of critical mass of research talent and insufficient links to the global research frontier, the low level university-industry link, and underdeveloped research/ICT infrastructure.\n\n[he2020-p014-B01 | data/he2020.pdf | page 14]\nSource: HCI data from World Bank (2018a) and GGR at higher education data from UIS (2017). UIS=UNESCO Institute for Statistics. In addition, Vietnamese employers are concerned about the significant skills gaps of university graduates relative to labor market needs. The level of research and technology transfer is low compared to regional peers such as the Philippines, Indonesia, Thailand, Malaysia, and China. For a country with ambitions to become a knowledge-based economy, it is indispensable to further increase access to higher education and improve the quality and relevance of programs.",
+        "context_ids": [
+          "he2020-p017-B04",
+          "he2020-p051-B01",
+          "he2020-p014-B01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4010,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1002,
+        "tokens_out": 21,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 4018,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1009,
+        "tokens_out": 21,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 6488,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 943,
+        "tokens_out": 148,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p014-B01"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 2954,
+    "tokens_out": 190,
+    "elapsed_s": 15.16
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2018, tuition fees were US$574 per student, accounting for 46 percent of total per-student spending by households [he2020-p059-B02, he2020-p060-B00]. [he2020-p059-B02] [he2020-p060-B00]",
+    "citations": [
+      "he2020-p059-B02",
+      "he2020-p060-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How much were tuition fees per student in 2018, and what share of household spending per student did they represent?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p059-B02",
+            "text": "Household contributions to higher education have steadily increased over time and now stand as the primary source of overall mobilization. According to the VHLSS, average per student higher education cost was US$1,242 in 2018, representing 54 percent of per capita expenditure (Table 11). Tuition fees (US$574) accounted for 46 percent of the total per student spending by households. Across income groups, average per student spending on university education in 2016 was US$497 for the poorest quintile compared to US$1,665 for the richest quintile, suggesting severe prominent liquidity constraints for the poorest segment of the society. In terms of per student expenditure at the university level, tuition fees (US$473) are about twice higher than public funding (US$238) in 2015/2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 59,
+            "metadata": {
+              "page_id": "he2020-p059",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 8.1645,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p060-B01",
+            "text": "The trend of increasing share of student contribution of the total university budget is also validated by institutional survey data which show that tuition has become the largest source of income for public universities and by a significant margin. Data from a university survey commissioned by MOET in 2018 indicate that government budget/subsidy constituted only 22 percent of the total revenues for public universities in 2017 15 (Figure 12). Tuition fees accounted for 55 percent of the revenue and the remaining 23 percent came from other sources (such as R&D, technology transfer, business and training services, and donations). Comparable figures from 2004 show that government budget constituted 68 percent of total revenue, tuition fees 26 percent, and other sources only 6 percent.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 60,
+            "metadata": {
+              "page_id": "he2020-p060",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.81,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 8
+            },
+            "base_rank": 5
+          },
+          {
+            "id": "he2020-p060-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 48 Table 11: Evolution of Annual Household Contribution to Higher Education (2004–2016) Costs 2004 2010 2016 2018 Tuition cost, US$ 105 251 473 574 Total cost, US$ 217 470 844 1,242 Tuition as % of total cost 48 53 56 46 Total cost as % of per capita expenditure 34 27 43 54 Total cost as % of total education expenditure 62 66 77 88 Total cost as % of household expenditure 9 8 12 13 Source: Authors’ estimates using VHLSS 2004, 2010, 2016 and 2018. Financing of HEIs",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 60,
+            "metadata": {
+              "page_id": "he2020-p060",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.9705,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 7
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p059-B02 | data/he2020.pdf | page 59]\nHousehold contributions to higher education have steadily increased over time and now stand as the primary source of overall mobilization. According to the VHLSS, average per student higher education cost was US$1,242 in 2018, representing 54 percent of per capita expenditure (Table 11). Tuition fees (US$574) accounted for 46 percent of the total per student spending by households. Across income groups, average per student spending on university education in 2016 was US$497 for the poorest quintile compared to US$1,665 for the richest quintile, suggesting severe prominent liquidity constraints for the poorest segment of the society. In terms of per student expenditure at the university level, tuition fees (US$473) are about twice higher than public funding (US$238) in 2015/2016.\n\n[he2020-p060-B01 | data/he2020.pdf | page 60]\nThe trend of increasing share of student contribution of the total university budget is also validated by institutional survey data which show that tuition has become the largest source of income for public universities and by a significant margin. Data from a university survey commissioned by MOET in 2018 indicate that government budget/subsidy constituted only 22 percent of the total revenues for public universities in 2017 15 (Figure 12). Tuition fees accounted for 55 percent of the revenue and the remaining 23 percent came from other sources (such as R&D, technology transfer, business and training services, and donations). Comparable figures from 2004 show that government budget constituted 68 percent of total revenue, tuition fees 26 percent, and other sources only 6 percent.\n\n[he2020-p060-B00 | data/he2020.pdf | page 60]\nImproving the Performance of Higher Education in Vietnam 48 Table 11: Evolution of Annual Household Contribution to Higher Education (2004–2016) Costs 2004 2010 2016 2018 Tuition cost, US$ 105 251 473 574 Total cost, US$ 217 470 844 1,242 Tuition as % of total cost 48 53 56 46 Total cost as % of per capita expenditure 34 27 43 54 Total cost as % of total education expenditure 62 66 77 88 Total cost as % of household expenditure 9 8 12 13 Source: Authors’ estimates using VHLSS 2004, 2010, 2016 and 2018. Financing of HEIs",
+        "context_ids": [
+          "he2020-p059-B02",
+          "he2020-p060-B01",
+          "he2020-p060-B00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4756,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1161,
+        "tokens_out": 114,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p059-B02",
+          "he2020-p060-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1161,
+    "tokens_out": 114,
+    "elapsed_s": 5.77
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Decision 37, issued in 2013, revised the 2020 total enrolment targets downward from 4.5 million to 2.2 million (a reduction of 2.3 million). [he2020-p038-B03]",
+    "citations": [
+      "he2020-p038-B03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which government decision revised the 2020 total enrolment target downward, and by how much?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p038-B03",
+            "text": "2005 2010 2016 2005 2010 2016 2005 2010 2016 Public universities 111 137 170 934 1,248 1,498 67 53 65 Open universities (Public) 2 2 2 16 n.a. 26 1 1 Private universities 27 50 65 138 190 244 10 8 11 Public colleges 130 197 189 277 582 311 20 25 13 Private colleges 7 30 28 22 144 46 2 6 2 VET colleges 0 120 190 0 193 183 0 8 8 Total 277 536 644 1,387 2,355 2,308 100 100 100 Source: MOET, MOLISA, and General Statistics Office (GSO) from various years. Between 2010 and 2016, enrolment stagnated largely because of the new government policy that put a break on quantitative growth. More specifically, Decision 37 issued in 2013 significantly revised 2020 total enrolment targets downward from 4.5 million to 2.2 million.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 38,
+            "metadata": {
+              "page_id": "he2020-p038",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.4896,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p015-B02",
+            "text": "Vietnam’s tertiary education expanded rapidly between 2000 and 2010, but student enrolment has stagnated since the early 2010s, largely because of the Government policy that put a break on quantitative growth. The enrolment growth from 0.9 million to 2.3 million students between 2000 and 2010 was driven by a huge increase in enrolments in private tertiary education institutions (TEIs) and non-university TEIs (that is, technical and vocational education and training [TVET] and professional colleges), with a corresponding growth in the supply of faculty, increases in the number of upper secondary education graduates, and the rise of household incomes. The Government then significantly revised the 2020 enrolment targets downward, from 4.5 million to 2.2 million.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.4387,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 6,
+              "bm25": 1
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p053-B04",
+            "text": "MOET has been actively engaged in revising the law and regulations and setting policies and targets, resulting in increased share of HEI enrolment in total tertiary education enrolment, quantitative improvement of TE entrants, and enhanced quality of teaching and training during 2007–2015. For instance, the share of higher education lecturers with master’s and/or PhD degrees has substantially increased from 47 percent in 2007 to 72 percent in 2015 (GSO 2019). However, lack of a well-formulated logical framework and well-resourced strategic implementation plans has meant the subsector has not developed as it could have. The system targets set in 2007 (Decision 121 following HERA 2005) were deemed to be unachievable and were revised downward in 2013 (Decision 37).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 53,
+            "metadata": {
+              "page_id": "he2020-p053",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.5199,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 3
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p038-B03 | data/he2020.pdf | page 38]\n2005 2010 2016 2005 2010 2016 2005 2010 2016 Public universities 111 137 170 934 1,248 1,498 67 53 65 Open universities (Public) 2 2 2 16 n.a. 26 1 1 Private universities 27 50 65 138 190 244 10 8 11 Public colleges 130 197 189 277 582 311 20 25 13 Private colleges 7 30 28 22 144 46 2 6 2 VET colleges 0 120 190 0 193 183 0 8 8 Total 277 536 644 1,387 2,355 2,308 100 100 100 Source: MOET, MOLISA, and General Statistics Office (GSO) from various years. Between 2010 and 2016, enrolment stagnated largely because of the new government policy that put a break on quantitative growth. More specifically, Decision 37 issued in 2013 significantly revised 2020 total enrolment targets downward from 4.5 million to 2.2 million.\n\n[he2020-p015-B02 | data/he2020.pdf | page 15]\nVietnam’s tertiary education expanded rapidly between 2000 and 2010, but student enrolment has stagnated since the early 2010s, largely because of the Government policy that put a break on quantitative growth. The enrolment growth from 0.9 million to 2.3 million students between 2000 and 2010 was driven by a huge increase in enrolments in private tertiary education institutions (TEIs) and non-university TEIs (that is, technical and vocational education and training [TVET] and professional colleges), with a corresponding growth in the supply of faculty, increases in the number of upper secondary education graduates, and the rise of household incomes. The Government then significantly revised the 2020 enrolment targets downward, from 4.5 million to 2.2 million.",
+        "context_ids": [
+          "he2020-p038-B03",
+          "he2020-p015-B02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3974,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1084,
+        "tokens_out": 80,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p038-B03"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1084,
+    "tokens_out": 80,
+    "elapsed_s": 4.71
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In Vietnam, universities (the higher education subsector) and vocational colleges (the TVET subsector) are separately managed by the Ministry of Education and Training (MOET) and the Ministry of Labor, Invalids, and Social Affairs (MOLISA), respectively. [he2020-p018-B02] [he2020-p053-B00]",
+    "citations": [
+      "he2020-p018-B02",
+      "he2020-p053-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which two ministries separately manage universities and vocational colleges in Vietnam?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p018-B02",
+            "text": "In terms of steering at the national level, the tertiary education system in Vietnam is highly fragmented across many dimensions. There is no single body responsible for the entire tertiary education and research system. Two separate ministries (MOET and the Ministry of Labor, Invalids, and Social Affairs [MOLISA]) are responsible for managing the higher education subsector (universities) and TVET subsector (colleges), respectively, with little coordination between each other and limited pathways between institutions in the two subsectors. The two national universities, which themselves comprise several specialized universities, are directly managed by the Prime Minister’s Office.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 18,
+            "metadata": {
+              "page_id": "he2020-p018",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 7.7694,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p053-B00",
+            "text": "41 Diagnosis of the Vietnamese Higher Education System 2.4 Governance and Management Systemwide Governance The higher education system in Vietnam is highly fragmented across many dimensions. First, Vietnam does not have a single body responsible for the entire tertiary education and research system. There are two separate ministries (MOET and MOLISA) in charge of managing the higher education subsector (universities) and TVET subsector (colleges), respectively, with little coordination between each other and limited pathways between institutions in one subsector and institutions in the other. In addition, a number of line ministries and provincial governments oversee more than 200 specialized universities and colleges, which adds another dimension of fragmentation.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 53,
+            "metadata": {
+              "page_id": "he2020-p053",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.5707,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p061-B01",
+            "text": "The Government allocates recurrent funding resources to universities through block grants based on historical trends, but it is not linked to the actual number of students nor any performance measure (World Bank 2013). Public universities in Vietnam receive recurrent funding through their respective line ministries, except for the two national universities which receive it directly from MOF. The funding model has been historically based and loosely associated with maximum student enrolment quotas determined on the basis of faculty and facility but without clear allocation criteria or incentives to improve quality. Per student public funding also widely varies across ministries without any rational link to actual costs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 61,
+            "metadata": {
+              "page_id": "he2020-p061",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.0419,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 6
+            },
+            "base_rank": 12
+          }
+        ],
+        "context": "[he2020-p018-B02 | data/he2020.pdf | page 18]\nIn terms of steering at the national level, the tertiary education system in Vietnam is highly fragmented across many dimensions. There is no single body responsible for the entire tertiary education and research system. Two separate ministries (MOET and the Ministry of Labor, Invalids, and Social Affairs [MOLISA]) are responsible for managing the higher education subsector (universities) and TVET subsector (colleges), respectively, with little coordination between each other and limited pathways between institutions in the two subsectors. The two national universities, which themselves comprise several specialized universities, are directly managed by the Prime Minister’s Office.\n\n[he2020-p053-B00 | data/he2020.pdf | page 53]\n41 Diagnosis of the Vietnamese Higher Education System 2.4 Governance and Management Systemwide Governance The higher education system in Vietnam is highly fragmented across many dimensions. First, Vietnam does not have a single body responsible for the entire tertiary education and research system. There are two separate ministries (MOET and MOLISA) in charge of managing the higher education subsector (universities) and TVET subsector (colleges), respectively, with little coordination between each other and limited pathways between institutions in one subsector and institutions in the other. In addition, a number of line ministries and provincial governments oversee more than 200 specialized universities and colleges, which adds another dimension of fragmentation.\n\n[he2020-p061-B01 | data/he2020.pdf | page 61]\nThe Government allocates recurrent funding resources to universities through block grants based on historical trends, but it is not linked to the actual number of students nor any performance measure (World Bank 2013). Public universities in Vietnam receive recurrent funding through their respective line ministries, except for the two national universities which receive it directly from MOF. The funding model has been historically based and loosely associated with maximum student enrolment quotas determined on the basis of faculty and facility but without clear allocation criteria or incentives to improve quality. Per student public funding also widely varies across ministries without any rational link to actual costs.",
+        "context_ids": [
+          "he2020-p018-B02",
+          "he2020-p053-B00",
+          "he2020-p061-B01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4840,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 945,
+        "tokens_out": 105,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p018-B02",
+          "he2020-p053-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 945,
+    "tokens_out": 105,
+    "elapsed_s": 5.24
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "In 2016, how much more did university graduates earn than secondary school graduates?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2016, university graduates earned 93 percent more annually on average than secondary school graduates (earning an average of VND 92,000 million annually). [he2020-p044-B02]",
+    "citations": [
+      "he2020-p044-B02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In 2016, how much more did university graduates earn than secondary school graduates?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 9.2577,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p016-B03",
+            "text": "National household surveys suggest that university and college graduates have the highest labor force participation (88 percent), are more likely to have better wage jobs with contracts, and earn substantially more than secondary school graduates (wage premium of 50–90 percent). At the same time, a significant proportion of firms in Vietnam report difficulties in recruiting employees with leadership and managerial skills, socio-emotional skills, and job-specific technical skills, suggesting large skills gaps.3 3 According to the World Bank skills and enterprise survey (2019), 73 percent of sampled Vietnamese firms report difficulties in recruiting employees with leadership and managerial skills, 54 percent with socio-emotional skills, and 68 percent with job- specific technical skills.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.1688,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p059-B02",
+            "text": "Household contributions to higher education have steadily increased over time and now stand as the primary source of overall mobilization. According to the VHLSS, average per student higher education cost was US$1,242 in 2018, representing 54 percent of per capita expenditure (Table 11). Tuition fees (US$574) accounted for 46 percent of the total per student spending by households. Across income groups, average per student spending on university education in 2016 was US$497 for the poorest quintile compared to US$1,665 for the richest quintile, suggesting severe prominent liquidity constraints for the poorest segment of the society. In terms of per student expenditure at the university level, tuition fees (US$473) are about twice higher than public funding (US$238) in 2015/2016.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 59,
+            "metadata": {
+              "page_id": "he2020-p059",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 0.9883,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 11
+            },
+            "base_rank": 17
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p016-B03 | data/he2020.pdf | page 16]\nNational household surveys suggest that university and college graduates have the highest labor force participation (88 percent), are more likely to have better wage jobs with contracts, and earn substantially more than secondary school graduates (wage premium of 50–90 percent). At the same time, a significant proportion of firms in Vietnam report difficulties in recruiting employees with leadership and managerial skills, socio-emotional skills, and job-specific technical skills, suggesting large skills gaps.3 3 According to the World Bank skills and enterprise survey (2019), 73 percent of sampled Vietnamese firms report difficulties in recruiting employees with leadership and managerial skills, 54 percent with socio-emotional skills, and 68 percent with job- specific technical skills.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p016-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3079,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 851,
+        "tokens_out": 73,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p044-B02"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 851,
+    "tokens_out": 73,
+    "elapsed_s": 3.45
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "When did California develop and implement its first higher education Master Plan?",
+    "filter": null,
+    "status": "answered",
+    "answer": "California developed and implemented its first higher education Master Plan in 1959–1960. [he2020-p065-B02]",
+    "citations": [
+      "he2020-p065-B02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "When did California develop and implement its first higher education Master Plan?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p065-B02",
+            "text": "Box 5: Setting the Vision for Higher Education in California California pioneered the establishment of a policy framework for a state system of higher education in the United States when it developed and implemented its first Master Plan in 1959–1960. The primary issues considered at that time were the future roles of the public and private sectors and, in particular, how the public sector should be governed and coordinated to avoid duplication and waste.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 65,
+            "metadata": {
+              "page_id": "he2020-p065",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 10.2727,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p065-B01",
+            "text": "To a large extent, it is the direct result of an innovative, clear, and wide-ranging vision elaborated in the 1960s and reflected in the much-celebrated ‘Higher Education Master Plan’ . It set out to define the respective roles and contributions of the various types of institutions constituting the Californian tertiary education system, from junior colleges to top research universities, together with the pathways allowing for the fluid movement of students throughout the system and the funding sources for institutions and students (Box 5).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 65,
+            "metadata": {
+              "page_id": "he2020-p065",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.311,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 20
+            },
+            "base_rank": 9
+          },
+          {
+            "id": "he2020-p065-B04",
+            "text": "The California Master Plan for Higher Education, which is revised about every 10 years, was not designed as a rigid blueprint to centrally control the development of California’s system of higher education. Rather, it set some general parameters, focusing primarily on the boundaries among the four sectors of higher education, and striving for a system that balances equity, quality, and efficiency. Source: Salmi 2017.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 65,
+            "metadata": {
+              "page_id": "he2020-p065",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 4.8476,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 3
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p065-B02 | data/he2020.pdf | page 65]\nBox 5: Setting the Vision for Higher Education in California California pioneered the establishment of a policy framework for a state system of higher education in the United States when it developed and implemented its first Master Plan in 1959–1960. The primary issues considered at that time were the future roles of the public and private sectors and, in particular, how the public sector should be governed and coordinated to avoid duplication and waste.\n\n[he2020-p065-B01 | data/he2020.pdf | page 65]\nTo a large extent, it is the direct result of an innovative, clear, and wide-ranging vision elaborated in the 1960s and reflected in the much-celebrated ‘Higher Education Master Plan’ . It set out to define the respective roles and contributions of the various types of institutions constituting the Californian tertiary education system, from junior colleges to top research universities, together with the pathways allowing for the fluid movement of students throughout the system and the funding sources for institutions and students (Box 5).\n\n[he2020-p065-B04 | data/he2020.pdf | page 65]\nThe California Master Plan for Higher Education, which is revised about every 10 years, was not designed as a rigid blueprint to centrally control the development of California’s system of higher education. Rather, it set some general parameters, focusing primarily on the boundaries among the four sectors of higher education, and striving for a system that balances equity, quality, and efficiency. Source: Salmi 2017.",
+        "context_ids": [
+          "he2020-p065-B02",
+          "he2020-p065-B01",
+          "he2020-p065-B04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3413,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 843,
+        "tokens_out": 56,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p065-B02"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 843,
+    "tokens_out": 56,
+    "elapsed_s": 3.67
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Under Australia's HECS scheme, students with below-average incomes were exempted from repaying their fees. [he2020-p091-B02]",
+    "citations": [
+      "he2020-p091-B02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Under Australia's HECS scheme, which students did not have to repay their fees?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p091-B02",
+            "text": "Faced with prospective widespread student opposition to tuition fees, Australian policy makers decided to use public funds to pay the fees while students were enrolled. The HECS did not apply to living expenses. All students participating in the HECS were then obligated to repay these fees after completing their tertiary education with a percentage of their incomes. Students with below average incomes were exempted from repayment. However, the HECS system created a public expenditure challenge at first as a growing number of students enrolled in higher education without having to pay fees upfront.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 91,
+            "metadata": {
+              "page_id": "he2020-p091",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 7.8063,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p091-B03",
+            "text": "To reduce pressure on the budget, Australia reduced the HECS subsidies in 1997, introduced three bands of HECS tuition fees (each with a fixed rate of student contribution), and reduced the level of income exempted from HECS repayment.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 91,
+            "metadata": {
+              "page_id": "he2020-p091",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.2326,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 3
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p091-B01",
+            "text": "Box 17: Income-contingent Loans in Australia and New Zealand In Australia and New Zealand, public HEIs charged little or no fees until the late 1980s. Then, as the governments could no longer afford such high public spending on higher education, they raised tuition fees and at the same time, adopted ICLs as part of a strategy to increase cost sharing. The SLPs enabled students to pay the higher fees over an extended period based on their income after graduation and contributed to significant increases in coverage and improved equity. The two countries, however, took somewhat different approaches in the characteristics of the income-contingent programs they designed. In 1988, Australia adopted an innovative approach to cost sharing through its Higher Education Contribution Scheme (HECS).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 91,
+            "metadata": {
+              "page_id": "he2020-p091",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.0012,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p091-B02 | data/he2020.pdf | page 91]\nFaced with prospective widespread student opposition to tuition fees, Australian policy makers decided to use public funds to pay the fees while students were enrolled. The HECS did not apply to living expenses. All students participating in the HECS were then obligated to repay these fees after completing their tertiary education with a percentage of their incomes. Students with below average incomes were exempted from repayment. However, the HECS system created a public expenditure challenge at first as a growing number of students enrolled in higher education without having to pay fees upfront.\n\n[he2020-p091-B03 | data/he2020.pdf | page 91]\nTo reduce pressure on the budget, Australia reduced the HECS subsidies in 1997, introduced three bands of HECS tuition fees (each with a fixed rate of student contribution), and reduced the level of income exempted from HECS repayment.\n\n[he2020-p091-B01 | data/he2020.pdf | page 91]\nBox 17: Income-contingent Loans in Australia and New Zealand In Australia and New Zealand, public HEIs charged little or no fees until the late 1980s. Then, as the governments could no longer afford such high public spending on higher education, they raised tuition fees and at the same time, adopted ICLs as part of a strategy to increase cost sharing. The SLPs enabled students to pay the higher fees over an extended period based on their income after graduation and contributed to significant increases in coverage and improved equity. The two countries, however, took somewhat different approaches in the characteristics of the income-contingent programs they designed. In 1988, Australia adopted an innovative approach to cost sharing through its Higher Education Contribution Scheme (HECS).",
+        "context_ids": [
+          "he2020-p091-B02",
+          "he2020-p091-B03",
+          "he2020-p091-B01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3082,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 892,
+        "tokens_out": 56,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p091-B02"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 892,
+    "tokens_out": 56,
+    "elapsed_s": 3.46
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+    "filter": {
+      "section": "policy_options"
+    },
+    "status": "answered",
+    "answer": "In the Policy Options chapter, Vietnam would need to enrol a total of 3.6 million tertiary students by 2030 (requiring 1.3 million additional seats) [he2020-p068-B00].",
+    "citations": [
+      "he2020-p068-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In the Policy Options chapter, how many tertiary students in total would Vietnam need to enrol by 2030?",
+        "filter": {
+          "section": "policy_options"
+        },
+        "results": [
+          {
+            "id": "he2020-p068-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 56 will be 1.3 million additional seats required, for a total of 3.6 million students. Of those additional ‘new’ students, public universities will absorb 6 percent, private universities 25 percent, colleges (TVET and professional under MOLISA) will absorb 43 percent, and alternative mode of education (open university, remote/distance learning platforms in mostly public institutions) will absorb the remaining 25 percent (Table 14). Table 14: Simulation on Additional Students by 2030 by Type of TEIs Total Enrolment in 2030 ‘New Students’ in 2030 Share of ‘New’ Students (%) Share of Total Students, 2017 (%) Share of Students, 2030 (%) Public universities 1,541,398 77,398 6 64 43 Private universities 537,697 331,697 25 9 15",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 68,
+            "metadata": {
+              "page_id": "he2020-p068",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 5.5605,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 4
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p070-B03",
+            "text": "To prioritize equity issues in the tertiary education agenda, Vietnam needs to set clear quantitative targets for greater access rates of disadvantaged students (economically disadvantaged, ethnic minorities) until 2030 with an adequately financed implementation plan and financing mechanisms.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 70,
+            "metadata": {
+              "page_id": "he2020-p070",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.9652,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 11
+            },
+            "base_rank": 6
+          },
+          {
+            "id": "he2020-p065-B05",
+            "text": "Therefore, the most urgent task for the future development of tertiary education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030, with the overarching goal of producing highly qualified Vietnamese graduates and relevant research in support of a more knowledge-based economy. The Higher Education Strategy for 2021–2030 that MOET has been formulating should constitute a relevant blueprint to improve the performance of the Vietnamese higher education system and align it more effectively with the country’s socioeconomic development strategy.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 65,
+            "metadata": {
+              "page_id": "he2020-p065",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 5,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.3133,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 6
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p068-B00 | data/he2020.pdf | page 68]\nImproving the Performance of Higher Education in Vietnam 56 will be 1.3 million additional seats required, for a total of 3.6 million students. Of those additional ‘new’ students, public universities will absorb 6 percent, private universities 25 percent, colleges (TVET and professional under MOLISA) will absorb 43 percent, and alternative mode of education (open university, remote/distance learning platforms in mostly public institutions) will absorb the remaining 25 percent (Table 14). Table 14: Simulation on Additional Students by 2030 by Type of TEIs Total Enrolment in 2030 ‘New Students’ in 2030 Share of ‘New’ Students (%) Share of Total Students, 2017 (%) Share of Students, 2030 (%) Public universities 1,541,398 77,398 6 64 43 Private universities 537,697 331,697 25 9 15\n\n[he2020-p070-B03 | data/he2020.pdf | page 70]\nTo prioritize equity issues in the tertiary education agenda, Vietnam needs to set clear quantitative targets for greater access rates of disadvantaged students (economically disadvantaged, ethnic minorities) until 2030 with an adequately financed implementation plan and financing mechanisms.\n\n[he2020-p065-B05 | data/he2020.pdf | page 65]\nTherefore, the most urgent task for the future development of tertiary education in Vietnam would be to elaborate a bold vision of the size, shape, and institutional configuration of the system by 2030, with the overarching goal of producing highly qualified Vietnamese graduates and relevant research in support of a more knowledge-based economy. The Higher Education Strategy for 2021–2030 that MOET has been formulating should constitute a relevant blueprint to improve the performance of the Vietnamese higher education system and align it more effectively with the country’s socioeconomic development strategy.",
+        "context_ids": [
+          "he2020-p068-B00",
+          "he2020-p070-B03",
+          "he2020-p065-B05"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 4094,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 978,
+        "tokens_out": 88,
+        "tool": "final_answer",
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 978,
+    "tokens_out": 88,
+    "elapsed_s": 4.34
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+    "filter": {
+      "section": "diagnosis"
+    },
+    "status": "answered",
+    "answer": "In 2015, public spending per tertiary education student in Vietnam was US$316, which represented 15 percent of per capita GDP. [he2020-p059-B01]",
+    "citations": [
+      "he2020-p059-B01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to the Diagnosis chapter, what was public spending per tertiary student in 2015?",
+        "filter": {
+          "section": "diagnosis"
+        },
+        "results": [
+          {
+            "id": "he2020-p059-B01",
+            "text": "Not surprisingly, when benchmarked against peers and aspirational countries, Vietnam’s pubic funding allocation to tertiary education (which includes higher education) is by far the lowest. As seen in Table 10, tertiary education public spending as share of GDP is at least 1 percent of GDP in many countries and close to double of Vietnam’s 0.33 percent figure in Thailand and Indonesia. Per student public spending on tertiary education for Vietnam was US$316 (15 percent of per capita GDP) in 2015 - one of the lowest compared to its peers. Household Financing",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 59,
+            "metadata": {
+              "page_id": "he2020-p059",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.9835,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p061-B02",
+            "text": "For instance, average per student public funding in 48 universities directly managed by MOET is under VND 9 million per year; the comparable figure for VNU-Hanoi (with seven member universities) is close to VND 30 million per year. In 2015, the Government issued Decree 16/2015/ND-CP that stipulates the mechanism for exercising the autonomy of public service delivery units (PSDUs) in which public universities were categorized in four groups of PSDUs: Group 1 fully financial autonomy (both recurrent and capital spending), Group 2 fully recurrent expenditure autonomy, Group 3 partial recurrent expenditure autonomy, and Group 4 fully dependent on state budget transfer. The state budget is to ‘support recurrent expenditure’ only, and the level of funding depends on the autonomy status of PSDUs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 61,
+            "metadata": {
+              "page_id": "he2020-p061",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.3354,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 9,
+              "bm25": 3
+            },
+            "base_rank": 5
+          },
+          {
+            "id": "he2020-p058-B03",
+            "text": "Historically, Vietnam has been committed to high levels of public resources in education, with a strong focus on general education and less emphasis on tertiary education. Between 2004 and 2015, the Government’s resource allocation to the education sector was 5 percent of GDP and 17–18 percent of total government spending (Table 9). However, among the education subsectors, tertiary education (higher education comprising universities and pedagogical colleges and post-secondary non- university subsector which largely comprises TVET and professional colleges) has received the lowest level of public funding allocation. In 2015, tertiary education received only 0.33 percent of GDP , 1.1",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 58,
+            "metadata": {
+              "page_id": "he2020-p058",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.1378,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 6,
+              "bm25": 4
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p059-B01 | data/he2020.pdf | page 59]\nNot surprisingly, when benchmarked against peers and aspirational countries, Vietnam’s pubic funding allocation to tertiary education (which includes higher education) is by far the lowest. As seen in Table 10, tertiary education public spending as share of GDP is at least 1 percent of GDP in many countries and close to double of Vietnam’s 0.33 percent figure in Thailand and Indonesia. Per student public spending on tertiary education for Vietnam was US$316 (15 percent of per capita GDP) in 2015 - one of the lowest compared to its peers. Household Financing\n\n[he2020-p061-B02 | data/he2020.pdf | page 61]\nFor instance, average per student public funding in 48 universities directly managed by MOET is under VND 9 million per year; the comparable figure for VNU-Hanoi (with seven member universities) is close to VND 30 million per year. In 2015, the Government issued Decree 16/2015/ND-CP that stipulates the mechanism for exercising the autonomy of public service delivery units (PSDUs) in which public universities were categorized in four groups of PSDUs: Group 1 fully financial autonomy (both recurrent and capital spending), Group 2 fully recurrent expenditure autonomy, Group 3 partial recurrent expenditure autonomy, and Group 4 fully dependent on state budget transfer. The state budget is to ‘support recurrent expenditure’ only, and the level of funding depends on the autonomy status of PSDUs.\n\n[he2020-p058-B03 | data/he2020.pdf | page 58]\nHistorically, Vietnam has been committed to high levels of public resources in education, with a strong focus on general education and less emphasis on tertiary education. Between 2004 and 2015, the Government’s resource allocation to the education sector was 5 percent of GDP and 17–18 percent of total government spending (Table 9). However, among the education subsectors, tertiary education (higher education comprising universities and pedagogical colleges and post-secondary non- university subsector which largely comprises TVET and professional colleges) has received the lowest level of public funding allocation. In 2015, tertiary education received only 0.33 percent of GDP , 1.1",
+        "context_ids": [
+          "he2020-p059-B01",
+          "he2020-p061-B02",
+          "he2020-p058-B03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3705,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1022,
+        "tokens_out": 67,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p059-B01"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 1022,
+    "tokens_out": 67,
+    "elapsed_s": 3.95
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the main downside of employing academic staff on fixed-term contracts?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the main downside of employing academic staff on fixed-term contracts?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p075-B00",
+            "text": "63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 75,
+            "metadata": {
+              "page_id": "he2020-p075",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.9985,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p025-B01",
+            "text": "18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. 19. Design and implement performance-based human resource/staffing management. C. Enhanced Research Quality and STI 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 25,
+            "metadata": {
+              "page_id": "he2020-p025",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.3546,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 18,
+              "bm25": 5
+            },
+            "base_rank": 8
+          },
+          {
+            "id": "he2020-p074-B04",
+            "text": "In the longer term, changing the employment status of faculty members can help develop an academic performance culture that rewards results. Finland has recently transitioned from a public service status for all academic and administrative staff to a new status whereby faculty members and administrative staff are now employees of their university. Table 15 summarizes the advantages and drawbacks of the three forms of employment that universities can have: civil service, special status for academic staff, and employees of the university. Table 15: Employment Status of Academics Type of Employment Advantages Drawbacks",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 74,
+            "metadata": {
+              "page_id": "he2020-p074",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.8367,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 4
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p075-B00 | data/he2020.pdf | page 75]\n63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,\n\n[he2020-p025-B01 | data/he2020.pdf | page 25]\n18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. 19. Design and implement performance-based human resource/staffing management. C. Enhanced Research Quality and STI 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support\n\n[he2020-p074-B04 | data/he2020.pdf | page 74]\nIn the longer term, changing the employment status of faculty members can help develop an academic performance culture that rewards results. Finland has recently transitioned from a public service status for all academic and administrative staff to a new status whereby faculty members and administrative staff are now employees of their university. Table 15 summarizes the advantages and drawbacks of the three forms of employment that universities can have: civil service, special status for academic staff, and employees of the university. Table 15: Employment Status of Academics Type of Employment Advantages Drawbacks",
+        "context_ids": [
+          "he2020-p075-B00",
+          "he2020-p025-B01",
+          "he2020-p074-B04"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 16 Types of Contracts for Permanent Academic Staff Fixed-term contracts",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p075-B00",
+            "text": "63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 75,
+            "metadata": {
+              "page_id": "he2020-p075",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 9.6398,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p028-B02",
+            "text": "16. Revamp graduate schools to attract high-quality domestic and international PhD students and postdocs, through quality regulations and comprehensive financing schemes (scholarship/ stipend/graduate assistantship). ++ + - ++ 17. Design and implement a comprehensive program on recruitment and retention of high-quality academic staff at applied universities (all other universities that are not classified as research- intensive universities). ++ ++ - ++ 18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. + - - + 19. Design and implement performance-based human resource/ staffing management. + + + + C. Enhanced Research Quality and STI",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 28,
+            "metadata": {
+              "page_id": "he2020-p028",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.2455,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p025-B01",
+            "text": "18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. 19. Design and implement performance-based human resource/staffing management. C. Enhanced Research Quality and STI 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 25,
+            "metadata": {
+              "page_id": "he2020-p025",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.3911,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 3
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p075-B00 | data/he2020.pdf | page 75]\n63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,\n\n[he2020-p025-B01 | data/he2020.pdf | page 25]\n18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. 19. Design and implement performance-based human resource/staffing management. C. Enhanced Research Quality and STI 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support\n\n[he2020-p074-B04 | data/he2020.pdf | page 74]\nIn the longer term, changing the employment status of faculty members can help develop an academic performance culture that rewards results. Finland has recently transitioned from a public service status for all academic and administrative staff to a new status whereby faculty members and administrative staff are now employees of their university. Table 15 summarizes the advantages and drawbacks of the three forms of employment that universities can have: civil service, special status for academic staff, and employees of the university. Table 15: Employment Status of Academics Type of Employment Advantages Drawbacks",
+        "context_ids": [
+          "he2020-p075-B00",
+          "he2020-p025-B01",
+          "he2020-p074-B04"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Fixed-term contracts\" \"Drawbacks\" Table 16",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p075-B00",
+            "text": "63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 75,
+            "metadata": {
+              "page_id": "he2020-p075",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.3543,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p074-B04",
+            "text": "In the longer term, changing the employment status of faculty members can help develop an academic performance culture that rewards results. Finland has recently transitioned from a public service status for all academic and administrative staff to a new status whereby faculty members and administrative staff are now employees of their university. Table 15 summarizes the advantages and drawbacks of the three forms of employment that universities can have: civil service, special status for academic staff, and employees of the university. Table 15: Employment Status of Academics Type of Employment Advantages Drawbacks",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 74,
+            "metadata": {
+              "page_id": "he2020-p074",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -5.5222,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 2
+            },
+            "base_rank": 9
+          },
+          {
+            "id": "he2020-p075-B01",
+            "text": "and a few European countries Fixed term Keeps academics on their toes (innovative mindset and behaviors) Uncertainty about long-term employment prospects Olin College of Engineering (United States) Source: Elaborated by the authors. 3.3.5 Links to the Economy and Society Developing close links with industry is one of the most effective ways of increasing the relevance of higher education programs. For that purpose, the Vietnamese universities could use a variety of mechanisms, including internships for undergraduate students, in-company placements of research students and academics, and practitioners from industry as visiting lecturers. Frequent consultation between firms and universities is needed so that the latter can react quickly to changing skills needs.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 75,
+            "metadata": {
+              "page_id": "he2020-p075",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -8.2755,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 4
+            },
+            "base_rank": 11
+          }
+        ],
+        "context": "[he2020-p075-B00 | data/he2020.pdf | page 75]\n63 Policy Options The types of contracts offered to permanent academic staff influence the ability of universities to provide incentives for higher performance. Table 16 presents the advantages and drawbacks of the three main approaches that can be found across the world: open contracts, tenure, and fixed-term contracts. Table 16: Types of Contracts for Permanent Academic Staff Type of Contract Advantages Drawbacks Examples Open-ended/ automatically renewable term contracts Peace of mind and lack of pressure No performance incentive Public universities in Africa, Southern and Eastern Europe, Latin America, and South Asia Tenure University keeps only senior academics with proven track record University loses a certain percentage of recruited academics North America, East Asia,\n\n[he2020-p025-B01 | data/he2020.pdf | page 25]\n18. Update the law for transition of employment status of academic staff and administrative staff at TEIs from permanent to fixed-term public servants. 19. Design and implement performance-based human resource/staffing management. C. Enhanced Research Quality and STI 20. Establish a legal system and organizations to advance the technology market system (dealing with technology brokerage, technology agents, centers for leasing and contracting manpower for science and technology services). 23. Invest in ICT infrastructure, including foundational and high-end HPC facilities and research network, to enable cutting-edge research and links to the global frontier. 21. Scale up existing funding schemes and introduce new innovation funding schemes targeted to support\n\n[he2020-p074-B04 | data/he2020.pdf | page 74]\nIn the longer term, changing the employment status of faculty members can help develop an academic performance culture that rewards results. Finland has recently transitioned from a public service status for all academic and administrative staff to a new status whereby faculty members and administrative staff are now employees of their university. Table 15 summarizes the advantages and drawbacks of the three forms of employment that universities can have: civil service, special status for academic staff, and employees of the university. Table 15: Employment Status of Academics Type of Employment Advantages Drawbacks",
+        "context_ids": [
+          "he2020-p075-B00",
+          "he2020-p025-B01",
+          "he2020-p074-B04"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2405,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 954,
+        "tokens_out": 30,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3235,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 970,
+        "tokens_out": 29,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 4488,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 911,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 2835,
+    "tokens_out": 84,
+    "elapsed_s": 10.74
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Quality assurance (QA) arrangements in Vietnamese higher education have been in place for about 15 years. [he2020-p085-B00]",
+    "citations": [
+      "he2020-p085-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "For how long have quality assurance arrangements existed in Vietnamese higher education?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p085-B00",
+            "text": "73 Policy Options 3.5.4 Quality Assurance Vietnam needs to establish a robust QA culture and enhance the capacity for both EQA and IQA, based on the newly developed NQAF. The QA arrangements in the Vietnamese higher education have been in place for about 15 years, yet the system is still struggling to align with international trends in QA and be more coherent and consistent. This will require two sets of actions: (a) establishing a holistic NQAF and (b) building the capacity to implement the NQAF. Establishing a holistic NQAF to ensure a robust approach to accountability.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 85,
+            "metadata": {
+              "page_id": "he2020-p085",
+              "section": "policy_options",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 8.1123,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p055-B01",
+            "text": "The national quality assurance system consists of MOET, several independent accreditation agencies, and the HEIs themselves. External quality assurance (EQA) has evolved in Vietnam as a major strand of higher education reforms with accreditation as the preferred mechanism for QA to recognize whether an HEI or a training program complies with common standards. Box 4 provides a chronology of the key timeline on higher education accreditation. Box 4: A Brief Chronology of Accreditation in Vietnam",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 55,
+            "metadata": {
+              "page_id": "he2020-p055",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.6109,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 5
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p032-B04",
+            "text": "In 2005, the Government of Vietnam (GoV) promulgated a resolution on the Higher Education Reform Agenda (HERA) for 2006–2020 to address the sector challenges on education network and expansion, academic staff and teaching methods, quality assurance, and management mechanisms. To implement the agenda, Decision 121 was issued in 2007 on planning the network of universities and colleges. The next major policy reform was the 2012 Law of Higher Education, which was followed by issuance of Decision 37 in 2013 for an adjustment to Decision 121 with revisions to goals and targets, many of which are not expected to be achieved by 2020.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 32,
+            "metadata": {
+              "page_id": "he2020-p032",
+              "section": "introduction",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.4933,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 14,
+              "bm25": 13
+            },
+            "base_rank": 4
+          }
+        ],
+        "context": "[he2020-p085-B00 | data/he2020.pdf | page 85]\n73 Policy Options 3.5.4 Quality Assurance Vietnam needs to establish a robust QA culture and enhance the capacity for both EQA and IQA, based on the newly developed NQAF. The QA arrangements in the Vietnamese higher education have been in place for about 15 years, yet the system is still struggling to align with international trends in QA and be more coherent and consistent. This will require two sets of actions: (a) establishing a holistic NQAF and (b) building the capacity to implement the NQAF. Establishing a holistic NQAF to ensure a robust approach to accountability.\n\n[he2020-p055-B01 | data/he2020.pdf | page 55]\nThe national quality assurance system consists of MOET, several independent accreditation agencies, and the HEIs themselves. External quality assurance (EQA) has evolved in Vietnam as a major strand of higher education reforms with accreditation as the preferred mechanism for QA to recognize whether an HEI or a training program complies with common standards. Box 4 provides a chronology of the key timeline on higher education accreditation. Box 4: A Brief Chronology of Accreditation in Vietnam\n\n[he2020-p032-B04 | data/he2020.pdf | page 32]\nIn 2005, the Government of Vietnam (GoV) promulgated a resolution on the Higher Education Reform Agenda (HERA) for 2006–2020 to address the sector challenges on education network and expansion, academic staff and teaching methods, quality assurance, and management mechanisms. To implement the agenda, Decision 121 was issued in 2007 on planning the network of universities and colleges. The next major policy reform was the 2012 Law of Higher Education, which was followed by issuance of Decision 37 in 2013 for an adjustment to Decision 121 with revisions to goals and targets, many of which are not expected to be achieved by 2020.",
+        "context_ids": [
+          "he2020-p085-B00",
+          "he2020-p055-B01",
+          "he2020-p032-B04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 3436,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 937,
+        "tokens_out": 55,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p085-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 937,
+    "tokens_out": 55,
+    "elapsed_s": 3.81
+  },
+  {
+    "query_id": "n01",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the dropout rate of university students in Vietnam?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the dropout rate of university students in Vietnam?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.5409,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2
+            },
+            "base_rank": 5
+          },
+          {
+            "id": "he2020-p044-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.4245,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 12
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.4643,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 20,
+              "bm25": 9
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dropout rate university students Vietnam",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p044-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.5713,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 12
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.0471,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 11
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.1136,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 16,
+              "bm25": 2
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dropout completion rate university higher education",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p042-B02",
+            "text": "It can be noted that the access rate at tertiary education is a multiplicative product of the upper secondary completion rate by the tertiary admission rate. The access rate is defined as proportion of individuals ages 18–24 who ever had tertiary education access (currently enrolled as well as those who may have completed tertiary education and those who dropped out at some point). For a given age group, in this case youth ages 18–24 years, the access rate in tertiary education (TE) can be written as the product of the share of students who completed upper secondary education and the share of those students who are admitted to tertiary education, that is, TE Access rate = SCR × TAR.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 42,
+            "metadata": {
+              "page_id": "he2020-p042",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.5961,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 7,
+              "bm25": 2
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p042-B01",
+            "text": "Oaxaca decomposition technique (Oaxaca 1973) can quantify the extent to which access to tertiary education for individuals from disadvantaged backgrounds is determined by their lower upper secondary school completion rates compared to their lower admission rates into tertiary education. The upper secondary completion rate (SCR) measures probability of graduating from that level, and the tertiary admission rate (TAR) captures probability of accessing tertiary education conditional on completing the upper secondary level. The estimation can decompose access gaps into two components: the share explained by differences in secondary completion rates (SCR effect) and the share explained by difference in the tertiary admission rates (TAR effect).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 42,
+            "metadata": {
+              "page_id": "he2020-p042",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.047,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 1
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p041-B00",
+            "text": "29 Diagnosis of the Vietnamese Higher Education System explains more than 60 percent of gender gaps (in favor of females) and ethnicity gaps in tertiary education opportunities. Access gaps by parental education and area of residence is equally explained by the two factors (about 50 percent each). Relative importance of these two effects suggest policies need to address high school graduation and tertiary education equally or differentially depending on which equity objectives. Figure 7: Decomposition of Access Gaps in Tertiary Education, 2018 0 10 20 30 40 50 60 70 Q5-Q1 Q5-Q2 Q5-Q3 Q5-Q4 Female - Male Parents HS nonHS Urban - Rural Kinh - nonKinh high school completion rates tertiary entry rates",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 41,
+            "metadata": {
+              "page_id": "he2020-p041",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.6735,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 10
+            },
+            "base_rank": 6
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2439,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 997,
+        "tokens_out": 20,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2237,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1003,
+        "tokens_out": 21,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3810,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 937,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 2937,
+    "tokens_out": 66,
+    "elapsed_s": 9.45
+  },
+  {
+    "query_id": "n02",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the student-to-lecturer ratio in Vietnamese public universities?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the student-to-lecturer ratio in Vietnamese public universities?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p048-B02",
+            "text": "Among the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 7.3838,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 3
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p048-B04",
+            "text": "Gender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.9666,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 4
+            },
+            "base_rank": 8
+          },
+          {
+            "id": "he2020-p054-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 54,
+            "metadata": {
+              "page_id": "he2020-p054",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 3.919,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 1
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p048-B02 | data/he2020.pdf | page 48]\nAmong the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).\n\n[he2020-p048-B04 | data/he2020.pdf | page 48]\nGender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure\n\n[he2020-p054-B00 | data/he2020.pdf | page 54]\nImproving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+        "context_ids": [
+          "he2020-p048-B02",
+          "he2020-p048-B04",
+          "he2020-p054-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "student-to-lecturer ratio public",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p048-B02",
+            "text": "Among the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.397,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 3
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p054-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 54,
+            "metadata": {
+              "page_id": "he2020-p054",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.3389,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 17,
+              "bm25": 1
+            },
+            "base_rank": 4
+          },
+          {
+            "id": "he2020-p024-B03",
+            "text": "B. Improved Quality and Relevance 11. Update policies to enhance program quality assurance to include, among others, student/teacher ratio, qualifications of faculty including PhD degree and English language, curriculum with minimum industry placement, and labor market outcomes. 13. Design and implement a national teaching excellence scheme with sufficient financing available to HEIs and individual faculty, on a competitive basis and aimed at capacity building for faculty to implement curricular and pedagogical innovations (personalized high-tech and high-touch learning through disruptive technology). 12. Design and implement a centrally coordinated investment program for internationalization to increase international accreditation of training programs, joint",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 24,
+            "metadata": {
+              "page_id": "he2020-p024",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 3,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.9925,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "bm25": 4
+            },
+            "base_rank": 10
+          }
+        ],
+        "context": "[he2020-p048-B02 | data/he2020.pdf | page 48]\nAmong the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).\n\n[he2020-p048-B04 | data/he2020.pdf | page 48]\nGender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure\n\n[he2020-p054-B00 | data/he2020.pdf | page 54]\nImproving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+        "context_ids": [
+          "he2020-p048-B02",
+          "he2020-p048-B04",
+          "he2020-p054-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"student-to-lecturer\" OR \"student-to-teacher\" OR \"student/lecturer\" public",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p048-B02",
+            "text": "Among the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.1027,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 5
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p047-B04",
+            "text": "National and institutional strategies have predominantly focused on mobility of scholars and university lecturers and recently expanded to the curriculum and learning outcomes of selected programs and international reputation and visibility of leading universities. However, internationalization activities in practice are “fragmented, inconsistent and ad hoc” and overall are “rather ineffective” (Tran and Marginson 2018). Several strategic mobility programs for university lecturers, funded by the Government, have been implemented with moderate success (Program 322) or without achieving its goals (Scheme 911).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 47,
+            "metadata": {
+              "page_id": "he2020-p047",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.9658,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 7
+            },
+            "base_rank": 14
+          },
+          {
+            "id": "he2020-p053-B01",
+            "text": "The two national universities, which themselves comprise several specialized universities, are directly managed by the Prime Minister’s Office. Second, a further element of complication of the governance framework is the existence of several hundred public research institutes operating independently from the universities, following the Soviet and East-European model of separation between teaching and research. In this setup, universities are traditionally regarded primarily as cadre-training institutions for the public sector, while the other sector is regarded as the main location for research and technology development. This separation has resulted in ineffectiveness and inefficiency in both types of institutions.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 53,
+            "metadata": {
+              "page_id": "he2020-p053",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -4.2226,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4
+            },
+            "base_rank": 10
+          }
+        ],
+        "context": "[he2020-p048-B02 | data/he2020.pdf | page 48]\nAmong the many factors, teachers are one of the most important determinants of higher education quality and relevance. The student-to-teacher ratio (STR) provides an indirect estimate of the quantity of contact time between students and their professors/ lecturers. Compared to benchmarking countries, Vietnam’s STR is much higher, indicating a strain in terms of quality of teaching and learning. For example, the STR was 27 in 2015 for Vietnam compared to 21 for Thailand, 22 for Indonesia, 16 for Malaysia, and 14 for Korea (UIS data).\n\n[he2020-p048-B04 | data/he2020.pdf | page 48]\nGender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure\n\n[he2020-p054-B00 | data/he2020.pdf | page 54]\nImproving the Performance of Higher Education in Vietnam 42 Table 7: Higher Education Policy Targets and Achievements Indicator 2015 2020 Target Actual in 2015 Target Original in 2007a Revised in 2013b Original in 2007a Revised in 2013b No. of students per 10,000 people 300 n.a. 220 450 256 No. of new enrolments per 10,000 people 60 n.a. 61 120 56 Gross enrolment in HEIs (thousands) 3,000 n.a. 2,200 4500 2,200 Proportion of enrolment into nonpublic HEIs n.a. n.a. 13 30–40 n.a. % university lecturers having a master’s degree 70 n.a. 58 90 100 % university lecturers having a doctoral degree 50 n.a. 20 75 21 Student/lecturer ratio n.a. 23 20 17–26 Number of Vietnamese HEIs having at least one program recognized internationally 20 10 n.a. n.a. 20 Number of Vietnamese HEIs in top",
+        "context_ids": [
+          "he2020-p048-B02",
+          "he2020-p048-B04",
+          "he2020-p054-B00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 2410,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1159,
+        "tokens_out": 23,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2434,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1168,
+        "tokens_out": 39,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 4420,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1119,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 3446,
+    "tokens_out": 87,
+    "elapsed_s": 10.17
+  }
+]

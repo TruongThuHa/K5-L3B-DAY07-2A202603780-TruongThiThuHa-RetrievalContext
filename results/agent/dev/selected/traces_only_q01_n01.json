@@ -1,0 +1,445 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What share of Vietnam's current higher education students are female?",
+    "filter": null,
+    "status": "answered",
+    "answer": "About 54 percent of Vietnam's current 2.3 million higher education students are female. [he2020-p015-B00]",
+    "citations": [
+      "he2020-p015-B00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What share of Vietnam's current higher education students are female?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p015-B00",
+            "text": "3 Executive Summary Diagnostic of the Present Situation Overall achievement. Vietnam’s higher education has made progress in a number of areas. MOET has played a proactive role in initiating positive changes toward modern governance through amendment to the Higher Education Law in 2018 and implementation of the university autonomy agenda since 2014. Access to higher education has more than doubled since 2000, and about 54 percent of the current 2.3 million students are females. Impressive progress is also seen in the qualification levels of academic staff: the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015. The number of joint programs and internationally accredited academic programs has also grown substantially.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 15,
+            "metadata": {
+              "page_id": "he2020-p015",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.8752,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p040-B02",
+            "text": "Vietnam performs well in terms of gender equity in enrolments, with the proportion of females who access higher education rising from 48 in 2006 to 54 in 2016. To complement this positive picture of gender balance in higher education, it is important to look at an additional aspect: the proportion of female students in science, technology, engineering, and mathematics (STEM) programs. Data from the University Survey conducted by MOET in 2018 show that female students account for 34 percent of all students enrolled in 39 Vietnamese universities that focus essentially on STEM programs. While this is significantly better than the proportion of women in engineering studies in the United States (25 percent), it is still far from the ideal of 50 percent that any country should aim for.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 40,
+            "metadata": {
+              "page_id": "he2020-p040",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.3873,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 4
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p048-B04",
+            "text": "Gender aspect of staffing. Vietnam has made progress in bringing more women faculty into higher education—the proportion of female academics went up from 42.5 to 48.5 between 2006 and 2018. However, less than 10 percent of the full professors are women. There are significant differences between male and female academics in terms of research participation and outputs (World Bank 2020). Finally, a survey of the website of all Vietnamese universities indicates that only 12 university rectors are women, out of more than 200 universities and institutes (Salmi 2019). This corresponds to a 5.6 percent ratio, which is about half of the European average (10.3 percent). Infrastructure",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 48,
+            "metadata": {
+              "page_id": "he2020-p048",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 4,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 6.21,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 5,
+              "bm25": 6
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p015-B00 | data/he2020.pdf | page 15]\n3 Executive Summary Diagnostic of the Present Situation Overall achievement. Vietnam’s higher education has made progress in a number of areas. MOET has played a proactive role in initiating positive changes toward modern governance through amendment to the Higher Education Law in 2018 and implementation of the university autonomy agenda since 2014. Access to higher education has more than doubled since 2000, and about 54 percent of the current 2.3 million students are females. Impressive progress is also seen in the qualification levels of academic staff: the share of university lecturers with master and/or PhD degrees increased from 47 percent in 2007 to 72 percent in 2015. The number of joint programs and internationally accredited academic programs has also grown substantially.\n\n[he2020-p040-B02 | data/he2020.pdf | page 40]\nVietnam performs well in terms of gender equity in enrolments, with the proportion of females who access higher education rising from 48 in 2006 to 54 in 2016. To complement this positive picture of gender balance in higher education, it is important to look at an additional aspect: the proportion of female students in science, technology, engineering, and mathematics (STEM) programs. Data from the University Survey conducted by MOET in 2018 show that female students account for 34 percent of all students enrolled in 39 Vietnamese universities that focus essentially on STEM programs. While this is significantly better than the proportion of women in engineering studies in the United States (25 percent), it is still far from the ideal of 50 percent that any country should aim for.",
+        "context_ids": [
+          "he2020-p015-B00",
+          "he2020-p040-B02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "error": null,
+    "n_searches": 1,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 5209,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 865,
+        "tokens_out": 55,
+        "tool": "final_answer",
+        "citation_format_repaired": [
+          "he2020-p015-B00"
+        ],
+        "decision": "answer"
+      }
+    ],
+    "tokens_in": 865,
+    "tokens_out": 55,
+    "elapsed_s": 6.77
+  },
+  {
+    "query_id": "n01",
+    "split": "dev",
+    "config": "selected",
+    "retriever": "hybrid_rerank",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 3,
+    "model": "gemini-3.8-flash",
+    "question": "What is the dropout rate of university students in Vietnam?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the dropout rate of university students in Vietnam?",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.5409,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2
+            },
+            "base_rank": 5
+          },
+          {
+            "id": "he2020-p044-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 2.4245,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 12
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.4643,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 20,
+              "bm25": 9
+            },
+            "base_rank": 3
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dropout rate drop out university students Vietnam",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.3521,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 19
+            },
+            "base_rank": 4
+          },
+          {
+            "id": "he2020-p044-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -0.7115,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 1,
+              "bm25": 20
+            },
+            "base_rank": 3
+          },
+          {
+            "id": "he2020-p016-B00",
+            "text": "Improving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 16,
+            "metadata": {
+              "page_id": "he2020-p016",
+              "section": "executive_summary",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 0,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -1.4562,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 12,
+              "bm25": 5
+            },
+            "base_rank": 2
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dropout completion rate university students",
+        "filter": null,
+        "results": [
+          {
+            "id": "he2020-p042-B02",
+            "text": "It can be noted that the access rate at tertiary education is a multiplicative product of the upper secondary completion rate by the tertiary admission rate. The access rate is defined as proportion of individuals ages 18–24 who ever had tertiary education access (currently enrolled as well as those who may have completed tertiary education and those who dropped out at some point). For a given age group, in this case youth ages 18–24 years, the access rate in tertiary education (TE) can be written as the product of the share of students who completed upper secondary education and the share of those students who are admitted to tertiary education, that is, TE Access rate = SCR × TAR.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 42,
+            "metadata": {
+              "page_id": "he2020-p042",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": 1.0955,
+            "rank": 1,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 4,
+              "bm25": 1
+            },
+            "base_rank": 2
+          },
+          {
+            "id": "he2020-p042-B01",
+            "text": "Oaxaca decomposition technique (Oaxaca 1973) can quantify the extent to which access to tertiary education for individuals from disadvantaged backgrounds is determined by their lower upper secondary school completion rates compared to their lower admission rates into tertiary education. The upper secondary completion rate (SCR) measures probability of graduating from that level, and the tertiary admission rate (TAR) captures probability of accessing tertiary education conditional on completing the upper secondary level. The estimation can decompose access gaps into two components: the share explained by differences in secondary completion rates (SCR effect) and the share explained by difference in the tertiary admission rates (TAR effect).",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 42,
+            "metadata": {
+              "page_id": "he2020-p042",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 1,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -2.0026,
+            "rank": 2,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 2,
+              "bm25": 2
+            },
+            "base_rank": 1
+          },
+          {
+            "id": "he2020-p044-B02",
+            "text": "In 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.",
+            "source_id": "he2020",
+            "source": "data/he2020.pdf",
+            "page": 44,
+            "metadata": {
+              "page_id": "he2020-p044",
+              "section": "diagnosis",
+              "language": "en",
+              "strategy": "B",
+              "chunk_index": 2,
+              "day6_strategy": "B",
+              "embedding_model": "BAAI/bge-small-en-v1.5"
+            },
+            "score": -4.3023,
+            "rank": 3,
+            "method": "hybrid_rrf+rerank",
+            "source_ranks": {
+              "dense": 3,
+              "bm25": 16
+            },
+            "base_rank": 7
+          }
+        ],
+        "context": "[he2020-p044-B02 | data/he2020.pdf | page 44]\nIn 2016, university graduates earned VND 92,000 million annually on average, 93 percent higher than secondary school graduates and 47 percent higher than college degree holders (Figure 8). One area of concern, which is not unique to Vietnam, is a slightly high unemployment rate of university graduates. However, this category of unemployment is deemed to be a transient issue rather than a structural long-term problem because the affected go through a search period and eventually find jobs over a short period (Demombynes and Testaverde 2017). 9 Data from graduate employment surveys would be a better source of data (compared to VHLSS) to assess the current status of labor market outcomes for recent university graduates.\n\n[he2020-p044-B00 | data/he2020.pdf | page 44]\nImproving the Performance of Higher Education in Vietnam 32 Relevance On relevance, data from the Vietnam Labor Force Survey (VLFS) and VHLSS provide evidence of good labor market outcomes for university graduates. 9 By education level, Vietnamese university graduates had one of the highest labor force participation (LFP) rates (88 percent) in 2014, even though they make up only 8 percent of the total labor force (Table 4). By comparison, secondary education graduates, accounting for 51 percent of the total labor force, have an average LFP rate of 78 percent. Among the employed workers, those with a university degree are much more likely to have better jobs—over 85 percent of them were employed in wage jobs with contracts in 2014 (Demombynes and Testaverde 2017).\n\n[he2020-p016-B00 | data/he2020.pdf | page 16]\nImproving the Performance of Higher Education in Vietnam 4 67 percentage points more likely to have tertiary education opportunities than those from the bottom quintile. Approximately 60 percent of this access rate gap is due to the lower entry rate at tertiary level and the remaining to lower high school graduation rates for students from the poorest welfare quintile. The access gaps are also noteworthy across ethnicity groups -youth from ethnic minority communities are 34 percentages points less likely to access tertiary education than those from majority groups.",
+        "context_ids": [
+          "he2020-p044-B02",
+          "he2020-p044-B00",
+          "he2020-p016-B00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "error": null,
+    "n_searches": 3,
+    "llm_calls": [
+      {
+        "ms": 0,
+        "model": null,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "tool": "search_documents",
+        "auto_first_search": true
+      },
+      {
+        "ms": 1987,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 997,
+        "tokens_out": 22,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 2632,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 1005,
+        "tokens_out": 20,
+        "tool": "search_documents"
+      },
+      {
+        "ms": 3118,
+        "model": "gemini-3.8-flash",
+        "tokens_in": 938,
+        "tokens_out": 25,
+        "tool": "final_answer",
+        "decision": "abstain"
+      }
+    ],
+    "tokens_in": 2940,
+    "tokens_out": 67,
+    "elapsed_s": 10.06
+  }
+]
