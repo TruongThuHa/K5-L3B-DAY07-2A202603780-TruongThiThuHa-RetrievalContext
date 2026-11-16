@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: dense có tìm thấy p040-B02 và p015-B00 nhưng budget 800 loại cả hai, chỉ giữ đoạn ngắn p013-B05",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "reason": "Hạng 48/157 năm 2018, cao nhất nhóm thu nhập trung bình; trang 32",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: dense không đưa trang 53/15 vào context",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: p057-B00 đứng hạng 1 nhưng bị budget 800 loại, context chỉ còn p057-B03",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đủ 5 nước; trang 17",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      true
+    ],
+    "reason": "US$574 và 46%; bảng 11 trang 60",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "reason": "Decision 37 (2013), 4,5 -> 2,2 triệu; trang 38",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "reason": "MOET và MOLISA; trang 18 nêu đủ",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cao hơn 93%; trang 44",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "reason": "1959–1960; trang 65",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "reason": "Miễn trả cho SV thu nhập dưới trung bình; trang 91",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: dense không lấy được đoạn chứa 3,6 triệu (p068-B00) trong cả 3 lần tìm",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "reason": "US$316 (15% GDP/người); trang 59",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: evidence nằm trong bảng trang 75 (p075-B01), chỉ tìm được p075-B00",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "reason": "Từ chối nhầm: p085-B00 có trong top-3 nhưng budget 800 chỉ giữ p055-B01",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "n01",
+    "citation_support": [],
+    "reason": "Từ chối đúng",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "n02",
+    "citation_support": [],
+    "reason": "Từ chối đúng",
+    "abstention_correct": true
+  }
+]
