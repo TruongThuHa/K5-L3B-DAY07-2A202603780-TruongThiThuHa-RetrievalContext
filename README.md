@@ -13,6 +13,8 @@ Agent dùng Gemini (tool calling) truy xuất kho tài liệu Day 6 (báo cáo W
 | Baseline: dense Day 6, budget 800 | 7/15 | 1,20 (từ chối nhầm 6/15) | 1,60 | 2/2 · 2/2 |
 | **Selected: hybrid RRF + rerank, budget 2400** | **14/15** | **1,87** (từ chối nhầm 1/15) | **2,00** | 2/2 · 2/2 |
 
+**Thử thách nâng cao (+15):** index thêm 45 bảng/biểu đồ/sơ đồ do Gemini vision trích từ ảnh 82 trang. Kết quả test **30/30 (100%)** (dev 17/18), so với 20/30 nếu chỉ dùng chunk chữ. Chi tiết: mục *Thử thách nâng cao* trong báo cáo, [results/advanced/LOCKED_CONFIG.md](results/advanced/LOCKED_CONFIG.md), [results/advanced/extraction_check.md](results/advanced/extraction_check.md).
+
 ## Cấu trúc
 
 ~~~text
@@ -27,6 +29,10 @@ src/make_reviews.py nhãn chấm tay (có lý do) -> reviews.json + review_sheet
 results/retrieval/{dev,test}/   summary.md, summary.json, traces.json
 results/agent/{dev,test}/{baseline,selected}/  traces.json, reviews.json, metrics.json
 results/pip_freeze.txt          phiên bản thư viện
+data/advanced/       questions.json (benchmark nâng cao có gold: dev 18, test 30), cases.json (không gold), visual_raw/ (kết quả vision từng trang), visual_chunks.json, chunks_all.json
+src/adv_extract_visual.py · adv_index.py · adv_run.py · adv_grade.py   pipeline thử thách nâng cao
+results/advanced/    index_stats.json, extraction_check.md, LOCKED_CONFIG.md, {dev,test}/{multimodal,text_only}/ traces, grades, grade_sheet.md
+scripts/adv_finish.sh   chạy chấm dev -> commit chốt -> test một lần
 ~~~
 
 ## Cách chạy lại (macOS, Python 3.13)
@@ -61,6 +67,13 @@ python -m src.make_reviews --split dev
 python -m src.make_reviews --split test
 python starter/agent_metrics.py --cases data/he2020/cases.json --traces results/agent/test/selected/traces.json \
   --reviews results/agent/test/selected/reviews.json --split test --output results/agent/test/selected/metrics.json
+
+# 7. Thử thách nâng cao (cần Docker + key Gemini)
+python -m src.adv_extract_visual       # Gemini vision đọc 82 trang -> data/advanced/visual_raw/
+python -m src.adv_index                # chunk bảng/hình -> pgvector strategy V
+python -m src.adv_run --split dev --config multimodal
+python -m src.adv_run --split test --config multimodal --locked
+python -m src.adv_grade --split test --config multimodal
 
 # Test của đề (mock, chỉ kiểm tra code)
 python -m unittest discover -s tests -v

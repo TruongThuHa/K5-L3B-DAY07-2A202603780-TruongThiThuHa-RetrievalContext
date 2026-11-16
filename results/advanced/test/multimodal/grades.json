@@ -1,0 +1,430 @@
+{
+  "summary": {
+    "split": "test",
+    "config": "multimodal",
+    "pass": 30,
+    "total": 30,
+    "pass_rate": 1.0,
+    "threshold_90": true,
+    "by_group": {
+      "table": {
+        "pass": 6,
+        "total": 6
+      },
+      "image": {
+        "pass": 5,
+        "total": 5
+      },
+      "chart": {
+        "pass": 5,
+        "total": 5
+      },
+      "multihop": {
+        "pass": 4,
+        "total": 4
+      },
+      "text": {
+        "pass": 4,
+        "total": 4
+      },
+      "unanswerable": {
+        "pass": 6,
+        "total": 6
+      }
+    },
+    "system_errors": 0,
+    "median_seconds": 5.95,
+    "tokens_in": 96892,
+    "tokens_out": 2676
+  },
+  "grades": [
+    {
+      "query_id": "at01",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "35%; chunk Table 2 trang 40 (kèm đoạn văn cùng trang)",
+      "citations": [
+        "he2020-p040-B01",
+        "he2020-p040-V01"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.7,
+      "error": null
+    },
+    {
+      "query_id": "at02",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "63, đúng cột THE; Table 3 trang 43",
+      "citations": [
+        "he2020-p043-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.89,
+      "error": null
+    },
+    {
+      "query_id": "at03",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "6,9%; Table 4 trang 44",
+      "citations": [
+        "he2020-p044-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.99,
+      "error": null
+    },
+    {
+      "query_id": "at04",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "23 (2010) và 63 (2017); Table 5 trang 50",
+      "citations": [
+        "he2020-p050-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.53,
+      "error": null
+    },
+    {
+      "query_id": "at05",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "Mongolia + đúng 2 điều kiện (<0,5% GDP, >40%); ô ma trận Table 12 trang 61",
+      "citations": [
+        "he2020-p061-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.91,
+      "error": null
+    },
+    {
+      "query_id": "at06",
+      "group": "table",
+      "status": "answered",
+      "pass": true,
+      "reason": "15% (2030) so với 9% (2017); Table 14 trang 68",
+      "citations": [
+        "he2020-p068-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.43,
+      "error": null
+    },
+    {
+      "query_id": "at07",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Enhanced Governance, Effective Financing; Figure 2 trang 34",
+      "citations": [
+        "he2020-p034-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 3.93,
+      "error": null
+    },
+    {
+      "query_id": "at08",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Không tồn tại (ô cam); Figure 11 trang 56",
+      "citations": [
+        "he2020-p056-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.01,
+      "error": null
+    },
+    {
+      "query_id": "at09",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Chỉ Accountability/Credibility, không nhầm ô xám Professional certification; Figure 11",
+      "citations": [
+        "he2020-p056-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.71,
+      "error": null
+    },
+    {
+      "query_id": "at10",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Đủ 2 mục tiêu (giữ lỗi chính tả 'Buiding' của bản gốc); Figure 14 trang 80",
+      "citations": [
+        "he2020-p080-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 7.07,
+      "error": null
+    },
+    {
+      "query_id": "at11",
+      "group": "image",
+      "status": "answered",
+      "pass": true,
+      "reason": "Grants for (process) innovation, Loans for innovation (equipment); Figure 14",
+      "citations": [
+        "he2020-p080-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.11,
+      "error": null
+    },
+    {
+      "query_id": "at12",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Finland 1,89; Figure ES.3 trang 20",
+      "citations": [
+        "he2020-p020-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.03,
+      "error": null
+    },
+    {
+      "query_id": "at13",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Republic of Korea 4,2; Figure 10 trang 51",
+      "citations": [
+        "he2020-p051-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.66,
+      "error": null
+    },
+    {
+      "query_id": "at14",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Foreign language skills ≈0,25; Figure 9 trang 45",
+      "citations": [
+        "he2020-p045-V01"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.1,
+      "error": null
+    },
+    {
+      "query_id": "at15",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Primary or below và Secondary or below, có số ước lượng; Figure 8 trang 45",
+      "citations": [
+        "he2020-p045-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 6.28,
+      "error": null
+    },
+    {
+      "query_id": "at16",
+      "group": "chart",
+      "status": "answered",
+      "pass": true,
+      "reason": "Primary ≈36% → ≈24% (trong khoảng chấp nhận); Figure 13 trang 67",
+      "citations": [
+        "he2020-p067-V00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.28,
+      "error": null
+    },
+    {
+      "query_id": "at17",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "0,4 (Figure 10) > 0,33 (Figure ES.3), kết luận GERD cao hơn; có ghi chú 0,69 đúng theo note của biểu đồ",
+      "citations": [
+        "he2020-p020-V00",
+        "he2020-p051-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 12.52,
+      "error": null
+    },
+    {
+      "query_id": "at18",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "Red River Delta 52%, Kinh/Hoa 45%, chênh 7 điểm; Table 2 + Figure 6 trang 40 (và đoạn trang 39)",
+      "citations": [
+        "he2020-p040-B00",
+        "he2020-p040-V00",
+        "he2020-p039-B03",
+        "he2020-p040-B01"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 5.71,
+      "error": null
+    },
+    {
+      "query_id": "at19",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "2 vs 4 (QS) và 183 vs 205 (H-index), 2 kết luận đúng; Table 3 tr. 43 + Table 5 tr. 50",
+      "citations": [
+        "he2020-p043-V00",
+        "he2020-p050-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 12.26,
+      "error": null
+    },
+    {
+      "query_id": "at20",
+      "group": "multihop",
+      "status": "answered",
+      "pass": true,
+      "reason": "55% (2017, Figure 12) và 46% (2018, Table 11); trang 60 (và đoạn trang 59)",
+      "citations": [
+        "he2020-p060-B01",
+        "he2020-p060-V01",
+        "he2020-p059-B02",
+        "he2020-p060-V00"
+      ],
+      "n_searches": 2,
+      "elapsed_s": 10.71,
+      "error": null
+    },
+    {
+      "query_id": "at21",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "28% và 14%; đoạn văn trang 56",
+      "citations": [
+        "he2020-p056-B00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.05,
+      "error": null
+    },
+    {
+      "query_id": "at22",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "Under US$40 / VND 9 triệu vs close to US$130 / VND 30 triệu; trang 20 và 61",
+      "citations": [
+        "he2020-p020-B01",
+        "he2020-p061-B02"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 3.59,
+      "error": null
+    },
+    {
+      "query_id": "at23",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "Hạng 45 (2018) từ 64 (2008); trang 51",
+      "citations": [
+        "he2020-p051-B01"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 4.19,
+      "error": null
+    },
+    {
+      "query_id": "at24",
+      "group": "text",
+      "status": "answered",
+      "pass": true,
+      "reason": "1,6%; trang 64",
+      "citations": [
+        "he2020-p064-B00"
+      ],
+      "n_searches": 1,
+      "elapsed_s": 3.16,
+      "error": null
+    },
+    {
+      "query_id": "at25",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy số 2015 thay cho 2020",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 20.51,
+      "error": null
+    },
+    {
+      "query_id": "at26",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy học phí trung bình chung",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 15.41,
+      "error": null
+    },
+    {
+      "query_id": "at27",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy số 2018 (33%)",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 14.16,
+      "error": null
+    },
+    {
+      "query_id": "at28",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không có nhóm 'data science'",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 16.12,
+      "error": null
+    },
+    {
+      "query_id": "at29",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy số 2016",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 18.51,
+      "error": null
+    },
+    {
+      "query_id": "at30",
+      "group": "unanswerable",
+      "status": "abstain",
+      "pass": true,
+      "reason": "Từ chối, không lấy mục tiêu % SV nước ngoài",
+      "citations": [],
+      "n_searches": 4,
+      "elapsed_s": 16.31,
+      "error": null
+    }
+  ]
+}
