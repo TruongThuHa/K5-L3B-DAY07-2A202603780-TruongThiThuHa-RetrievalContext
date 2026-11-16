@@ -56,8 +56,9 @@ def make_client() -> tuple[OpenAI, str]:
 class LLMController:
     """Cài đặt Controller.decide của starter bằng tool calling thật. Mỗi câu hỏi tạo 1 controller mới."""
 
-    def __init__(self, client: OpenAI, model: str, max_searches: int) -> None:
+    def __init__(self, client: OpenAI, model: str, max_searches: int, system_prompt: str = SYSTEM_PROMPT) -> None:
         self.client, self.model, self.max_searches = client, model, max_searches
+        self.system_prompt = system_prompt   # thử thách nâng cao dùng prompt riêng (bảng/biểu đồ, phép tính)
         self.calls: list[dict[str, Any]] = []   # log từng lần gọi LLM: token, thời gian, tool đã chọn
 
     def decide(self, question: str, history: list[dict[str, Any]]) -> dict[str, Any]:
@@ -73,7 +74,7 @@ class LLMController:
         start = time.perf_counter()
         resp = self.client.chat.completions.create(
             model=self.model, tools=tools,
-            messages=[{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": user}])
+            messages=[{"role": "system", "content": self.system_prompt}, {"role": "user", "content": user}])
         msg = resp.choices[0].message
         call = (msg.tool_calls or [None])[0]
         log = {"ms": round((time.perf_counter() - start) * 1000), "model": self.model,

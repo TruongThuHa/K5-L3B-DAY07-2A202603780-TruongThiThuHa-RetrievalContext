@@ -57,29 +57,32 @@ class DenseRetriever:
     """Phương pháp 1 (bắt buộc): dense retrieval trên vector store Day 6."""
     method = "dense"
 
-    def __init__(self, database_url: str | None = None, strategy: str | None = None) -> None:
+    def __init__(self, database_url: str | None = None, strategy: str | None = None,
+                 chunks: list[dict[str, Any]] | None = None) -> None:
         from sentence_transformers import SentenceTransformer
 
         load_dotenv(ROOT / ".env")
         self.url = database_url or os.environ["DATABASE_URL"]
-        self.strategy = strategy or os.getenv("DAY6_STRATEGY", "B")
+        # "B" = chunk chữ của Day 6; "B,V" = thêm chunk bảng/hình của thử thách nâng cao
+        self.strategies = [s.strip() for s in (strategy or os.getenv("DAY6_STRATEGY", "B")).split(",") if s.strip()]
         self.model = SentenceTransformer(EMBED_MODEL)
         self.dimensions = self.model.get_embedding_dimension()
-        self.by_id = {c["id"]: c for c in load_chunks()}
+        self.by_id = {c["id"]: c for c in (chunks or load_chunks())}
         with psycopg.connect(self.url, connect_timeout=5) as conn:
-            row = conn.execute("SELECT vector_dims(embedding), embedding_model FROM chunks WHERE strategy = %s LIMIT 1",
-                               (self.strategy,)).fetchone()
-        if row is None:
-            raise RuntimeError("Database Day 6 không có chunk. Docker đã bật chưa?")
-        if row[0] != self.dimensions or row[1] != EMBED_MODEL:
-            raise RuntimeError(f"Index Day 6 dùng {row[1]} ({row[0]} chiều), query dùng {EMBED_MODEL} "
-                               f"({self.dimensions} chiều): không tương thích")
+            for name in self.strategies:
+                row = conn.execute("SELECT vector_dims(embedding), embedding_model FROM chunks WHERE strategy = %s LIMIT 1",
+                                   (name,)).fetchone()
+                if row is None:
+                    raise RuntimeError(f"Database không có chunk strategy '{name}'. Docker đã bật / đã index chưa?")
+                if row[0] != self.dimensions or row[1] != EMBED_MODEL:
+                    raise RuntimeError(f"Index '{name}' dùng {row[1]} ({row[0]} chiều), query dùng {EMBED_MODEL} "
+                                       f"({self.dimensions} chiều): không tương thích")
 
     def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
         filters = check_filters(filters)
         vector = self.model.encode([QUERY_PREFIX + query], normalize_embeddings=True)[0]
         qv = "[" + ",".join(f"{v:.7f}" for v in vector) + "]"
-        where, params = ["strategy = %s"], [self.strategy]
+        where, params = ["strategy = ANY(%s)"], [self.strategies]
         for key, value in filters.items():
             where.append(f"{FILTER_COLUMNS[key]} = %s")
             params.append(value)

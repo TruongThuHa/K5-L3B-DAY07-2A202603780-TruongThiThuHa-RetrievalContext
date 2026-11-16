@@ -4,3 +4,6 @@ python-dotenv>=1,<2
 sentence-transformers==6.3.0
 openai>=1.40,<3
 rank-bm25==0.2.2
+# Thử thách nâng cao: đọc text trang và render ảnh trang PDF
+pypdf>=5,<7
+pypdfium2>=4,<6

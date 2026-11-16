@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ad01",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 3, how many universities from the United Kingdom are in the QS top 1,000?",
+    "answerable": true
+  },
+  {
+    "id": "ad02",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 9, what was higher education spending as a percentage of GDP in 2011?",
+    "answerable": true
+  },
+  {
+    "id": "ad03",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 13, how many researchers work in universities in Vietnam?",
+    "answerable": true
+  },
+  {
+    "id": "ad04",
+    "split": "dev",
+    "group": "table",
+    "question": "Which research funding modalities are only partially available in Vietnam according to Table 17?",
+    "answerable": true
+  },
+  {
+    "id": "ad05",
+    "split": "dev",
+    "group": "image",
+    "question": "What are the three higher education outcomes shown in the report's analytical framework (Figure 2)?",
+    "answerable": true
+  },
+  {
+    "id": "ad06",
+    "split": "dev",
+    "group": "image",
+    "question": "Which units of assessment are listed across the top of Figure 11 on the Vietnamese HE QA system?",
+    "answerable": true
+  },
+  {
+    "id": "ad07",
+    "split": "dev",
+    "group": "image",
+    "question": "In Figure 14, what are the three technology functions shown as grey ovals?",
+    "answerable": true
+  },
+  {
+    "id": "ad08",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure ES.3, which two countries have public expenditure on tertiary education of exactly 1.00 percent of GDP?",
+    "answerable": true
+  },
+  {
+    "id": "ad09",
+    "split": "dev",
+    "group": "chart",
+    "question": "According to Figure 10, what was Switzerland's GERD as a percentage of GDP in 2015?",
+    "answerable": true
+  },
+  {
+    "id": "ad10",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 7 (decomposition of access gaps, 2018), which group comparison shows the smallest access gap?",
+    "answerable": true
+  },
+  {
+    "id": "ad11",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 3, which country's tertiary gross enrolment ratio rose above 100 percent?",
+    "answerable": true
+  },
+  {
+    "id": "ad12",
+    "split": "dev",
+    "group": "multihop",
+    "question": "What was Thailand's GERD as a percentage of GDP in 2015 (Figure 10), and how many patents per million population did Thailand have (Table 5)?",
+    "answerable": true
+  },
+  {
+    "id": "ad13",
+    "split": "dev",
+    "group": "multihop",
+    "question": "By how many students would total tertiary enrolment in 2030 (Table 14) exceed total tertiary enrolment in 2016 (Table 1)?",
+    "answerable": true
+  },
+  {
+    "id": "ad14",
+    "split": "dev",
+    "group": "text",
+    "question": "Roughly how many government research institutes (GRIs) are there in Vietnam?",
+    "answerable": true
+  },
+  {
+    "id": "ad15",
+    "split": "dev",
+    "group": "text",
+    "question": "What was the total revenue of the public universities in the 2017 MOET survey sample?",
+    "answerable": true
+  },
+  {
+    "id": "ad16",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What was the student/lecturer ratio at VNU-Hanoi in 2015?",
+    "answerable": false
+  },
+  {
+    "id": "ad17",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What was Vietnam's rank in the 2023 Global Innovation Index?",
+    "answerable": false
+  },
+  {
+    "id": "ad18",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "How much did MOET spend on IT infrastructure for e-learning in 2019?",
+    "answerable": false
+  },
+  {
+    "id": "at01",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 2, what was the tertiary education access rate in the Central Highland region in 2018?",
+    "answerable": true
+  },
+  {
+    "id": "at02",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 3, how many Chinese universities are in the THE top 1,000?",
+    "answerable": true
+  },
+  {
+    "id": "at03",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 4, what was the unemployment rate in 2014 for people with a college or vocational college education?",
+    "answerable": true
+  },
+  {
+    "id": "at04",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 5, how many citable documents per million population did Vietnam have in 2010 and in 2017?",
+    "answerable": true
+  },
+  {
+    "id": "at05",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 12, which other country falls in the same category as Vietnam for higher education public funding and reliance on tuition fees, and what does that category mean?",
+    "answerable": true
+  },
+  {
+    "id": "at06",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 14, what share of all tertiary students would private universities account for in 2030, compared with 2017?",
+    "answerable": true
+  },
+  {
+    "id": "at07",
+    "split": "test",
+    "group": "image",
+    "question": "In the report's analytical framework (Figure 2), what are the two enabling pillars?",
+    "answerable": true
+  },
+  {
+    "id": "at08",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 11, is the 'monitoring enhancement' function (audits/inspections) for external quality assurance agencies shown as existing, partially existing, or not existing?",
+    "answerable": true
+  },
+  {
+    "id": "at09",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 11, which quality assurance function is marked as not existing for the Student unit of assessment?",
+    "answerable": true
+  },
+  {
+    "id": "at10",
+    "split": "test",
+    "group": "image",
+    "question": "What are the two overarching goals shown in the orange ovals of Figure 14?",
+    "answerable": true
+  },
+  {
+    "id": "at11",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 14, which two financing instruments appear at the bottom of the firm-side (absorptive capacity) part of the diagram?",
+    "answerable": true
+  },
+  {
+    "id": "at12",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure ES.3, which country has the highest public expenditure on tertiary education as a share of GDP, and what is the value?",
+    "answerable": true
+  },
+  {
+    "id": "at13",
+    "split": "test",
+    "group": "chart",
+    "question": "According to Figure 10, which country had the highest GERD as a percentage of GDP in 2015, and what was its value?",
+    "answerable": true
+  },
+  {
+    "id": "at14",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 9, for which skill category did the largest share of firms answer 'Does not apply'?",
+    "answerable": true
+  },
+  {
+    "id": "at15",
+    "split": "test",
+    "group": "chart",
+    "question": "According to Figure 8, for which education levels do workers aged 25–35 earn more on average than all age groups combined?",
+    "answerable": true
+  },
+  {
+    "id": "at16",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 13, which education level's share of the Vietnamese labor force is projected to decline between 2010 and 2050?",
+    "answerable": true
+  },
+  {
+    "id": "at17",
+    "split": "test",
+    "group": "multihop",
+    "question": "Which was higher for Vietnam: public expenditure on tertiary education as a share of GDP in 2016 (Figure ES.3) or gross expenditure on R&D as a share of GDP in 2015 (Figure 10)? Give both values.",
+    "answerable": true
+  },
+  {
+    "id": "at18",
+    "split": "test",
+    "group": "multihop",
+    "question": "How does the tertiary access rate of the region with the highest rate in Table 2 compare with the 2018 access rate of Kinh/Hoa youth shown in Figure 6?",
+    "answerable": true
+  },
+  {
+    "id": "at19",
+    "split": "test",
+    "group": "multihop",
+    "question": "Compared with the Philippines, does Vietnam have more or fewer universities in the QS top 1,000 (Table 3), and a higher or lower H-index (Table 5)? Give the numbers.",
+    "answerable": true
+  },
+  {
+    "id": "at20",
+    "split": "test",
+    "group": "multihop",
+    "question": "What share of public universities' revenue came from tuition in 2017 (Figure 12), and what share of households' total per-student higher education cost was tuition in 2018 (Table 11)?",
+    "answerable": true
+  },
+  {
+    "id": "at21",
+    "split": "test",
+    "group": "text",
+    "question": "What share of Vietnamese HEIs had been accredited by the national accreditation centers, and what share had been externally reviewed without receiving accreditation status?",
+    "answerable": true
+  },
+  {
+    "id": "at22",
+    "split": "test",
+    "group": "text",
+    "question": "How does average per-student public funding in the 48 universities directly managed by MOET compare with VNU-Hanoi?",
+    "answerable": true
+  },
+  {
+    "id": "at23",
+    "split": "test",
+    "group": "text",
+    "question": "What was Vietnam's rank on innovation capacity among 126 countries in 2018, and what was its rank in 2008?",
+    "answerable": true
+  },
+  {
+    "id": "at24",
+    "split": "test",
+    "group": "text",
+    "question": "How large is the government allocation that subsidizes the student loan program (SLP), relative to government spending on higher education?",
+    "answerable": true
+  },
+  {
+    "id": "at25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What was Vietnam's gross expenditure on R&D as a percentage of GDP in 2020?",
+    "answerable": false
+  },
+  {
+    "id": "at26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What is the average annual tuition fee at private universities in Vietnam?",
+    "answerable": false
+  },
+  {
+    "id": "at27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What was the tertiary education access rate in the Mekong River Delta in 2010?",
+    "answerable": false
+  },
+  {
+    "id": "at28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What percentage of firms reported difficulties finding employees with data science skills?",
+    "answerable": false
+  },
+  {
+    "id": "at29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "How many PhD graduates did Vietnam produce in 2019?",
+    "answerable": false
+  },
+  {
+    "id": "at30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "How many international students were enrolled in Vietnamese universities in 2018?",
+    "answerable": false
+  }
+]
